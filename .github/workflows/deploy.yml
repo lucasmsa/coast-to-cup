@@ -19,6 +19,8 @@ jobs:
         if: env.CF_TOKEN != ''
 
       - uses: pnpm/action-setup@v4
+        with:
+          package_json_file: web/package.json
         if: env.CF_TOKEN != ''
 
       - name: Build and deploy

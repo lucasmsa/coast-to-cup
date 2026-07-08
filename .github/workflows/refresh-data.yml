@@ -63,6 +63,8 @@ jobs:
       # Bot pushes do not trigger other workflows, so the site deploy happens
       # here when the data changed. Requires the CLOUDFLARE_API_TOKEN secret.
       - uses: pnpm/action-setup@v4
+        with:
+          package_json_file: web/package.json
         if: steps.commit.outputs.changed == 'true' && env.CF_TOKEN != ''
         env:
           CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
