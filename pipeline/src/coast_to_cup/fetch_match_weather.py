@@ -27,10 +27,18 @@ API = "https://api.open-meteo.com/v1/forecast"
 SOURCE = "Open-Meteo forecast API with date range (recorded past days, forecast upcoming), https://open-meteo.com/en/docs"
 
 
-def _get_json(url: str) -> dict:
+def _get_json(url: str, attempts: int = 4) -> dict:
+    """GET with retries; unattended cron runs hit transient network errors."""
     req = urllib.request.Request(url, headers={"User-Agent": "coast-to-cup/0.1 (personal project)"})
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        return json.load(resp)
+    for attempt in range(1, attempts + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                return json.load(resp)
+        except (urllib.error.URLError, TimeoutError):
+            if attempt == attempts:
+                raise
+            time.sleep(3 * attempt)
+    raise RuntimeError("unreachable")
 
 
 def _hourly_temps(lat: float, lon: float, start: str, end: str) -> dict[str, tuple[float, float]]:

@@ -44,4 +44,10 @@ def wikitext(page: str, fresh: bool = False) -> str:
                 time.sleep(5 * (attempt + 1))
                 continue
             raise
+        except (urllib.error.URLError, TimeoutError):
+            # transient network errors happen on unattended cron runs
+            if attempt < 4:
+                time.sleep(5 * (attempt + 1))
+                continue
+            raise
     raise RuntimeError(f"failed to fetch {page}")
