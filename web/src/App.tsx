@@ -27,6 +27,14 @@ function TopBar() {
         <span className="hidden lg:block text-base text-mut">{t('tagline')}</span>
       </div>
       <div className="flex items-center gap-2 md:gap-4 shrink-0">
+        <a
+          href="https://github.com/lucasmsa/coast-to-cup"
+          target="_blank"
+          rel="noreferrer"
+          className="hidden sm:block font-stat text-sm md:text-base font-semibold text-mut hover:text-fg transition-colors"
+        >
+          GitHub
+        </a>
         <button
           type="button"
           onClick={() => setOverlay('results')}

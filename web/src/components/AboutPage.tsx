@@ -72,7 +72,27 @@ export function AboutPage() {
             <SourceList items={DATA_SOURCES} />
           </section>
 
-          <p className="text-base text-mut/70 pt-8 border-t border-line/60">{c.inspired}</p>
+          <div className="pt-8 border-t border-line/60">
+            <p className="text-base text-mut/70">{c.inspired}</p>
+            <p className="text-base text-mut/70 mt-3 flex items-center gap-4">
+              <a
+                href="https://github.com/lucasmsa"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-lime transition-colors font-medium"
+              >
+                made by lucasmsa
+              </a>
+              <a
+                href="https://github.com/lucasmsa/coast-to-cup"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-lime transition-colors font-medium"
+              >
+                source
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </OverlayPage>
