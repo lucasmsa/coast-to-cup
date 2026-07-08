@@ -75,10 +75,10 @@ export function ResultsPage() {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: Math.min(i * 0.03, 0.45), duration: 0.28, ease: 'easeOut' }}
-              className="grid grid-cols-[2.5rem_1fr_5rem] items-center gap-3 py-3 border-b border-line/30"
+              className="grid grid-cols-[5rem_1fr_5rem] items-center gap-3 py-3 border-b border-line/30"
             >
               <span className="font-stat text-xs text-mut">
-                {resultLabel(r.stage, r.group, r.matchday)}
+                {resultLabel(r.stage, r.group, r.matchday, t)}
               </span>
               <div className="flex items-center gap-3 text-base min-w-0">
                 <TeamSide id={r.aId} name={r.aName} isPick={r.pickIsA} align="right" />

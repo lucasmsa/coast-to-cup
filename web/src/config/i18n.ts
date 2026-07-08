@@ -38,6 +38,14 @@ export type StringKey =
   | 'feelsLike'
   | 'searchTeam'
   | 'climatized'
+  | 'stageCol'
+  | 'venueCol'
+  | 'stageR32'
+  | 'stageR16'
+  | 'stageQF'
+  | 'stageSF'
+  | 'stage3rd'
+  | 'stageF'
   | 'calledRight'
   | 'circadian'
   | 'travel'
@@ -78,6 +86,14 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     feelsLike: 'Feels like',
     searchTeam: 'Search',
     climatized: 'Climate-controlled stadium: counts indoor temperature',
+    stageCol: 'Stage',
+    venueCol: 'City',
+    stageR32: 'R32',
+    stageR16: 'R16',
+    stageQF: 'QF',
+    stageSF: 'SF',
+    stage3rd: '3rd place',
+    stageF: 'Final',
     circadian: 'Body clock',
     travel: 'Travel',
     altitude: 'Altitude',
@@ -95,7 +111,7 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     trips: 'Viagens',
     match: 'Jogo',
     kickoff: 'Início',
-    bodyClock: 'Relógio',
+    bodyClock: 'R. biológico',
     group: 'Grupo',
     groups: 'Grupos',
     all: 'Todos',
@@ -116,6 +132,14 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     feelsLike: 'Sensação térmica',
     searchTeam: 'Buscar',
     climatized: 'Estádio climatizado: conta a temperatura interna',
+    stageCol: 'Fase',
+    venueCol: 'Cidade',
+    stageR32: '16 avos',
+    stageR16: 'Oitavas',
+    stageQF: 'Quartas',
+    stageSF: 'Semi',
+    stage3rd: '3º lugar',
+    stageF: 'Final',
     circadian: 'Relógio biológico',
     travel: 'Viagem',
     altitude: 'Altitude',
@@ -133,7 +157,7 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     trips: 'Viajes',
     match: 'Partido',
     kickoff: 'Inicio',
-    bodyClock: 'Reloj',
+    bodyClock: 'R. biológico',
     group: 'Grupo',
     groups: 'Grupos',
     all: 'Todos',
@@ -154,6 +178,14 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     feelsLike: 'Sensación térmica',
     searchTeam: 'Buscar',
     climatized: 'Estadio climatizado: cuenta la temperatura interior',
+    stageCol: 'Fase',
+    venueCol: 'Ciudad',
+    stageR32: '16vos',
+    stageR16: 'Octavos',
+    stageQF: 'Cuartos',
+    stageSF: 'Semi',
+    stage3rd: '3er lugar',
+    stageF: 'Final',
     circadian: 'Reloj biológico',
     travel: 'Viaje',
     altitude: 'Altitud',

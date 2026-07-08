@@ -83,7 +83,7 @@ export function AboutPage() {
                 {c.inspired}
               </a>
             </p>
-            <p className="text-base mt-4 flex flex-wrap items-center gap-x-6 gap-y-2">
+            <p className="text-base mt-4 flex flex-col gap-2.5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-6 sm:gap-y-2">
               <a
                 href="https://github.com/lucasmsa"
                 target="_blank"

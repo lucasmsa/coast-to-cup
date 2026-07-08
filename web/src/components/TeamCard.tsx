@@ -4,6 +4,7 @@ import { displayNorm } from '../lib/burden'
 import { useTeam } from '../hooks/useRanked'
 import { useT } from '../hooks/useT'
 import { flagEmoji } from '../lib/flags'
+import { INDOOR_TEMP_C } from '../config/model'
 import { tripLabel } from '../lib/stage'
 import { useStore } from '../store'
 import { HexRadar } from './HexRadar'
@@ -57,23 +58,30 @@ export function TeamCard() {
         <HexRadar values={displayNorm(team.norm, heatMode)} size={158} color={team.color} />
       </div>
 
-      <div className="font-stat text-xs font-semibold text-mut/70 mb-0.5">
-        {t('trips')}
-      </div>
-      <div className="font-stat text-[11px] text-mut/50 mb-2">
-        {t('kickoff')} <span className="text-mut/40">&rarr;</span>{' '}
-        <span className="text-lime/70">{t('bodyClock')}</span>
+      <div className="font-stat text-xs font-semibold text-mut/70 mb-2">{t('trips')}</div>
+      <div className="flex items-center gap-2 font-stat text-[11px] text-mut/60 border-b border-line/60 pb-1.5 mb-1.5">
+        <span className="w-[68px] shrink-0">{t('stageCol')}</span>
+        <span className="flex-1">{t('venueCol')}</span>
+        <span className="w-14 text-right shrink-0">&deg;C</span>
+        <span className="w-16 text-right shrink-0">km</span>
+        <span className="w-[104px] text-right shrink-0 whitespace-nowrap">
+          {t('kickoff')}<span className="text-mut/40">&rarr;</span>
+          <span className="text-lime/70">{t('bodyClock')}</span>
+        </span>
       </div>
       <div className="space-y-1.5">
         {team.loads.map((l) => {
-          const temp = heatMode === 'feels' ? l.apparent_temp_c : l.venue_temp_c
+          const outside = heatMode === 'feels' ? l.apparent_temp_c : l.venue_temp_c
           const venue = data.venues.find((v) => v.id === l.venue_id)
           const climatized = venue?.roof === 'fixed' || venue?.roof === 'retractable'
+          // Climatized venues play at the held indoor temperature, exactly as the
+          // model scores them, so the display never swings with the outside air.
+          const temp = climatized && outside != null ? Math.min(outside, INDOOR_TEMP_C) : outside
           const hot = !climatized && temp != null && temp >= 32
           return (
             <div key={l.match_id} className="flex items-center gap-2 text-sm">
               <span className="font-stat text-mut w-[68px] shrink-0">
-                {tripLabel(l.stage, l.matchday, t('match'))}
+                {tripLabel(l.stage, l.matchday, t)}
               </span>
               <span className="flex-1 truncate">{venueCity(l.venue_id)}</span>
               <span
@@ -87,7 +95,7 @@ export function TeamCard() {
               <span className="font-stat text-mut tabular w-16 text-right shrink-0 whitespace-nowrap">
                 {Math.round(l.travel_km)} km
               </span>
-              <span className="font-stat tabular w-[88px] text-right whitespace-nowrap shrink-0">
+              <span className="font-stat tabular w-[104px] text-right whitespace-nowrap shrink-0">
                 <span className="text-mut">{hhmm(l.local_kickoff_hour)}</span>
                 <span className="text-mut/40">&rarr;</span>
                 <span className="text-lime">{hhmm(l.body_clock_hour)}</span>

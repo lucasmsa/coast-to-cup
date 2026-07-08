@@ -8,6 +8,21 @@ const FALLBACK_WEIGHTS: Weights = { circadian: 0.4, travel: 0.3, altitude: 0.15,
 const LOCALE_KEY = 'coast-to-cup:locale'
 const HEAT_KEY = 'coast-to-cup:heat-mode'
 
+function detectLocale(): Locale {
+  try {
+    const languages = navigator.languages?.length ? navigator.languages : [navigator.language]
+    for (const lang of languages) {
+      const base = lang.toLowerCase()
+      if (base.startsWith('pt')) return 'pt-BR'
+      if (base.startsWith('es')) return 'es-MX'
+      if (base.startsWith('en')) return 'en-US'
+    }
+  } catch {
+    // navigator unavailable
+  }
+  return 'en-US'
+}
+
 function loadLocale(): Locale {
   try {
     const saved = localStorage.getItem(LOCALE_KEY)
@@ -15,7 +30,7 @@ function loadLocale(): Locale {
   } catch {
     // storage unavailable
   }
-  return 'en-US'
+  return detectLocale()
 }
 
 function loadHeatMode(): HeatMode {
