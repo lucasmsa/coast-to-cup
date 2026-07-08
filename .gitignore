@@ -29,3 +29,6 @@ __marimo__/
 
 # Local design-tool config
 .impeccable/
+
+# Wrangler local state
+.wrangler/
