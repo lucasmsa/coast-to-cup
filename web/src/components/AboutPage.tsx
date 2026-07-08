@@ -91,6 +91,14 @@ export function AboutPage() {
               >
                 source
               </a>
+              <a
+                href="https://buymeacoffee.com/lmsamoreirt"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-lime transition-colors font-medium"
+              >
+                buy me a coffee ☕
+              </a>
             </p>
           </div>
         </div>
