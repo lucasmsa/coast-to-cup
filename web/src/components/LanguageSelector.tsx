@@ -15,7 +15,7 @@ export function LanguageSelector() {
             type="button"
             onClick={() => setLocale(l.id)}
             title={l.label}
-            className={`px-2.5 md:px-3 py-1 rounded-full font-stat text-sm md:text-base font-semibold tracking-wide transition-colors ${
+            className={`px-2 md:px-3 py-1 rounded-full font-stat text-sm md:text-base font-semibold tracking-wide transition-colors ${
               active ? 'bg-lime text-ink' : 'text-mut hover:text-fg'
             }`}
           >

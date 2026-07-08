@@ -19,14 +19,14 @@ function TopBar() {
   const t = useT()
   const setOverlay = useStore((s) => s.setOverlay)
   return (
-    <header className="flex items-center justify-between px-4 md:px-6 h-14 md:h-16 border-b border-line/70 shrink-0">
+    <header className="flex items-center justify-between gap-3 px-4 md:px-6 h-14 md:h-16 border-b border-line/70 shrink-0">
       <div className="flex items-baseline gap-4 min-w-0">
-        <span className="font-display text-2xl md:text-3xl tracking-[0.05em] uppercase">
+        <span className="font-display text-xl md:text-3xl tracking-[0.05em] uppercase whitespace-nowrap">
           Coast<span className="text-lime">·</span>to<span className="text-lime">·</span>Cup
         </span>
         <span className="hidden lg:block text-base text-mut">{t('tagline')}</span>
       </div>
-      <div className="flex items-center gap-2.5 md:gap-4">
+      <div className="flex items-center gap-2 md:gap-4 shrink-0">
         <button
           type="button"
           onClick={() => setOverlay('results')}
@@ -71,7 +71,7 @@ function HeroOverlay() {
       </div>
       <p className="text-base md:text-lg text-mut mt-2 md:mt-3">
         {t('basedIn')}{' '}
-        <span className="text-fg font-semibold underline decoration-lime/70 decoration-2 underline-offset-4">
+        <span className="block md:inline text-fg font-semibold underline decoration-lime/70 decoration-2 underline-offset-4">
           {active.base_camp}
         </span>
       </p>
