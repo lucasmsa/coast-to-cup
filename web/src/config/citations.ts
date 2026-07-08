@@ -1,5 +1,8 @@
 // Verified sources, shared by the About page and anywhere a factual claim is shown.
 
+export const PODCAST_EPISODE_URL =
+  'https://podcasts.apple.com/us/podcast/95-circadian-rhythms-travel-and-athlete-optimization/id1578319619?i=1000702475485'
+
 export interface Source {
   label: string
   detail: string

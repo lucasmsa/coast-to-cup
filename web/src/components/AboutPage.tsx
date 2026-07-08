@@ -1,5 +1,5 @@
 import { ABOUT } from '../config/about'
-import { DATA_SOURCES, SCIENCE, type Source } from '../config/citations'
+import { DATA_SOURCES, PODCAST_EPISODE_URL, SCIENCE, type Source } from '../config/citations'
 import { useT } from '../hooks/useT'
 import { useStore } from '../store'
 import { OverlayPage } from './OverlayPage'
@@ -73,13 +73,22 @@ export function AboutPage() {
           </section>
 
           <div className="pt-8 border-t border-line/60">
-            <p className="text-base text-mut/70">{c.inspired}</p>
-            <p className="text-base text-mut/70 mt-3 flex items-center gap-4">
+            <p className="text-base text-mut/70">
+              <a
+                href={PODCAST_EPISODE_URL}
+                target="_blank"
+                rel="noreferrer"
+                className="text-fg font-medium underline decoration-lime/50 decoration-2 underline-offset-4 hover:text-lime transition-colors"
+              >
+                {c.inspired}
+              </a>
+            </p>
+            <p className="text-base mt-4 flex flex-wrap items-center gap-x-6 gap-y-2">
               <a
                 href="https://github.com/lucasmsa"
                 target="_blank"
                 rel="noreferrer"
-                className="hover:text-lime transition-colors font-medium"
+                className="whitespace-nowrap text-fg font-medium underline decoration-lime/50 decoration-2 underline-offset-4 hover:text-lime transition-colors"
               >
                 made by lucasmsa
               </a>
@@ -87,7 +96,7 @@ export function AboutPage() {
                 href="https://github.com/lucasmsa/coast-to-cup"
                 target="_blank"
                 rel="noreferrer"
-                className="hover:text-lime transition-colors font-medium"
+                className="whitespace-nowrap text-fg font-medium underline decoration-lime/50 decoration-2 underline-offset-4 hover:text-lime transition-colors"
               >
                 source
               </a>
@@ -95,7 +104,7 @@ export function AboutPage() {
                 href="https://buymeacoffee.com/lmsamoreirt"
                 target="_blank"
                 rel="noreferrer"
-                className="hover:text-lime transition-colors font-medium"
+                className="whitespace-nowrap text-fg font-medium underline decoration-lime/50 decoration-2 underline-offset-4 hover:text-lime transition-colors"
               >
                 buy me a coffee ☕
               </a>
