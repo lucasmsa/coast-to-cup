@@ -45,6 +45,7 @@ jobs:
           cp data/derived/derived.json web/public/data/derived.json
 
       - name: Commit if changed
+        id: commit
         if: steps.guard.outputs.active == 'true'
         run: |
           git config user.name "github-actions[bot]"
@@ -52,7 +53,28 @@ jobs:
           git add pipeline/data/raw data/derived web/public/data
           if git diff --cached --quiet; then
             echo "no data changes"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "data: refresh results and weather"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # Bot pushes do not trigger other workflows, so the site deploy happens
+      # here when the data changed. Requires the CLOUDFLARE_API_TOKEN secret.
+      - uses: pnpm/action-setup@v4
+        if: steps.commit.outputs.changed == 'true' && env.CF_TOKEN != ''
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
+      - name: Build and deploy site
+        if: steps.commit.outputs.changed == 'true' && env.CF_TOKEN != ''
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          cd web
+          pnpm install --frozen-lockfile
+          pnpm build
+          pnpm dlx wrangler pages deploy dist --project-name coast-to-cup --branch main
