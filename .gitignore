@@ -26,3 +26,6 @@ __marimo__/
 
 # OS
 .DS_Store
+
+# Local design-tool config
+.impeccable/
