@@ -1,0 +1,105 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-ink: #14161d;
+  --color-surface: #1b1e26;
+  --color-surface-2: #232732;
+  --color-line: #2f3540;
+  --color-fg: #edeff3;
+  --color-mut: #939cab;
+  --color-lime: #c6f432;
+
+  --font-display: 'Anton', sans-serif;
+  --font-sans: 'Bricolage Grotesque', sans-serif;
+  --font-stat: 'Saira', sans-serif;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    margin: 0;
+    background: var(--color-ink);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+  }
+  ::selection {
+    background: var(--color-lime);
+    color: #0a0d12;
+  }
+
+  /* Deliberate cursors: Tailwind v4 preflight no longer sets pointer on buttons. */
+  button:not(:disabled),
+  [role='button'],
+  a[href],
+  summary,
+  label[for] {
+    cursor: pointer;
+  }
+  button:disabled,
+  [aria-disabled='true'] {
+    cursor: not-allowed;
+  }
+}
+
+/* Flat canvas: no gradients. Depth comes from strokes and the lime accent. */
+.bg-atmosphere {
+  background: var(--color-ink);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Range sliders: thin track, lime thumb */
+input[type='range'] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--color-line);
+  outline: none;
+  cursor: ew-resize;
+}
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--color-lime);
+  border: 2px solid var(--color-ink);
+  box-shadow: 0 0 0 1px var(--color-lime);
+}
+input[type='range']::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--color-ink);
+  border-radius: 50%;
+  background: var(--color-lime);
+}
+
+/* Native webkit search clear button is replaced by a styled one */
+input[type='search']::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Thin scrollbars inside panels */
+.scroll-thin::-webkit-scrollbar {
+  width: 8px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 999px;
+}
+.scroll-thin::-webkit-scrollbar-track {
+  background: transparent;
+}

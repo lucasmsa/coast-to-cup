@@ -1,0 +1,386 @@
+[
+  {
+    "id": "cze",
+    "name": "Czechia",
+    "code": "CZE",
+    "group": "A",
+    "confederation": "UEFA",
+    "color": "#3edad0"
+  },
+  {
+    "id": "kor",
+    "name": "South Korea",
+    "code": "KOR",
+    "group": "A",
+    "confederation": "AFC",
+    "color": "#56da3e"
+  },
+  {
+    "id": "mex",
+    "name": "Mexico",
+    "code": "MEX",
+    "group": "A",
+    "confederation": "CONCACAF",
+    "color": "#06633A"
+  },
+  {
+    "id": "rsa",
+    "name": "South Africa",
+    "code": "RSA",
+    "group": "A",
+    "confederation": "CAF",
+    "color": "#7dda3e"
+  },
+  {
+    "id": "bih",
+    "name": "Bosnia and Herzegovina",
+    "code": "BIH",
+    "group": "B",
+    "confederation": "UEFA",
+    "color": "#da4e3e"
+  },
+  {
+    "id": "can",
+    "name": "Canada",
+    "code": "CAN",
+    "group": "B",
+    "confederation": "CONCACAF",
+    "color": "#3eda65"
+  },
+  {
+    "id": "qat",
+    "name": "Qatar",
+    "code": "QAT",
+    "group": "B",
+    "confederation": "AFC",
+    "color": "#3ed8da"
+  },
+  {
+    "id": "sui",
+    "name": "Switzerland",
+    "code": "SUI",
+    "group": "B",
+    "confederation": "UEFA",
+    "color": "#3e70da"
+  },
+  {
+    "id": "bra",
+    "name": "Brazil",
+    "code": "BRA",
+    "group": "C",
+    "confederation": "CONMEBOL",
+    "color": "#FFDF00"
+  },
+  {
+    "id": "hai",
+    "name": "Haiti",
+    "code": "HAI",
+    "group": "C",
+    "confederation": "CONCACAF",
+    "color": "#d8da3e"
+  },
+  {
+    "id": "mar",
+    "name": "Morocco",
+    "code": "MAR",
+    "group": "C",
+    "confederation": "CAF",
+    "color": "#da3ec8"
+  },
+  {
+    "id": "sco",
+    "name": "Scotland",
+    "code": "SCO",
+    "group": "C",
+    "confederation": "UEFA",
+    "color": "#873eda"
+  },
+  {
+    "id": "aus",
+    "name": "Australia",
+    "code": "AUS",
+    "group": "D",
+    "confederation": "AFC",
+    "color": "#dab13e"
+  },
+  {
+    "id": "par",
+    "name": "Paraguay",
+    "code": "PAR",
+    "group": "D",
+    "confederation": "CONMEBOL",
+    "color": "#daab3e"
+  },
+  {
+    "id": "tur",
+    "name": "Turkiye",
+    "code": "TUR",
+    "group": "D",
+    "confederation": "UEFA",
+    "color": "#3eda5b"
+  },
+  {
+    "id": "usa",
+    "name": "United States",
+    "code": "USA",
+    "group": "D",
+    "confederation": "CONCACAF",
+    "color": "#0A3161"
+  },
+  {
+    "id": "civ",
+    "name": "Ivory Coast",
+    "code": "CIV",
+    "group": "E",
+    "confederation": "CAF",
+    "color": "#3e7ada"
+  },
+  {
+    "id": "cuw",
+    "name": "Curacao",
+    "code": "CUW",
+    "group": "E",
+    "confederation": "CONCACAF",
+    "color": "#da3e75"
+  },
+  {
+    "id": "ecu",
+    "name": "Ecuador",
+    "code": "ECU",
+    "group": "E",
+    "confederation": "CONMEBOL",
+    "color": "#cbda3e"
+  },
+  {
+    "id": "ger",
+    "name": "Germany",
+    "code": "GER",
+    "group": "E",
+    "confederation": "UEFA",
+    "color": "#111111"
+  },
+  {
+    "id": "jpn",
+    "name": "Japan",
+    "code": "JPN",
+    "group": "F",
+    "confederation": "AFC",
+    "color": "#503eda"
+  },
+  {
+    "id": "ned",
+    "name": "Netherlands",
+    "code": "NED",
+    "group": "F",
+    "confederation": "UEFA",
+    "color": "#FF6A13"
+  },
+  {
+    "id": "swe",
+    "name": "Sweden",
+    "code": "SWE",
+    "group": "F",
+    "confederation": "UEFA",
+    "color": "#77da3e"
+  },
+  {
+    "id": "tun",
+    "name": "Tunisia",
+    "code": "TUN",
+    "group": "F",
+    "confederation": "CAF",
+    "color": "#3e56da"
+  },
+  {
+    "id": "bel",
+    "name": "Belgium",
+    "code": "BEL",
+    "group": "G",
+    "confederation": "UEFA",
+    "color": "#E30613"
+  },
+  {
+    "id": "egy",
+    "name": "Egypt",
+    "code": "EGY",
+    "group": "G",
+    "confederation": "CAF",
+    "color": "#cdda3e"
+  },
+  {
+    "id": "irn",
+    "name": "Iran",
+    "code": "IRN",
+    "group": "G",
+    "confederation": "AFC",
+    "color": "#653eda"
+  },
+  {
+    "id": "nzl",
+    "name": "New Zealand",
+    "code": "NZL",
+    "group": "G",
+    "confederation": "OFC",
+    "color": "#da3e75"
+  },
+  {
+    "id": "cpv",
+    "name": "Cape Verde",
+    "code": "CPV",
+    "group": "H",
+    "confederation": "CAF",
+    "color": "#3e60da"
+  },
+  {
+    "id": "esp",
+    "name": "Spain",
+    "code": "ESP",
+    "group": "H",
+    "confederation": "UEFA",
+    "color": "#C60B1E"
+  },
+  {
+    "id": "ksa",
+    "name": "Saudi Arabia",
+    "code": "KSA",
+    "group": "H",
+    "confederation": "AFC",
+    "color": "#1B5E20"
+  },
+  {
+    "id": "uru",
+    "name": "Uruguay",
+    "code": "URU",
+    "group": "H",
+    "confederation": "CONMEBOL",
+    "color": "#5CB8E6"
+  },
+  {
+    "id": "fra",
+    "name": "France",
+    "code": "FRA",
+    "group": "I",
+    "confederation": "UEFA",
+    "color": "#1E40AF"
+  },
+  {
+    "id": "irq",
+    "name": "Iraq",
+    "code": "IRQ",
+    "group": "I",
+    "confederation": "AFC",
+    "color": "#3e6dda"
+  },
+  {
+    "id": "nor",
+    "name": "Norway",
+    "code": "NOR",
+    "group": "I",
+    "confederation": "UEFA",
+    "color": "#63da3e"
+  },
+  {
+    "id": "sen",
+    "name": "Senegal",
+    "code": "SEN",
+    "group": "I",
+    "confederation": "CAF",
+    "color": "#77da3e"
+  },
+  {
+    "id": "alg",
+    "name": "Algeria",
+    "code": "ALG",
+    "group": "J",
+    "confederation": "CAF",
+    "color": "#bb3eda"
+  },
+  {
+    "id": "arg",
+    "name": "Argentina",
+    "code": "ARG",
+    "group": "J",
+    "confederation": "CONMEBOL",
+    "color": "#75AADB"
+  },
+  {
+    "id": "aut",
+    "name": "Austria",
+    "code": "AUT",
+    "group": "J",
+    "confederation": "UEFA",
+    "color": "#da3eb6"
+  },
+  {
+    "id": "jor",
+    "name": "Jordan",
+    "code": "JOR",
+    "group": "J",
+    "confederation": "AFC",
+    "color": "#3ec0da"
+  },
+  {
+    "id": "cod",
+    "name": "DR Congo",
+    "code": "COD",
+    "group": "K",
+    "confederation": "CAF",
+    "color": "#daa43e"
+  },
+  {
+    "id": "col",
+    "name": "Colombia",
+    "code": "COL",
+    "group": "K",
+    "confederation": "CONMEBOL",
+    "color": "#70da3e"
+  },
+  {
+    "id": "por",
+    "name": "Portugal",
+    "code": "POR",
+    "group": "K",
+    "confederation": "UEFA",
+    "color": "#C8102E"
+  },
+  {
+    "id": "uzb",
+    "name": "Uzbekistan",
+    "code": "UZB",
+    "group": "K",
+    "confederation": "AFC",
+    "color": "#b8da3e"
+  },
+  {
+    "id": "cro",
+    "name": "Croatia",
+    "code": "CRO",
+    "group": "L",
+    "confederation": "UEFA",
+    "color": "#da3ea9"
+  },
+  {
+    "id": "eng",
+    "name": "England",
+    "code": "ENG",
+    "group": "L",
+    "confederation": "UEFA",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "gha",
+    "name": "Ghana",
+    "code": "GHA",
+    "group": "L",
+    "confederation": "CAF",
+    "color": "#60da3e"
+  },
+  {
+    "id": "pan",
+    "name": "Panama",
+    "code": "PAN",
+    "group": "L",
+    "confederation": "CONCACAF",
+    "color": "#3ec8da"
+  }
+]

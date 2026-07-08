@@ -1,0 +1,482 @@
+[
+  {
+    "team_id": "alg",
+    "city": "Lawrence",
+    "country": "USA",
+    "lat": 38.97191,
+    "lon": -95.23594,
+    "tz": "America/Chicago",
+    "altitude_m": 263.0,
+    "heat_high_c": 30.8
+  },
+  {
+    "team_id": "arg",
+    "city": "Kansas City",
+    "country": "USA",
+    "lat": 39.11346,
+    "lon": -94.6265,
+    "tz": "America/Chicago",
+    "altitude_m": 272.0,
+    "heat_high_c": 30.6
+  },
+  {
+    "team_id": "aus",
+    "city": "Alameda",
+    "country": "USA",
+    "lat": 37.60903,
+    "lon": -121.89914,
+    "tz": "America/Los_Angeles",
+    "altitude_m": 228.0,
+    "heat_high_c": 25.2
+  },
+  {
+    "team_id": "aut",
+    "city": "Santa Barbara",
+    "country": "USA",
+    "lat": 34.42213,
+    "lon": -119.70267,
+    "tz": "America/Los_Angeles",
+    "altitude_m": 28.0,
+    "heat_high_c": 26.9
+  },
+  {
+    "team_id": "bel",
+    "city": "Renton",
+    "country": "USA",
+    "lat": 47.47991,
+    "lon": -122.20345,
+    "tz": "America/Los_Angeles",
+    "altitude_m": 14.0,
+    "heat_high_c": 23.5
+  },
+  {
+    "team_id": "bih",
+    "city": "Salt Lake City",
+    "country": "USA",
+    "lat": 40.75962,
+    "lon": -111.8868,
+    "tz": "America/Denver",
+    "altitude_m": 1305.0,
+    "heat_high_c": 31.8
+  },
+  {
+    "team_id": "bra",
+    "city": "Morristown",
+    "country": "USA",
+    "lat": 40.79704,
+    "lon": -74.48099,
+    "tz": "America/New_York",
+    "altitude_m": 121.0,
+    "heat_high_c": 28.3
+  },
+  {
+    "team_id": "can",
+    "city": "Vancouver",
+    "country": "CAN",
+    "lat": 49.26087,
+    "lon": -123.11395,
+    "tz": "America/Vancouver",
+    "altitude_m": 40.0,
+    "heat_high_c": 20.5
+  },
+  {
+    "team_id": "cpv",
+    "city": "Tampa",
+    "country": "USA",
+    "lat": 27.94499,
+    "lon": -82.45831,
+    "tz": "America/New_York",
+    "altitude_m": 1.0,
+    "heat_high_c": 31.3
+  },
+  {
+    "team_id": "col",
+    "city": "Zapopan",
+    "country": "MEX",
+    "lat": 20.72112,
+    "lon": -103.39137,
+    "tz": "America/Mexico_City",
+    "altitude_m": 1577.0,
+    "heat_high_c": 28.8
+  },
+  {
+    "team_id": "cro",
+    "city": "Alexandria",
+    "country": "USA",
+    "lat": 38.80511,
+    "lon": -77.04702,
+    "tz": "America/New_York",
+    "altitude_m": 18.0,
+    "heat_high_c": 30.4
+  },
+  {
+    "team_id": "cuw",
+    "city": "Boca Raton",
+    "country": "USA",
+    "lat": 26.35869,
+    "lon": -80.0831,
+    "tz": "America/New_York",
+    "altitude_m": 9.0,
+    "heat_high_c": 30.2
+  },
+  {
+    "team_id": "cze",
+    "city": "Mansfield",
+    "country": "USA",
+    "lat": 32.56349,
+    "lon": -97.14203,
+    "tz": "America/Chicago",
+    "altitude_m": 188.0,
+    "heat_high_c": 33.7
+  },
+  {
+    "team_id": "cod",
+    "city": "Houston",
+    "country": "USA",
+    "lat": 29.75894,
+    "lon": -95.3677,
+    "tz": "America/Chicago",
+    "altitude_m": 21.0,
+    "heat_high_c": 32.5
+  },
+  {
+    "team_id": "ecu",
+    "city": "Columbus",
+    "country": "USA",
+    "lat": 39.96226,
+    "lon": -83.00071,
+    "tz": "America/New_York",
+    "altitude_m": 231.0,
+    "heat_high_c": 28.4
+  },
+  {
+    "team_id": "egy",
+    "city": "Spokane",
+    "country": "USA",
+    "lat": 47.65719,
+    "lon": -117.42351,
+    "tz": "America/Los_Angeles",
+    "altitude_m": 578.0,
+    "heat_high_c": 27.5
+  },
+  {
+    "team_id": "eng",
+    "city": "Kansas City",
+    "country": "USA",
+    "lat": 39.1001,
+    "lon": -94.57814,
+    "tz": "America/Chicago",
+    "altitude_m": 281.0,
+    "heat_high_c": 30.6
+  },
+  {
+    "team_id": "fra",
+    "city": "Waltham",
+    "country": "USA",
+    "lat": 42.37624,
+    "lon": -71.23556,
+    "tz": "America/New_York",
+    "altitude_m": 22.0,
+    "heat_high_c": 27.5
+  },
+  {
+    "team_id": "ger",
+    "city": "Winston",
+    "country": "USA",
+    "lat": 36.09981,
+    "lon": -80.24405,
+    "tz": "America/New_York",
+    "altitude_m": 282.0,
+    "heat_high_c": 30.7
+  },
+  {
+    "team_id": "gha",
+    "city": "Smithfield",
+    "country": "USA",
+    "lat": 41.92204,
+    "lon": -71.54951,
+    "tz": "America/New_York",
+    "altitude_m": 81.0,
+    "heat_high_c": 27.0
+  },
+  {
+    "team_id": "hai",
+    "city": "Galloway Township",
+    "country": "USA",
+    "lat": 39.46461,
+    "lon": -74.49861,
+    "tz": "America/New_York",
+    "altitude_m": 17.0,
+    "heat_high_c": 27.5
+  },
+  {
+    "team_id": "irn",
+    "city": "Tijuana",
+    "country": "MEX",
+    "lat": 32.53174,
+    "lon": -117.01953,
+    "tz": "America/Tijuana",
+    "altitude_m": 24.0,
+    "heat_high_c": 22.5
+  },
+  {
+    "team_id": "irq",
+    "city": "White Sulphur Springs",
+    "country": "USA",
+    "lat": 37.79651,
+    "lon": -80.29757,
+    "tz": "America/New_York",
+    "altitude_m": 564.0,
+    "heat_high_c": 27.8
+  },
+  {
+    "team_id": "civ",
+    "city": "Chester",
+    "country": "USA",
+    "lat": 39.98293,
+    "lon": -75.76524,
+    "tz": "America/New_York",
+    "altitude_m": 165.0,
+    "heat_high_c": 29.0
+  },
+  {
+    "team_id": "jpn",
+    "city": "Nashville",
+    "country": "USA",
+    "lat": 36.16228,
+    "lon": -86.7743,
+    "tz": "America/Chicago",
+    "altitude_m": 137.0,
+    "heat_high_c": 30.8
+  },
+  {
+    "team_id": "jor",
+    "city": "Portland",
+    "country": "USA",
+    "lat": 45.52025,
+    "lon": -122.67419,
+    "tz": "America/Los_Angeles",
+    "altitude_m": 19.0,
+    "heat_high_c": 26.0
+  },
+  {
+    "team_id": "mex",
+    "city": "Mexico City",
+    "country": "MEX",
+    "lat": 19.32077,
+    "lon": -99.15147,
+    "tz": "America/Mexico_City",
+    "altitude_m": 2265.0,
+    "heat_high_c": 23.7
+  },
+  {
+    "team_id": "mar",
+    "city": "Basking Ridge",
+    "country": "USA",
+    "lat": 40.70641,
+    "lon": -74.54927,
+    "tz": "America/New_York",
+    "altitude_m": 108.0,
+    "heat_high_c": 28.7
+  },
+  {
+    "team_id": "ned",
+    "city": "Riverside",
+    "country": "USA",
+    "lat": 39.1775,
+    "lon": -94.61301,
+    "tz": "America/Chicago",
+    "altitude_m": 238.0,
+    "heat_high_c": 30.4
+  },
+  {
+    "team_id": "nzl",
+    "city": "San Diego",
+    "country": "USA",
+    "lat": 32.71742,
+    "lon": -117.16277,
+    "tz": "America/Los_Angeles",
+    "altitude_m": 29.0,
+    "heat_high_c": 23.0
+  },
+  {
+    "team_id": "nor",
+    "city": "Greensboro",
+    "country": "USA",
+    "lat": 36.07264,
+    "lon": -79.79198,
+    "tz": "America/New_York",
+    "altitude_m": 257.0,
+    "heat_high_c": 30.7
+  },
+  {
+    "team_id": "pan",
+    "city": "New Tecumseth",
+    "country": "CAN",
+    "lat": 44.15424,
+    "lon": -79.86899,
+    "tz": "America/Toronto",
+    "altitude_m": 221.0,
+    "heat_high_c": 25.5
+  },
+  {
+    "team_id": "par",
+    "city": "San Jose",
+    "country": "USA",
+    "lat": 37.33617,
+    "lon": -121.89059,
+    "tz": "America/Los_Angeles",
+    "altitude_m": 34.0,
+    "heat_high_c": 28.6
+  },
+  {
+    "team_id": "por",
+    "city": "Palm Beach Gardens",
+    "country": "USA",
+    "lat": 26.82339,
+    "lon": -80.13865,
+    "tz": "America/New_York",
+    "altitude_m": 8.0,
+    "heat_high_c": 30.3
+  },
+  {
+    "team_id": "qat",
+    "city": "Santa Barbara",
+    "country": "USA",
+    "lat": 34.42213,
+    "lon": -119.70267,
+    "tz": "America/Los_Angeles",
+    "altitude_m": 28.0,
+    "heat_high_c": 26.9
+  },
+  {
+    "team_id": "ksa",
+    "city": "Austin",
+    "country": "USA",
+    "lat": 30.27113,
+    "lon": -97.7437,
+    "tz": "America/Chicago",
+    "altitude_m": 167.0,
+    "heat_high_c": 34.2
+  },
+  {
+    "team_id": "sco",
+    "city": "Charlotte",
+    "country": "USA",
+    "lat": 35.22721,
+    "lon": -80.84308,
+    "tz": "America/New_York",
+    "altitude_m": 254.0,
+    "heat_high_c": 31.2
+  },
+  {
+    "team_id": "sen",
+    "city": "Piscataway",
+    "country": "USA",
+    "lat": 40.54643,
+    "lon": -74.46605,
+    "tz": "America/New_York",
+    "altitude_m": 26.0,
+    "heat_high_c": 29.7
+  },
+  {
+    "team_id": "rsa",
+    "city": "San Agust\u00edn Tlaxiaca",
+    "country": "MEX",
+    "lat": 20.07617,
+    "lon": -98.9335,
+    "tz": "America/Mexico_City",
+    "altitude_m": 2564.0,
+    "heat_high_c": 22.3
+  },
+  {
+    "team_id": "kor",
+    "city": "Zapopan",
+    "country": "MEX",
+    "lat": 20.72112,
+    "lon": -103.39137,
+    "tz": "America/Mexico_City",
+    "altitude_m": 1577.0,
+    "heat_high_c": 28.8
+  },
+  {
+    "team_id": "esp",
+    "city": "Chattanooga",
+    "country": "USA",
+    "lat": 35.04572,
+    "lon": -85.30949,
+    "tz": "America/New_York",
+    "altitude_m": 209.0,
+    "heat_high_c": 30.4
+  },
+  {
+    "team_id": "swe",
+    "city": "Frisco",
+    "country": "USA",
+    "lat": 33.1506,
+    "lon": -96.82382,
+    "tz": "America/Chicago",
+    "altitude_m": 211.0,
+    "heat_high_c": 33.3
+  },
+  {
+    "team_id": "sui",
+    "city": "San Diego",
+    "country": "USA",
+    "lat": 32.71742,
+    "lon": -117.16277,
+    "tz": "America/Los_Angeles",
+    "altitude_m": 29.0,
+    "heat_high_c": 23.0
+  },
+  {
+    "team_id": "tun",
+    "city": "Santiago",
+    "country": "MEX",
+    "lat": 25.37438,
+    "lon": -100.26094,
+    "tz": "America/Monterrey",
+    "altitude_m": 1539.0,
+    "heat_high_c": 25.1
+  },
+  {
+    "team_id": "tur",
+    "city": "Mesa",
+    "country": "USA",
+    "lat": 33.4151,
+    "lon": -111.83146,
+    "tz": "America/Phoenix",
+    "altitude_m": 379.0,
+    "heat_high_c": 40.9
+  },
+  {
+    "team_id": "usa",
+    "city": "Irvine",
+    "country": "USA",
+    "lat": 33.6857,
+    "lon": -117.82598,
+    "tz": "America/Los_Angeles",
+    "altitude_m": 16.0,
+    "heat_high_c": 26.9
+  },
+  {
+    "team_id": "uru",
+    "city": "Playa del Carmen",
+    "country": "MEX",
+    "lat": 20.64611,
+    "lon": -87.0809,
+    "tz": "America/Cancun",
+    "altitude_m": 8.0,
+    "heat_high_c": 30.2
+  },
+  {
+    "team_id": "uzb",
+    "city": "Marietta",
+    "country": "USA",
+    "lat": 33.95285,
+    "lon": -84.54961,
+    "tz": "America/New_York",
+    "altitude_m": 345.0,
+    "heat_high_c": 30.1
+  }
+]

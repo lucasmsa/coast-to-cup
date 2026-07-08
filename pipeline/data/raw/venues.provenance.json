@@ -1,0 +1,171 @@
+{
+  "fetched_at": "2026-06-17T18:13:01.880182+00:00",
+  "sources": {
+    "identity_roof": "Wikipedia, 2026 FIFA World Cup (Venues), https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "coordinates": "OpenStreetMap Nominatim, https://nominatim.openstreetmap.org/ (Data (c) OpenStreetMap contributors, ODbL)",
+    "altitude_m": "Open-Meteo Elevation API, https://open-meteo.com/en/docs/elevation-api",
+    "tz_heat": "Open-Meteo Historical Archive (ERA5), https://open-meteo.com/en/docs/historical-weather-api; heat_high_c = mean June/July daily max 2019-2024"
+  },
+  "venues": [
+    {
+      "id": "atlanta",
+      "geocode": {
+        "display_name": "Mercedes-Benz Stadium, 1414, Andrew Young International Boulevard, Atlanta, Fulton County, Georgia, 30313, United States",
+        "osm_type": "way",
+        "osm_id": 536744534,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+      },
+      "heat_sample_days": 366
+    },
+    {
+      "id": "boston",
+      "geocode": {
+        "display_name": "Gillette Stadium, 1, Patriot Place, Foxborough, Norfolk County, Massachusetts, 02035, United States",
+        "osm_type": "relation",
+        "osm_id": 18511570,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+      },
+      "heat_sample_days": 366
+    },
+    {
+      "id": "dallas",
+      "geocode": {
+        "display_name": "AT&T Stadium, 900, East Randol Mill Road, Arlington, Tarrant County, Texas, 76011, United States",
+        "osm_type": "way",
+        "osm_id": 47086748,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+      },
+      "heat_sample_days": 366
+    },
+    {
+      "id": "houston",
+      "geocode": {
+        "display_name": "NRG Stadium, 1, NRG Parkway, Houston, Harris County, Texas, 77054, United States",
+        "osm_type": "way",
+        "osm_id": 119422708,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+      },
+      "heat_sample_days": 366
+    },
+    {
+      "id": "kansas_city",
+      "geocode": {
+        "display_name": "Arrowhead Stadium, 1, Arrowhead Drive, Kansas City, Jackson County, Missouri, 64129, United States",
+        "osm_type": "way",
+        "osm_id": 65960012,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+      },
+      "heat_sample_days": 366
+    },
+    {
+      "id": "los_angeles",
+      "geocode": {
+        "display_name": "SoFi Stadium, 1001, Champion Drive, Hollywood Park, Morningside Park, Inglewood, Los Angeles County, California, 90301, United States",
+        "osm_type": "way",
+        "osm_id": 860635712,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+      },
+      "heat_sample_days": 366
+    },
+    {
+      "id": "miami",
+      "geocode": {
+        "display_name": "Hard Rock Stadium, 347, Northwest 199th Street, Miami Gardens, Miami-Dade County, Florida, 33056, United States",
+        "osm_type": "way",
+        "osm_id": 171419981,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+      },
+      "heat_sample_days": 366
+    },
+    {
+      "id": "new_york_new_jersey",
+      "geocode": {
+        "display_name": "New York New Jersey Stadium, 1, MetLife Stadium Drive, East Rutherford, Bergen County, New Jersey, 07073, United States",
+        "osm_type": "way",
+        "osm_id": 24221553,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+      },
+      "heat_sample_days": 366
+    },
+    {
+      "id": "philadelphia",
+      "geocode": {
+        "display_name": "Lincoln Financial Field, 1, South Darien Street, South Philadelphia, Philadelphia, Philadelphia County, Pennsylvania, 19147, United States",
+        "osm_type": "way",
+        "osm_id": 32891768,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+      },
+      "heat_sample_days": 366
+    },
+    {
+      "id": "san_francisco_bay_area",
+      "geocode": {
+        "display_name": "San Francisco Bay Area Stadium, 4900, Marie P. DeBartolo Way, Agnew, Santa Clara, Santa Clara County, California, 95054, United States",
+        "osm_type": "way",
+        "osm_id": 296503400,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+      },
+      "heat_sample_days": 366
+    },
+    {
+      "id": "seattle",
+      "geocode": {
+        "display_name": "Lumen Field, 800, Occidental Avenue South, Yesler Terrace, Seattle, King County, Washington, 98134, United States",
+        "osm_type": "relation",
+        "osm_id": 5838734,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+      },
+      "heat_sample_days": 366
+    },
+    {
+      "id": "guadalajara",
+      "geocode": {
+        "display_name": "Estadio Akron, 2800, Circuito JVC, San Juan de Ocot\u00e1n, Zapopan, Regi\u00f3n Centro, Jalisco, 45019, M\u00e9xico",
+        "osm_type": "way",
+        "osm_id": 133439454,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+      },
+      "heat_sample_days": 366
+    },
+    {
+      "id": "mexico_city",
+      "geocode": {
+        "display_name": "Estadio Banorte, Circuito Estadio Banorte, Ex-ejido de Santa \u00darsula Coapa, Santa \u00darsula Coapa, Ciudad de M\u00e9xico, Coyoac\u00e1n, Ciudad de M\u00e9xico, 04600, M\u00e9xico",
+        "osm_type": "way",
+        "osm_id": 4758704,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+      },
+      "heat_sample_days": 366
+    },
+    {
+      "id": "monterrey",
+      "geocode": {
+        "display_name": "Estadio BBVA, Avenida Pablo Livas, La Quinta, Guadalupe, Nuevo Le\u00f3n, 67176, M\u00e9xico",
+        "osm_type": "way",
+        "osm_id": 346397099,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+      },
+      "heat_sample_days": 366
+    },
+    {
+      "id": "toronto",
+      "geocode": {
+        "display_name": "BMO Field, 170, Princes' Boulevard, Fort York-Liberty Village, Spadina\u2014Fort York, Toronto, Golden Horseshoe, Ontario, M6K 3C3, Canada",
+        "osm_type": "way",
+        "osm_id": 663457707,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+      },
+      "heat_sample_days": 366
+    },
+    {
+      "id": "vancouver",
+      "geocode": {
+        "display_name": "BC Place, 777, Pacific Boulevard, Downtown, Vancouver, Metro Vancouver Regional District, British Columbia, V6B 6G2, Canada",
+        "osm_type": "way",
+        "osm_id": 24705904,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+      },
+      "heat_sample_days": 366
+    }
+  ]
+}

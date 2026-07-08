@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+dist/
+build/
+
+# Node
+node_modules/
+web/dist/
+.vite/
+
+# Go
+tui/bin/
+
+# Fetch caches (regenerable; keep the repo lean)
+pipeline/data/raw/_cache/
+__marimo__/
+
+# Design reference moodboard (third-party shots, local only)
+.design-refs/
+
+# OS
+.DS_Store

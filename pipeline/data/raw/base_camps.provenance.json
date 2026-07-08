@@ -1,0 +1,251 @@
+{
+  "fetched_at": "2026-06-17T18:17:25.658375+00:00",
+  "sources": {
+    "base_camp_table": "Wikipedia, 2026 FIFA World Cup (Team base camps table), https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "coordinates": "OpenStreetMap Nominatim, https://nominatim.openstreetmap.org/ (Data (c) OpenStreetMap contributors, ODbL)",
+    "altitude_m": "Open-Meteo Elevation API, https://open-meteo.com/en/docs/elevation-api",
+    "tz_heat": "Open-Meteo Historical Archive (ERA5), https://open-meteo.com/en/docs/historical-weather-api; heat_high_c = mean June/July daily max 2019-2024"
+  },
+  "base_camps": [
+    {
+      "team_id": "alg",
+      "query": "Lawrence, Kansas, United States",
+      "geocode": "Lawrence, Douglas County, Kansas, United States"
+    },
+    {
+      "team_id": "arg",
+      "query": "Kansas City, Kansas, United States",
+      "geocode": "Kansas City, Wyandotte County, Kansas, United States"
+    },
+    {
+      "team_id": "aus",
+      "query": "Alameda, California, United States",
+      "geocode": "Alameda County, California, United States"
+    },
+    {
+      "team_id": "aut",
+      "query": "Santa Barbara, California, United States",
+      "geocode": "Santa Barbara, Santa Barbara County, California, United States"
+    },
+    {
+      "team_id": "bel",
+      "query": "Renton, Washington, United States",
+      "geocode": "Renton, King County, Washington, United States"
+    },
+    {
+      "team_id": "bih",
+      "query": "Salt Lake City, Utah, United States",
+      "geocode": "Salt Lake City, Salt Lake County, Utah, United States"
+    },
+    {
+      "team_id": "bra",
+      "query": "Morristown, New Jersey, United States",
+      "geocode": "Morristown, Morris County, New Jersey, United States"
+    },
+    {
+      "team_id": "can",
+      "query": "Vancouver, British Columbia, Canada",
+      "geocode": "Vancouver, Metro Vancouver Regional District, British Columbia, Canada"
+    },
+    {
+      "team_id": "cpv",
+      "query": "Tampa, Florida, United States",
+      "geocode": "Tampa, Hillsborough County, Florida, United States"
+    },
+    {
+      "team_id": "col",
+      "query": "Zapopan, Jalisco, Mexico",
+      "geocode": "Zapopan, Regi\u00f3n Centro, Jalisco, 45101, M\u00e9xico"
+    },
+    {
+      "team_id": "cro",
+      "query": "Alexandria, Virginia, United States",
+      "geocode": "Alexandria, Virginia, United States"
+    },
+    {
+      "team_id": "cuw",
+      "query": "Boca Raton, Florida, United States",
+      "geocode": "Boca Raton, Palm Beach County, Florida, United States"
+    },
+    {
+      "team_id": "cze",
+      "query": "Mansfield, Texas, United States",
+      "geocode": "Mansfield, Tarrant County, Texas, 76063, United States"
+    },
+    {
+      "team_id": "cod",
+      "query": "Houston, Texas, United States",
+      "geocode": "Houston, Harris County, Texas, United States"
+    },
+    {
+      "team_id": "ecu",
+      "query": "Columbus, Ohio, United States",
+      "geocode": "Columbus, Sharon, Franklin County, Ohio, United States"
+    },
+    {
+      "team_id": "egy",
+      "query": "Spokane, Washington, United States",
+      "geocode": "Spokane, Spokane County, Washington, United States"
+    },
+    {
+      "team_id": "eng",
+      "query": "Kansas City, Missouri, United States",
+      "geocode": "Kansas City, Jackson County, Missouri, United States"
+    },
+    {
+      "team_id": "fra",
+      "query": "Waltham, Massachusetts, United States",
+      "geocode": "Waltham, Middlesex County, Massachusetts, United States"
+    },
+    {
+      "team_id": "ger",
+      "query": "Winston, North Carolina, United States",
+      "geocode": "Winston-Salem, Forsyth County, North Carolina, United States"
+    },
+    {
+      "team_id": "gha",
+      "query": "Smithfield, Rhode Island, United States",
+      "geocode": "Smithfield, Providence County, Rhode Island, United States"
+    },
+    {
+      "team_id": "hai",
+      "query": "Galloway Township, New Jersey, United States",
+      "geocode": "Galloway Township, Atlantic County, New Jersey, United States"
+    },
+    {
+      "team_id": "irn",
+      "query": "Tijuana, Baja California, Mexico",
+      "geocode": "Tijuana, Municipio de Tijuana, Baja California, 22320, M\u00e9xico"
+    },
+    {
+      "team_id": "irq",
+      "query": "White Sulphur Springs, West Virginia, United States",
+      "geocode": "White Sulphur Springs, Greenbrier County, West Virginia, 24986, United States"
+    },
+    {
+      "team_id": "civ",
+      "query": "Chester, Pennsylvania, United States",
+      "geocode": "Chester County, Pennsylvania, United States"
+    },
+    {
+      "team_id": "jpn",
+      "query": "Nashville, Tennessee, United States",
+      "geocode": "Nashville, Davidson County, Middle Tennessee, Tennessee, United States"
+    },
+    {
+      "team_id": "jor",
+      "query": "Portland, Oregon, United States",
+      "geocode": "Portland, Multnomah County, Oregon, United States"
+    },
+    {
+      "team_id": "mex",
+      "query": "Mexico City, Mexico",
+      "geocode": "Ciudad de M\u00e9xico, M\u00e9xico"
+    },
+    {
+      "team_id": "mar",
+      "query": "Basking Ridge, New Jersey, United States",
+      "geocode": "Basking Ridge, Bernards Township, Somerset County, New Jersey, 02794, United States"
+    },
+    {
+      "team_id": "ned",
+      "query": "Riverside, Missouri, United States",
+      "geocode": "Riverside, Platte County, Missouri, 64150, United States"
+    },
+    {
+      "team_id": "nzl",
+      "query": "San Diego, California, United States",
+      "geocode": "San Diego, San Diego County, California, United States"
+    },
+    {
+      "team_id": "nor",
+      "query": "Greensboro, North Carolina, United States",
+      "geocode": "Greensboro, Guilford County, North Carolina, United States"
+    },
+    {
+      "team_id": "pan",
+      "query": "New Tecumseth, Ontario, Canada",
+      "geocode": "New Tecumseth, Simcoe County, Central Ontario, Ontario, Canada"
+    },
+    {
+      "team_id": "par",
+      "query": "San Jose, California, United States",
+      "geocode": "San Jose, Santa Clara County, California, United States"
+    },
+    {
+      "team_id": "por",
+      "query": "Palm Beach Gardens, Florida, United States",
+      "geocode": "Palm Beach Gardens, Palm Beach County, Florida, United States"
+    },
+    {
+      "team_id": "qat",
+      "query": "Santa Barbara, California, United States",
+      "geocode": "Santa Barbara, Santa Barbara County, California, United States"
+    },
+    {
+      "team_id": "ksa",
+      "query": "Austin, Texas, United States",
+      "geocode": "Austin, Travis County, Texas, United States"
+    },
+    {
+      "team_id": "sco",
+      "query": "Charlotte, North Carolina, United States",
+      "geocode": "Charlotte, Mecklenburg County, North Carolina, United States"
+    },
+    {
+      "team_id": "sen",
+      "query": "Piscataway, New Jersey, United States",
+      "geocode": "Piscataway Township, Middlesex County, New Jersey, United States"
+    },
+    {
+      "team_id": "rsa",
+      "query": "San Agust\u00edn Tlaxiaca, Hidalgo, Mexico",
+      "geocode": "San Agust\u00edn Tlaxiaca, Hidalgo, M\u00e9xico"
+    },
+    {
+      "team_id": "kor",
+      "query": "Zapopan, Jalisco, Mexico",
+      "geocode": "Zapopan, Regi\u00f3n Centro, Jalisco, 45101, M\u00e9xico"
+    },
+    {
+      "team_id": "esp",
+      "query": "Chattanooga, Tennessee, United States",
+      "geocode": "Chattanooga, Hamilton County, East Tennessee, Tennessee, United States"
+    },
+    {
+      "team_id": "swe",
+      "query": "Frisco, Texas, United States",
+      "geocode": "Frisco, Collin County, Texas, United States"
+    },
+    {
+      "team_id": "sui",
+      "query": "San Diego, California, United States",
+      "geocode": "San Diego, San Diego County, California, United States"
+    },
+    {
+      "team_id": "tun",
+      "query": "Santiago, Nuevo Le\u00f3n, Mexico",
+      "geocode": "Santiago, Nuevo Le\u00f3n, M\u00e9xico"
+    },
+    {
+      "team_id": "tur",
+      "query": "Mesa, Arizona, United States",
+      "geocode": "Mesa, Maricopa County, Arizona, United States"
+    },
+    {
+      "team_id": "usa",
+      "query": "Irvine, California, United States",
+      "geocode": "Irvine, Orange County, California, United States"
+    },
+    {
+      "team_id": "uru",
+      "query": "Playa del Carmen, Quintana Roo, Mexico",
+      "geocode": "Playa del Carmen, Quintana Roo, M\u00e9xico"
+    },
+    {
+      "team_id": "uzb",
+      "query": "Marietta, Georgia, United States",
+      "geocode": "Marietta, Cobb County, Georgia, United States"
+    }
+  ]
+}

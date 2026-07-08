@@ -1,0 +1,370 @@
+{
+  "A-1": {
+    "temp_c": 22.6,
+    "apparent_c": 25.1
+  },
+  "K-2": {
+    "temp_c": 17.9,
+    "apparent_c": 19.3
+  },
+  "A-5": {
+    "temp_c": 19.0,
+    "apparent_c": 18.5
+  },
+  "R32-7": {
+    "temp_c": 15.1,
+    "apparent_c": 15.7
+  },
+  "R16-4": {
+    "temp_c": 16.7,
+    "apparent_c": 17.2
+  },
+  "A-2": {
+    "temp_c": 21.0,
+    "apparent_c": 21.7
+  },
+  "A-4": {
+    "temp_c": 20.9,
+    "apparent_c": 22.0
+  },
+  "K-4": {
+    "temp_c": 18.4,
+    "apparent_c": 19.5
+  },
+  "H-6": {
+    "temp_c": 23.4,
+    "apparent_c": 24.4
+  },
+  "B-1": {
+    "temp_c": 25.7,
+    "apparent_c": 25.3
+  },
+  "L-2": {
+    "temp_c": 17.4,
+    "apparent_c": 15.5
+  },
+  "E-3": {
+    "temp_c": 20.4,
+    "apparent_c": 19.6
+  },
+  "L-4": {
+    "temp_c": 22.1,
+    "apparent_c": 19.5
+  },
+  "I-6": {
+    "temp_c": 20.3,
+    "apparent_c": 23.4
+  },
+  "R32-12": {
+    "temp_c": 28.7,
+    "apparent_c": 31.3
+  },
+  "D-1": {
+    "temp_c": 20.7,
+    "apparent_c": 20.9
+  },
+  "G-2": {
+    "temp_c": 19.7,
+    "apparent_c": 19.3
+  },
+  "B-3": {
+    "temp_c": 19.6,
+    "apparent_c": 19.8
+  },
+  "G-3": {
+    "temp_c": 21.4,
+    "apparent_c": 21.6
+  },
+  "D-5": {
+    "temp_c": 19.0,
+    "apparent_c": 18.6
+  },
+  "R32-1": {
+    "temp_c": 20.9,
+    "apparent_c": 21.1
+  },
+  "R32-11": {
+    "temp_c": 21.1,
+    "apparent_c": 21.9
+  },
+  "B-2": {
+    "temp_c": 21.6,
+    "apparent_c": 24.1
+  },
+  "J-2": {
+    "temp_c": 16.7,
+    "apparent_c": 15.9
+  },
+  "D-4": {
+    "temp_c": 20.8,
+    "apparent_c": 21.2
+  },
+  "J-4": {
+    "temp_c": 16.7,
+    "apparent_c": 15.4
+  },
+  "D-6": {
+    "temp_c": 17.0,
+    "apparent_c": 13.9
+  },
+  "R32-10": {
+    "temp_c": 21.5,
+    "apparent_c": 20.4
+  },
+  "C-1": {
+    "temp_c": 30.9,
+    "apparent_c": 29.3
+  },
+  "I-1": {
+    "temp_c": 25.4,
+    "apparent_c": 25.3
+  },
+  "I-4": {
+    "temp_c": 20.0,
+    "apparent_c": 22.7
+  },
+  "E-6": {
+    "temp_c": 28.4,
+    "apparent_c": 27.7
+  },
+  "L-5": {
+    "temp_c": 21.5,
+    "apparent_c": 24.2
+  },
+  "R32-6": {
+    "temp_c": 32.5,
+    "apparent_c": 32.7
+  },
+  "R16-3": {
+    "temp_c": 32.3,
+    "apparent_c": 35.6
+  },
+  "C-2": {
+    "temp_c": 22.3,
+    "apparent_c": 22.2
+  },
+  "I-2": {
+    "temp_c": 23.8,
+    "apparent_c": 22.1
+  },
+  "C-3": {
+    "temp_c": 25.1,
+    "apparent_c": 23.0
+  },
+  "L-3": {
+    "temp_c": 19.0,
+    "apparent_c": 21.0
+  },
+  "I-5": {
+    "temp_c": 22.8,
+    "apparent_c": 25.0
+  },
+  "R32-3": {
+    "temp_c": 28.6,
+    "apparent_c": 31.1
+  },
+  "D-2": {
+    "temp_c": 21.8,
+    "apparent_c": 22.3
+  },
+  "B-4": {
+    "temp_c": 22.2,
+    "apparent_c": 22.6
+  },
+  "G-4": {
+    "temp_c": 24.2,
+    "apparent_c": 23.4
+  },
+  "B-5": {
+    "temp_c": 26.2,
+    "apparent_c": 28.4
+  },
+  "G-6": {
+    "temp_c": 15.4,
+    "apparent_c": 14.8
+  },
+  "R32-13": {
+    "temp_c": 13.9,
+    "apparent_c": 13.6
+  },
+  "E-1": {
+    "temp_c": 29.8,
+    "apparent_c": 36.7
+  },
+  "K-1": {
+    "temp_c": 26.4,
+    "apparent_c": 28.2
+  },
+  "F-3": {
+    "temp_c": 29.6,
+    "apparent_c": 35.7
+  },
+  "K-3": {
+    "temp_c": 33.8,
+    "apparent_c": 39.8
+  },
+  "H-5": {
+    "temp_c": 32.7,
+    "apparent_c": 33.8
+  },
+  "R32-2": {
+    "temp_c": 34.3,
+    "apparent_c": 41.9
+  },
+  "R16-1": {
+    "temp_c": 34.0,
+    "apparent_c": 39.8
+  },
+  "F-1": {
+    "temp_c": 29.1,
+    "apparent_c": 34.1
+  },
+  "L-1": {
+    "temp_c": 32.9,
+    "apparent_c": 36.9
+  },
+  "J-3": {
+    "temp_c": 31.0,
+    "apparent_c": 34.6
+  },
+  "F-5": {
+    "temp_c": 32.9,
+    "apparent_c": 34.0
+  },
+  "J-6": {
+    "temp_c": 32.3,
+    "apparent_c": 33.7
+  },
+  "R32-5": {
+    "temp_c": 32.0,
+    "apparent_c": 36.8
+  },
+  "R32-14": {
+    "temp_c": 34.5,
+    "apparent_c": 39.5
+  },
+  "E-2": {
+    "temp_c": 29.4,
+    "apparent_c": 29.4
+  },
+  "C-4": {
+    "temp_c": 26.3,
+    "apparent_c": 24.2
+  },
+  "I-3": {
+    "temp_c": 29.7,
+    "apparent_c": 32.5
+  },
+  "E-5": {
+    "temp_c": 30.4,
+    "apparent_c": 31.7
+  },
+  "L-6": {
+    "temp_c": 21.0,
+    "apparent_c": 23.7
+  },
+  "R16-2": {
+    "temp_c": 39.0,
+    "apparent_c": 38.9
+  },
+  "F-2": {
+    "temp_c": 29.0,
+    "apparent_c": 33.0
+  },
+  "F-4": {
+    "temp_c": 24.8,
+    "apparent_c": 27.5
+  },
+  "A-6": {
+    "temp_c": 31.4,
+    "apparent_c": 32.3
+  },
+  "R32-4": {
+    "temp_c": 32.3,
+    "apparent_c": 32.1
+  },
+  "H-1": {
+    "temp_c": 25.8,
+    "apparent_c": 27.9
+  },
+  "A-3": {
+    "temp_c": 26.9,
+    "apparent_c": 31.8
+  },
+  "H-3": {
+    "temp_c": 25.5,
+    "apparent_c": 29.4
+  },
+  "C-6": {
+    "temp_c": 28.8,
+    "apparent_c": 30.0
+  },
+  "K-6": {
+    "temp_c": 31.6,
+    "apparent_c": 34.0
+  },
+  "R32-8": {
+    "temp_c": 32.4,
+    "apparent_c": 38.3
+  },
+  "G-1": {
+    "temp_c": 28.9,
+    "apparent_c": 31.7
+  },
+  "D-3": {
+    "temp_c": 23.1,
+    "apparent_c": 25.1
+  },
+  "B-6": {
+    "temp_c": 26.2,
+    "apparent_c": 27.8
+  },
+  "G-5": {
+    "temp_c": 16.4,
+    "apparent_c": 14.8
+  },
+  "R32-9": {
+    "temp_c": 16.2,
+    "apparent_c": 15.4
+  },
+  "H-2": {
+    "temp_c": 32.9,
+    "apparent_c": 34.2
+  },
+  "H-4": {
+    "temp_c": 33.1,
+    "apparent_c": 36.9
+  },
+  "C-5": {
+    "temp_c": 30.0,
+    "apparent_c": 32.8
+  },
+  "K-5": {
+    "temp_c": 30.8,
+    "apparent_c": 35.2
+  },
+  "R32-15": {
+    "temp_c": 27.7,
+    "apparent_c": 31.4
+  },
+  "J-1": {
+    "temp_c": 26.5,
+    "apparent_c": 26.6
+  },
+  "E-4": {
+    "temp_c": 27.3,
+    "apparent_c": 27.9
+  },
+  "F-6": {
+    "temp_c": 21.9,
+    "apparent_c": 24.2
+  },
+  "J-5": {
+    "temp_c": 27.0,
+    "apparent_c": 30.5
+  },
+  "R32-16": {
+    "temp_c": 31.0,
+    "apparent_c": 33.9
+  }
+}

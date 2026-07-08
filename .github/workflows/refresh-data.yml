@@ -1,0 +1,58 @@
+name: refresh data
+
+# Refreshes results, knockout pairings and kickoff weather while the
+# tournament runs, then commits the regenerated dataset. Cloudflare Pages
+# redeploys on push. The final is 2026-07-19; after 2026-07-20 the dataset is
+# frozen and this workflow becomes a no-op (it can then be deleted).
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stop after the tournament
+        id: guard
+        run: |
+          if [ "$(date -u +%Y%m%d)" -le "20260720" ]; then
+            echo "active=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "tournament is over; nothing to refresh"
+            echo "active=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.guard.outputs.active == 'true'
+        with:
+          python-version: '3.12'
+
+      - name: Refresh dataset
+        if: steps.guard.outputs.active == 'true'
+        run: |
+          pip install -e ./pipeline
+          python -m coast_to_cup.fetch_schedule
+          python -m coast_to_cup.fetch_knockout
+          python -m coast_to_cup.fetch_match_weather
+          python -m coast_to_cup.build
+          cp data/derived/derived.json web/public/data/derived.json
+
+      - name: Commit if changed
+        if: steps.guard.outputs.active == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pipeline/data/raw data/derived web/public/data
+          if git diff --cached --quiet; then
+            echo "no data changes"
+          else
+            git commit -m "data: refresh results and weather"
+            git push
+          fi
