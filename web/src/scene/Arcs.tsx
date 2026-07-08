@@ -8,6 +8,17 @@ import { projectPoint } from '../lib/mapGeometry'
 const PARTICLES = 4
 const DRAW_SECONDS = 0.7
 
+// Small triangle pointing +X; each flow marker rotates to the curve's tangent,
+// so the arrows visibly travel from the base camp toward the venue.
+const ARROW = new THREE.BufferGeometry()
+ARROW.setAttribute(
+  'position',
+  new THREE.BufferAttribute(
+    new Float32Array([0.06, 0, 0, -0.038, 0.034, 0, -0.038, -0.034, 0]),
+    3,
+  ),
+)
+
 /** One flat arc base->venue: the curve draws on from the base, then dots flow along it. */
 function FlatArc({ a, b, color }: { a: [number, number]; b: [number, number]; color: string }) {
   const [ax, ay] = a
@@ -49,7 +60,9 @@ function FlatArc({ a, b, color }: { a: [number, number]; b: [number, number]; co
       dots.current.children.forEach((dot, i) => {
         const u = (t + i / PARTICLES) % 1
         const p = curve.getPoint(u)
+        const tangent = curve.getTangent(u)
         dot.position.set(p.x, p.y, p.z + 0.01)
+        dot.rotation.z = Math.atan2(tangent.y, tangent.x)
         const material = (dot as THREE.Mesh).material as THREE.MeshBasicMaterial
         material.opacity = progress
       })
@@ -71,9 +84,8 @@ function FlatArc({ a, b, color }: { a: [number, number]; b: [number, number]; co
       />
       <group ref={dots}>
         {Array.from({ length: PARTICLES }).map((_, i) => (
-          <mesh key={i}>
-            <circleGeometry args={[0.035, 16]} />
-            <meshBasicMaterial color={color} toneMapped={false} transparent opacity={0} />
+          <mesh key={i} geometry={ARROW}>
+            <meshBasicMaterial color={color} toneMapped={false} transparent opacity={0} side={THREE.DoubleSide} />
           </mesh>
         ))}
       </group>
