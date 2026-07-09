@@ -4,13 +4,15 @@ import { useRef } from 'react'
 import * as THREE from 'three'
 import { meridianX } from '../lib/mapGeometry'
 
-// Continental US time-zone boundaries (approx meridians) and zone centers.
-const BOUNDARIES = [-112.5, -97.5, -82.5]
+// North American time-zone boundaries as meridians, placed to match the real
+// IANA zones the model uses (e.g. Atlanta -84.4 lands in Eastern, Kansas City
+// -94.6 in Central). Zones are jagged in reality; these are the closest lines.
+const BOUNDARIES = [-114, -104, -85]
 const ZONES = [
-  { lon: -120, label: 'PT' },
-  { lon: -105, label: 'MT' },
-  { lon: -90, label: 'CT' },
-  { lon: -75, label: 'ET' },
+  { lon: -122, label: 'PT' },
+  { lon: -107, label: 'MT' },
+  { lon: -95, label: 'CT' },
+  { lon: -78, label: 'ET' },
 ]
 const SPAN = 80 // lines long enough to cross the viewport at any zoom
 
