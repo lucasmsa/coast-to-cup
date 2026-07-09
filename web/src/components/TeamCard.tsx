@@ -74,8 +74,8 @@ export function TeamCard() {
       <div className="flex items-center gap-2 font-stat text-[10px] text-mut/60 border-b border-line/60 pb-1.5 mb-1.5">
         <span className="w-[56px] shrink-0">{t('stageCol')}</span>
         <span className="flex-1">{t('venueCol')}</span>
-        <span className="w-12 text-right shrink-0">&deg;C</span>
-        <span className="w-10 text-right shrink-0">km</span>
+        <span className="w-12 text-left shrink-0">&deg;C</span>
+        <span className="w-10 text-left shrink-0">km</span>
         <span className="w-[92px] text-right shrink-0 whitespace-nowrap">
           {t('kickoff')}<span className="text-mut/40">&rarr;</span>
           <span className="text-lime/70">{t('bodyClock')}</span>
@@ -99,14 +99,14 @@ export function TeamCard() {
                 {venueCity(l.venue_id)}
               </span>
               <span
-                className={`font-stat tabular w-12 text-right shrink-0 whitespace-nowrap ${hot ? 'font-semibold' : 'text-mut'}`}
+                className={`font-stat tabular w-12 text-left shrink-0 whitespace-nowrap ${hot ? 'font-semibold' : 'text-mut'}`}
                 style={hot ? { color: '#ff924d' } : undefined}
                 title={climatized ? t('climatized') : undefined}
               >
                 {temp != null ? `${Math.round(temp)}°` : '–'}
                 {climatized && <span className="text-[10px] text-mut/60 font-semibold ml-0.5 align-middle">AC</span>}
               </span>
-              <span className="font-stat text-mut tabular w-10 text-right shrink-0 whitespace-nowrap">
+              <span className="font-stat text-mut tabular w-10 text-left shrink-0 whitespace-nowrap">
                 {Math.round(l.travel_km)}
               </span>
               <span className="font-stat tabular w-[92px] text-right whitespace-nowrap shrink-0">
