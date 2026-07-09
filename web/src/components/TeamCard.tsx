@@ -5,6 +5,7 @@ import { useTeam } from '../hooks/useRanked'
 import { useT } from '../hooks/useT'
 import { flagEmoji } from '../lib/flags'
 import { INDOOR_TEMP_C } from '../config/model'
+import { VENUE_SHORT } from '../config/venueNames'
 import { tripLabel } from '../lib/stage'
 import { useStore } from '../store'
 import { HexRadar } from './HexRadar'
@@ -23,7 +24,8 @@ export function TeamCard() {
   const team = useTeam(selected)
 
   if (!team || !data) return null
-  const venueCity = (id: string) => data.venues.find((v) => v.id === id)?.city ?? id
+  const venueCity = (id: string) => VENUE_SHORT[id] ?? data.venues.find((v) => v.id === id)?.city ?? id
+  const venueFull = (id: string) => data.venues.find((v) => v.id === id)?.name ?? id
 
   return (
     <motion.div
@@ -49,22 +51,32 @@ export function TeamCard() {
             {teamName(team.id, team.name, locale)}
           </h3>
           <p className="font-stat text-sm text-mut mt-1.5">
-            {team.code} &middot; {t('group')} {team.group} &middot; {team.confederation}
+            {team.code} &middot; {t('group')} {team.group}
           </p>
         </div>
       </div>
 
       <div className="flex justify-center py-1">
-        <HexRadar values={displayNorm(team.norm, heatMode)} size={158} color={team.color} />
+        <HexRadar
+          values={displayNorm(team.norm, heatMode)}
+          labels={{
+            circadian: t('circadian'),
+            travel: t('travel'),
+            altitude: t('altitude'),
+            heat: t('heat'),
+          }}
+          size={158}
+          color={team.color}
+        />
       </div>
 
       <div className="font-stat text-xs font-semibold text-mut/70 mb-2">{t('trips')}</div>
-      <div className="flex items-center gap-2 font-stat text-[11px] text-mut/60 border-b border-line/60 pb-1.5 mb-1.5">
-        <span className="w-[68px] shrink-0">{t('stageCol')}</span>
+      <div className="flex items-center gap-2 font-stat text-[10px] text-mut/60 border-b border-line/60 pb-1.5 mb-1.5">
+        <span className="w-[56px] shrink-0">{t('stageCol')}</span>
         <span className="flex-1">{t('venueCol')}</span>
-        <span className="w-14 text-right shrink-0">&deg;C</span>
-        <span className="w-16 text-right shrink-0">km</span>
-        <span className="w-[104px] text-right shrink-0 whitespace-nowrap">
+        <span className="w-12 text-right shrink-0">&deg;C</span>
+        <span className="w-10 text-right shrink-0">km</span>
+        <span className="w-[92px] text-right shrink-0 whitespace-nowrap">
           {t('kickoff')}<span className="text-mut/40">&rarr;</span>
           <span className="text-lime/70">{t('bodyClock')}</span>
         </span>
@@ -80,22 +92,24 @@ export function TeamCard() {
           const hot = !climatized && temp != null && temp >= 32
           return (
             <div key={l.match_id} className="flex items-center gap-2 text-sm">
-              <span className="font-stat text-mut w-[68px] shrink-0">
+              <span className="font-stat text-mut w-[56px] shrink-0">
                 {tripLabel(l.stage, l.matchday, t)}
               </span>
-              <span className="flex-1 truncate">{venueCity(l.venue_id)}</span>
+              <span className="flex-1 truncate" title={venueFull(l.venue_id)}>
+                {venueCity(l.venue_id)}
+              </span>
               <span
-                className={`font-stat tabular w-14 text-right shrink-0 whitespace-nowrap ${hot ? 'font-semibold' : 'text-mut'}`}
+                className={`font-stat tabular w-12 text-right shrink-0 whitespace-nowrap ${hot ? 'font-semibold' : 'text-mut'}`}
                 style={hot ? { color: '#ff924d' } : undefined}
                 title={climatized ? t('climatized') : undefined}
               >
                 {temp != null ? `${Math.round(temp)}°` : '–'}
                 {climatized && <span className="text-[10px] text-mut/60 font-semibold ml-0.5 align-middle">AC</span>}
               </span>
-              <span className="font-stat text-mut tabular w-16 text-right shrink-0 whitespace-nowrap">
-                {Math.round(l.travel_km)} km
+              <span className="font-stat text-mut tabular w-10 text-right shrink-0 whitespace-nowrap">
+                {Math.round(l.travel_km)}
               </span>
-              <span className="font-stat tabular w-[104px] text-right whitespace-nowrap shrink-0">
+              <span className="font-stat tabular w-[92px] text-right whitespace-nowrap shrink-0">
                 <span className="text-mut">{hhmm(l.local_kickoff_hour)}</span>
                 <span className="text-mut/40">&rarr;</span>
                 <span className="text-lime">{hhmm(l.body_clock_hour)}</span>

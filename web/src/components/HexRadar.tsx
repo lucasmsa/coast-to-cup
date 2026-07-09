@@ -3,12 +3,22 @@ import type { ComponentKey } from '../types'
 
 interface Props {
   values: Record<ComponentKey, number>
+  /** Localized axis labels; falls back to the component acronyms. */
+  labels?: Partial<Record<ComponentKey, string>>
   color?: string
   size?: number
 }
 
+/** Side-aware anchoring so long labels extend away from the chart, not into it. */
+function labelLayout(angle: number, x: number, y: number) {
+  const cos = Math.cos(angle)
+  if (cos > 0.3) return { x: x + 4, y, anchor: 'start' as const }
+  if (cos < -0.3) return { x: x - 4, y, anchor: 'end' as const }
+  return { x, y, anchor: 'middle' as const }
+}
+
 /** Radar / hexagon-style burden profile over the component axes. Presentational. */
-export function HexRadar({ values, color = '#c6f432', size = 200 }: Props) {
+export function HexRadar({ values, labels, color = '#c6f432', size = 200 }: Props) {
   const cx = size / 2
   const cy = size / 2
   const r = size / 2 - 30
@@ -32,21 +42,22 @@ export function HexRadar({ values, color = '#c6f432', size = 200 }: Props) {
       ))}
       {COMPONENTS.map((c, i) => {
         const [x, y] = at(i, r)
-        const [lx, ly] = at(i, r + 16)
+        const [lx, ly] = at(i, r + 13)
+        const label = labelLayout(angleAt(i), lx, ly)
         return (
           <g key={c.key}>
             <line x1={cx} y1={cy} x2={x} y2={y} stroke="#222a36" strokeWidth={1} />
             <text
-              x={lx}
-              y={ly}
+              x={label.x}
+              y={label.y}
               fill="#88909e"
-              fontSize={9}
-              textAnchor="middle"
+              fontSize={8.5}
+              textAnchor={label.anchor}
               dominantBaseline="middle"
               fontFamily="Saira"
               fontWeight={600}
             >
-              {c.short}
+              {(labels?.[c.key] ?? c.short).toUpperCase()}
             </text>
           </g>
         )
