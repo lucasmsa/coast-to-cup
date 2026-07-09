@@ -1,8 +1,29 @@
-import { ABOUT } from '../config/about'
+import type { ReactNode } from 'react'
+import { ABOUT, type AboutSection } from '../config/about'
 import { DATA_SOURCES, PODCAST_EPISODE_URL, SCIENCE, type Source } from '../config/citations'
 import { useT } from '../hooks/useT'
 import { useStore } from '../store'
 import { OverlayPage } from './OverlayPage'
+
+/** Renders a paragraph, turning the citation phrase (if present) into an inline link. */
+function renderWithCite(text: string, cite?: AboutSection['cite']): ReactNode {
+  if (!cite || !text.includes(cite.phrase)) return text
+  const [before, after] = text.split(cite.phrase)
+  return (
+    <>
+      {before}
+      <a
+        href={cite.url}
+        target="_blank"
+        rel="noreferrer"
+        className="text-fg font-medium underline decoration-lime/50 decoration-2 underline-offset-4 hover:text-lime transition-colors"
+      >
+        {cite.phrase}
+      </a>
+      {after}
+    </>
+  )
+}
 
 function SourceList({ items }: { items: Source[] }) {
   return (
@@ -52,19 +73,9 @@ export function AboutPage() {
               </h2>
               {sec.body.map((p, i) => (
                 <p key={i} className="text-lg text-mut leading-relaxed mb-3 max-w-2xl">
-                  {p}
+                  {renderWithCite(p, sec.cite)}
                 </p>
               ))}
-              {sec.cite && (
-                <a
-                  href={sec.cite.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-base text-fg font-medium underline decoration-lime/50 decoration-2 underline-offset-4 hover:text-lime transition-colors"
-                >
-                  {sec.cite.label}
-                </a>
-              )}
             </section>
           ))}
 
