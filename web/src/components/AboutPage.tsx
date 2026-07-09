@@ -55,6 +55,16 @@ export function AboutPage() {
                   {p}
                 </p>
               ))}
+              {sec.cite && (
+                <a
+                  href={sec.cite.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-base text-fg font-medium underline decoration-lime/50 decoration-2 underline-offset-4 hover:text-lime transition-colors"
+                >
+                  {sec.cite.label}
+                </a>
+              )}
             </section>
           ))}
 
