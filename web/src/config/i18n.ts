@@ -35,6 +35,7 @@ export type StringKey =
   | 'missed'
   | 'draw'
   | 'modelPickHint'
+  | 'resultsIgnoreWeights'
   | 'feelsLike'
   | 'searchTeam'
   | 'climatized'
@@ -82,6 +83,8 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     missed: 'missed',
     draw: 'draw',
     modelPickHint: 'The lower-burden side (bold) is the model’s pick.',
+    resultsIgnoreWeights:
+      'Picks use the fresher-on-the-day model (jet lag + travel for that trip) and are fixed. The weight sliders reshape the season ranking, never these results.',
     calledRight: 'called right',
     feelsLike: 'Feels like',
     searchTeam: 'Search',
@@ -128,6 +131,8 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     missed: 'errou',
     draw: 'empate',
     modelPickHint: 'O lado com menos carga (em negrito) é o palpite do modelo.',
+    resultsIgnoreWeights:
+      'Os palpites usam o modelo de quem chega mais descansado no dia (fuso + viagem daquele jogo) e são fixos. Os pesos mudam o ranking da temporada, nunca estes resultados.',
     calledRight: 'de acerto',
     feelsLike: 'Sensação térmica',
     searchTeam: 'Buscar',
@@ -174,6 +179,8 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     missed: 'falló',
     draw: 'empate',
     modelPickHint: 'El lado con menos carga (en negrita) es el pronóstico del modelo.',
+    resultsIgnoreWeights:
+      'Los pronósticos usan el modelo de quién llega más fresco ese día (huso horario + viaje de ese partido) y son fijos. Los pesos cambian el ranking de la temporada, nunca estos resultados.',
     calledRight: 'de acierto',
     feelsLike: 'Sensación térmica',
     searchTeam: 'Buscar',

@@ -67,6 +67,7 @@ export function ResultsPage() {
         </div>
         <p className="text-sm text-mut/70 mt-3 max-w-xl">{t('accuracyCaveat')}</p>
         <p className="text-sm text-mut/70 mt-1 max-w-xl">{t('modelPickHint')}</p>
+        <p className="text-sm text-mut/70 mt-1 max-w-xl">{t('resultsIgnoreWeights')}</p>
 
         <div className="mt-8">
           {results.played.map((r, i) => (
