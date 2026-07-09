@@ -13,8 +13,9 @@ export interface AboutContent {
   inspired: string
 }
 
-// Open access: Smith et al., The Impact of Circadian Misalignment on Athletic
-// Performance in Professional Football Players (late-afternoon performance peak).
+// Smith, Efron, Mah & Malhotra (Sleep, 2013), The Impact of Circadian
+// Misalignment on Athletic Performance in Professional Football Players. Reports
+// the late-afternoon performance peak (Cheri Mah, the podcast guest, is a co-author).
 const PEAK_STUDY_URL = 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3825451/'
 
 export const ABOUT: Record<Locale, AboutContent> = {
@@ -35,7 +36,7 @@ export const ABOUT: Record<Locale, AboutContent> = {
           'Every team has a base camp. Each match is a trip from that base to a stadium. Four factors are each measured relative to the base camp, scored 0 to 100, and combined with weights you control.',
           'Body clock: circadian research finds physical performance peaks in the late afternoon, roughly 4–8 PM body time. Players stay on base-camp time, so each kickoff is compared to that window. Travel: round-trip distance from base to each venue. Altitude: the climb from the base elevation to the venue. Heat: the real feels-like temperature (heat plus humidity) at the kickoff hour above the base-camp climate; climate-controlled stadiums count their held indoor temperature instead of the weather outside.',
         ],
-        cite: { label: 'The study behind the performance peak', url: PEAK_STUDY_URL },
+        cite: { label: 'Smith, Efron, Mah & Malhotra (2013)', url: PEAK_STUDY_URL },
       },
       {
         title: 'Does it predict results?',
@@ -64,7 +65,7 @@ export const ABOUT: Record<Locale, AboutContent> = {
           'Cada seleção tem uma base. Cada jogo é uma viagem da base até um estádio. Quatro fatores são medidos em relação à base, pontuados de 0 a 100 e combinados com pesos que você controla.',
           'Relógio biológico: a pesquisa sobre ritmos circadianos mostra que o desempenho físico atinge o pico no fim da tarde, entre cerca de 16h e 20h no horário do corpo. Os jogadores seguem o horário da base, então cada início de jogo é comparado a essa janela. Viagem: distância de ida e volta da base a cada estádio. Altitude: a subida da altitude da base até o estádio. Calor: a sensação térmica real (calor e umidade) no horário do jogo acima do clima da base; estádios climatizados contam a temperatura interna controlada, não o tempo lá fora.',
         ],
-        cite: { label: 'O estudo por trás do pico de desempenho', url: PEAK_STUDY_URL },
+        cite: { label: 'Smith, Efron, Mah & Malhotra (2013)', url: PEAK_STUDY_URL },
       },
       {
         title: 'Ele prevê os resultados?',
@@ -93,7 +94,7 @@ export const ABOUT: Record<Locale, AboutContent> = {
           'Cada selección tiene una sede base. Cada partido es un viaje de esa base a un estadio. Cuatro factores se miden respecto a la base, se puntúan de 0 a 100 y se combinan con pesos que tú controlas.',
           'Reloj biológico: la investigación sobre ritmos circadianos muestra que el rendimiento físico alcanza su pico al final de la tarde, entre las 16 y las 20 h en la hora del cuerpo. Los jugadores siguen la hora de la base, así que cada inicio de partido se compara con esa ventana. Viaje: distancia de ida y vuelta de la base a cada sede. Altitud: el ascenso desde la altitud de la base hasta la sede. Calor: la sensación térmica real (calor y humedad) a la hora del partido por encima del clima de la base; los estadios climatizados cuentan su temperatura interior controlada, no el clima exterior.',
         ],
-        cite: { label: 'El estudio detrás del pico de rendimiento', url: PEAK_STUDY_URL },
+        cite: { label: 'Smith, Efron, Mah & Malhotra (2013)', url: PEAK_STUDY_URL },
       },
       {
         title: '¿Predice los resultados?',
