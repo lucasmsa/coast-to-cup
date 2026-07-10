@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-07-10T12:49:32.736840+00:00",
+    "built_at": "2026-07-10T18:35:33.068493+00:00",
     "counts": {
       "venues": 16,
       "teams": 48,
@@ -616,95 +616,6 @@
       ]
     },
     {
-      "id": "rsa",
-      "name": "South Africa",
-      "code": "RSA",
-      "group": "A",
-      "confederation": "CAF",
-      "color": "#7dda3e",
-      "base_camp": "San Agust\u00edn Tlaxiaca",
-      "base_lat": 20.07617,
-      "base_lon": -98.9335,
-      "raw": {
-        "circadian": 0.25,
-        "travel": 10545.24,
-        "altitude": 0.0,
-        "heat": 9.4,
-        "heat_apparent": 12.8
-      },
-      "norm": {
-        "circadian": 0.5103,
-        "travel": 0.7311,
-        "altitude": 0.0,
-        "heat": 0.6946,
-        "heat_apparent": 0.6531
-      },
-      "index": 0.5276,
-      "rank": 5,
-      "loads": [
-        {
-          "match_id": "A-1",
-          "matchday": 1,
-          "stage": "group",
-          "venue_id": "mexico_city",
-          "local_kickoff_hour": 13.0,
-          "body_clock_hour": 13.0,
-          "circadian": 0.0,
-          "travel_km": 177.85011454063394,
-          "altitude_climb_m": 0.0,
-          "heat_excess_c": 0.3000000000000007,
-          "heat_apparent_excess_c": 2.8000000000000007,
-          "venue_temp_c": 22.6,
-          "apparent_temp_c": 25.1
-        },
-        {
-          "match_id": "A-3",
-          "matchday": 2,
-          "stage": "group",
-          "venue_id": "atlanta",
-          "local_kickoff_hour": 12.0,
-          "body_clock_hour": 10.0,
-          "circadian": 0.25,
-          "travel_km": 4180.910085091981,
-          "altitude_climb_m": 0.0,
-          "heat_excess_c": 0.0,
-          "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 26.9,
-          "apparent_temp_c": 31.8
-        },
-        {
-          "match_id": "A-6",
-          "matchday": 3,
-          "stage": "group",
-          "venue_id": "monterrey",
-          "local_kickoff_hour": 19.0,
-          "body_clock_hour": 19.0,
-          "circadian": 0.0,
-          "travel_km": 1272.4554775451772,
-          "altitude_climb_m": 0.0,
-          "heat_excess_c": 9.099999999999998,
-          "heat_apparent_excess_c": 9.999999999999996,
-          "venue_temp_c": 31.4,
-          "apparent_temp_c": 32.3
-        },
-        {
-          "match_id": "R32-1",
-          "matchday": 1,
-          "stage": "R32",
-          "venue_id": "los_angeles",
-          "local_kickoff_hour": 12.0,
-          "body_clock_hour": 13.0,
-          "circadian": 0.0,
-          "travel_km": 4914.02079118432,
-          "altitude_climb_m": 0.0,
-          "heat_excess_c": 0.0,
-          "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 20.9,
-          "apparent_temp_c": 21.1
-        }
-      ]
-    },
-    {
       "id": "eng",
       "name": "England",
       "code": "ENG",
@@ -718,18 +629,18 @@
         "circadian": 0.36,
         "travel": 19594.06,
         "altitude": 1999.0,
-        "heat": 0.0,
-        "heat_apparent": 0.0
+        "heat": 2.2,
+        "heat_apparent": 5.8
       },
       "norm": {
         "circadian": 0.4884,
         "travel": 0.9195,
         "altitude": 0.2722,
-        "heat": 0.0,
-        "heat_apparent": 0.0
+        "heat": 0.1084,
+        "heat_apparent": 0.1973
       },
-      "index": 0.512,
-      "rank": 6,
+      "index": 0.5283,
+      "rank": 5,
       "loads": [
         {
           "match_id": "L-1",
@@ -816,10 +727,99 @@
           "circadian": 0.05,
           "travel_km": 3960.977782778665,
           "altitude_climb_m": 0.0,
+          "heat_excess_c": 2.1999999999999957,
+          "heat_apparent_excess_c": 5.799999999999997,
+          "venue_temp_c": 32.8,
+          "apparent_temp_c": 36.4
+        }
+      ]
+    },
+    {
+      "id": "rsa",
+      "name": "South Africa",
+      "code": "RSA",
+      "group": "A",
+      "confederation": "CAF",
+      "color": "#7dda3e",
+      "base_camp": "San Agust\u00edn Tlaxiaca",
+      "base_lat": 20.07617,
+      "base_lon": -98.9335,
+      "raw": {
+        "circadian": 0.25,
+        "travel": 10545.24,
+        "altitude": 0.0,
+        "heat": 9.4,
+        "heat_apparent": 12.8
+      },
+      "norm": {
+        "circadian": 0.5103,
+        "travel": 0.7311,
+        "altitude": 0.0,
+        "heat": 0.6946,
+        "heat_apparent": 0.6531
+      },
+      "index": 0.5276,
+      "rank": 6,
+      "loads": [
+        {
+          "match_id": "A-1",
+          "matchday": 1,
+          "stage": "group",
+          "venue_id": "mexico_city",
+          "local_kickoff_hour": 13.0,
+          "body_clock_hour": 13.0,
+          "circadian": 0.0,
+          "travel_km": 177.85011454063394,
+          "altitude_climb_m": 0.0,
+          "heat_excess_c": 0.3000000000000007,
+          "heat_apparent_excess_c": 2.8000000000000007,
+          "venue_temp_c": 22.6,
+          "apparent_temp_c": 25.1
+        },
+        {
+          "match_id": "A-3",
+          "matchday": 2,
+          "stage": "group",
+          "venue_id": "atlanta",
+          "local_kickoff_hour": 12.0,
+          "body_clock_hour": 10.0,
+          "circadian": 0.25,
+          "travel_km": 4180.910085091981,
+          "altitude_climb_m": 0.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 23.3,
-          "apparent_temp_c": 26.1
+          "venue_temp_c": 26.9,
+          "apparent_temp_c": 31.8
+        },
+        {
+          "match_id": "A-6",
+          "matchday": 3,
+          "stage": "group",
+          "venue_id": "monterrey",
+          "local_kickoff_hour": 19.0,
+          "body_clock_hour": 19.0,
+          "circadian": 0.0,
+          "travel_km": 1272.4554775451772,
+          "altitude_climb_m": 0.0,
+          "heat_excess_c": 9.099999999999998,
+          "heat_apparent_excess_c": 9.999999999999996,
+          "venue_temp_c": 31.4,
+          "apparent_temp_c": 32.3
+        },
+        {
+          "match_id": "R32-1",
+          "matchday": 1,
+          "stage": "R32",
+          "venue_id": "los_angeles",
+          "local_kickoff_hour": 12.0,
+          "body_clock_hour": 13.0,
+          "circadian": 0.0,
+          "travel_km": 4914.02079118432,
+          "altitude_climb_m": 0.0,
+          "heat_excess_c": 0.0,
+          "heat_apparent_excess_c": 0.0,
+          "venue_temp_c": 20.9,
+          "apparent_temp_c": 21.1
         }
       ]
     },
@@ -1797,8 +1797,8 @@
           "altitude_climb_m": 0.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 25.6,
-          "apparent_temp_c": 28.8
+          "venue_temp_c": 24.9,
+          "apparent_temp_c": 27.4
         }
       ]
     },
@@ -2098,17 +2098,17 @@
         "circadian": 0.0,
         "travel": 17457.41,
         "altitude": 245.0,
-        "heat": 4.7,
-        "heat_apparent": 10.4
+        "heat": 6.1,
+        "heat_apparent": 8.6
       },
       "norm": {
         "circadian": 0.0,
         "travel": 0.8129,
         "altitude": 0.0334,
-        "heat": 0.2315,
-        "heat_apparent": 0.3537
+        "heat": 0.3005,
+        "heat_apparent": 0.2925
       },
-      "index": 0.2836,
+      "index": 0.294,
       "rank": 21,
       "loads": [
         {
@@ -2196,10 +2196,10 @@
           "circadian": 0.0,
           "travel_km": 4308.310734864664,
           "altitude_climb_m": 230.0,
-          "heat_excess_c": 4.699999999999999,
-          "heat_apparent_excess_c": 9.299999999999997,
-          "venue_temp_c": 27.7,
-          "apparent_temp_c": 32.3
+          "heat_excess_c": 6.100000000000001,
+          "heat_apparent_excess_c": 7.5,
+          "venue_temp_c": 29.1,
+          "apparent_temp_c": 30.5
         }
       ]
     },
@@ -2737,14 +2737,14 @@
         "travel": 9174.26,
         "altitude": 44.0,
         "heat": 0.0,
-        "heat_apparent": 2.5
+        "heat_apparent": 0.8
       },
       "norm": {
         "circadian": 0.1992,
         "travel": 0.3998,
         "altitude": 0.006,
         "heat": 0.0,
-        "heat_apparent": 0.085
+        "heat_apparent": 0.0272
       },
       "index": 0.2005,
       "rank": 28,
@@ -2835,9 +2835,9 @@
           "travel_km": 28.47874654282891,
           "altitude_climb_m": 0.0,
           "heat_excess_c": 0.0,
-          "heat_apparent_excess_c": 1.6999999999999957,
-          "venue_temp_c": 27.7,
-          "apparent_temp_c": 32.3
+          "heat_apparent_excess_c": 0.0,
+          "venue_temp_c": 29.1,
+          "apparent_temp_c": 30.5
         }
       ]
     },
@@ -3079,6 +3079,125 @@
       ]
     },
     {
+      "id": "nor",
+      "name": "Norway",
+      "code": "NOR",
+      "group": "I",
+      "confederation": "UEFA",
+      "color": "#63da3e",
+      "base_camp": "Greensboro",
+      "base_lat": 36.07264,
+      "base_lon": -79.79198,
+      "raw": {
+        "circadian": 0.0,
+        "travel": 12380.18,
+        "altitude": 0.0,
+        "heat": 2.1,
+        "heat_apparent": 7.6
+      },
+      "norm": {
+        "circadian": 0.0,
+        "travel": 0.5597,
+        "altitude": 0.0,
+        "heat": 0.1034,
+        "heat_apparent": 0.2585
+      },
+      "index": 0.1834,
+      "rank": 32,
+      "loads": [
+        {
+          "match_id": "I-2",
+          "matchday": 1,
+          "stage": "group",
+          "venue_id": "boston",
+          "local_kickoff_hour": 18.0,
+          "body_clock_hour": 18.0,
+          "circadian": 0.0,
+          "travel_km": 1987.71662689114,
+          "altitude_climb_m": 0.0,
+          "heat_excess_c": 0.0,
+          "heat_apparent_excess_c": 0.0,
+          "venue_temp_c": 23.8,
+          "apparent_temp_c": 22.1
+        },
+        {
+          "match_id": "I-4",
+          "matchday": 2,
+          "stage": "group",
+          "venue_id": "new_york_new_jersey",
+          "local_kickoff_hour": 20.0,
+          "body_clock_hour": 20.0,
+          "circadian": 0.0,
+          "travel_km": 1449.6470129711054,
+          "altitude_climb_m": 0.0,
+          "heat_excess_c": 0.0,
+          "heat_apparent_excess_c": 0.0,
+          "venue_temp_c": 20.0,
+          "apparent_temp_c": 22.7
+        },
+        {
+          "match_id": "I-5",
+          "matchday": 3,
+          "stage": "group",
+          "venue_id": "boston",
+          "local_kickoff_hour": 15.0,
+          "body_clock_hour": 15.0,
+          "circadian": 0.0,
+          "travel_km": 1987.71662689114,
+          "altitude_climb_m": 0.0,
+          "heat_excess_c": 0.0,
+          "heat_apparent_excess_c": 0.0,
+          "venue_temp_c": 22.8,
+          "apparent_temp_c": 25.0
+        },
+        {
+          "match_id": "R32-5",
+          "matchday": 5,
+          "stage": "R32",
+          "venue_id": "dallas",
+          "local_kickoff_hour": 12.0,
+          "body_clock_hour": 13.0,
+          "circadian": 0.0,
+          "travel_km": 3254.426814817708,
+          "altitude_climb_m": 0.0,
+          "heat_excess_c": 0.0,
+          "heat_apparent_excess_c": 0.0,
+          "venue_temp_c": 32.0,
+          "apparent_temp_c": 36.8
+        },
+        {
+          "match_id": "R16-3",
+          "matchday": 3,
+          "stage": "R16",
+          "venue_id": "new_york_new_jersey",
+          "local_kickoff_hour": 16.0,
+          "body_clock_hour": 16.0,
+          "circadian": 0.0,
+          "travel_km": 1449.6470129711054,
+          "altitude_climb_m": 0.0,
+          "heat_excess_c": 0.0,
+          "heat_apparent_excess_c": 1.9000000000000021,
+          "venue_temp_c": 27.7,
+          "apparent_temp_c": 32.6
+        },
+        {
+          "match_id": "QF-3",
+          "matchday": 3,
+          "stage": "QF",
+          "venue_id": "miami",
+          "local_kickoff_hour": 17.0,
+          "body_clock_hour": 17.0,
+          "circadian": 0.0,
+          "travel_km": 2251.0217819651916,
+          "altitude_climb_m": 0.0,
+          "heat_excess_c": 2.099999999999998,
+          "heat_apparent_excess_c": 5.699999999999999,
+          "venue_temp_c": 32.8,
+          "apparent_temp_c": 36.4
+        }
+      ]
+    },
+    {
       "id": "fra",
       "name": "France",
       "code": "FRA",
@@ -3103,7 +3222,7 @@
         "heat_apparent": 1.0
       },
       "index": 0.1803,
-      "rank": 32,
+      "rank": 33,
       "loads": [
         {
           "match_id": "I-1",
@@ -3222,7 +3341,7 @@
         "heat_apparent": 0.1088
       },
       "index": 0.1794,
-      "rank": 33,
+      "rank": 34,
       "loads": [
         {
           "match_id": "C-2",
@@ -3296,7 +3415,7 @@
         "heat_apparent": 0.0204
       },
       "index": 0.171,
-      "rank": 34,
+      "rank": 35,
       "loads": [
         {
           "match_id": "E-1",
@@ -3385,7 +3504,7 @@
         "heat_apparent": 0.4
       },
       "index": 0.1707,
-      "rank": 35,
+      "rank": 36,
       "loads": [
         {
           "match_id": "C-1",
@@ -3489,7 +3608,7 @@
         "heat_apparent": 0.2908
       },
       "index": 0.1691,
-      "rank": 36,
+      "rank": 37,
       "loads": [
         {
           "match_id": "H-1",
@@ -3550,125 +3669,6 @@
           "heat_apparent_excess_c": 0.09999999999999787,
           "venue_temp_c": 27.7,
           "apparent_temp_c": 31.4
-        }
-      ]
-    },
-    {
-      "id": "nor",
-      "name": "Norway",
-      "code": "NOR",
-      "group": "I",
-      "confederation": "UEFA",
-      "color": "#63da3e",
-      "base_camp": "Greensboro",
-      "base_lat": 36.07264,
-      "base_lon": -79.79198,
-      "raw": {
-        "circadian": 0.0,
-        "travel": 12380.18,
-        "altitude": 0.0,
-        "heat": 0.0,
-        "heat_apparent": 1.9
-      },
-      "norm": {
-        "circadian": 0.0,
-        "travel": 0.5597,
-        "altitude": 0.0,
-        "heat": 0.0,
-        "heat_apparent": 0.0646
-      },
-      "index": 0.1679,
-      "rank": 37,
-      "loads": [
-        {
-          "match_id": "I-2",
-          "matchday": 1,
-          "stage": "group",
-          "venue_id": "boston",
-          "local_kickoff_hour": 18.0,
-          "body_clock_hour": 18.0,
-          "circadian": 0.0,
-          "travel_km": 1987.71662689114,
-          "altitude_climb_m": 0.0,
-          "heat_excess_c": 0.0,
-          "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 23.8,
-          "apparent_temp_c": 22.1
-        },
-        {
-          "match_id": "I-4",
-          "matchday": 2,
-          "stage": "group",
-          "venue_id": "new_york_new_jersey",
-          "local_kickoff_hour": 20.0,
-          "body_clock_hour": 20.0,
-          "circadian": 0.0,
-          "travel_km": 1449.6470129711054,
-          "altitude_climb_m": 0.0,
-          "heat_excess_c": 0.0,
-          "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 20.0,
-          "apparent_temp_c": 22.7
-        },
-        {
-          "match_id": "I-5",
-          "matchday": 3,
-          "stage": "group",
-          "venue_id": "boston",
-          "local_kickoff_hour": 15.0,
-          "body_clock_hour": 15.0,
-          "circadian": 0.0,
-          "travel_km": 1987.71662689114,
-          "altitude_climb_m": 0.0,
-          "heat_excess_c": 0.0,
-          "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 22.8,
-          "apparent_temp_c": 25.0
-        },
-        {
-          "match_id": "R32-5",
-          "matchday": 5,
-          "stage": "R32",
-          "venue_id": "dallas",
-          "local_kickoff_hour": 12.0,
-          "body_clock_hour": 13.0,
-          "circadian": 0.0,
-          "travel_km": 3254.426814817708,
-          "altitude_climb_m": 0.0,
-          "heat_excess_c": 0.0,
-          "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 32.0,
-          "apparent_temp_c": 36.8
-        },
-        {
-          "match_id": "R16-3",
-          "matchday": 3,
-          "stage": "R16",
-          "venue_id": "new_york_new_jersey",
-          "local_kickoff_hour": 16.0,
-          "body_clock_hour": 16.0,
-          "circadian": 0.0,
-          "travel_km": 1449.6470129711054,
-          "altitude_climb_m": 0.0,
-          "heat_excess_c": 0.0,
-          "heat_apparent_excess_c": 1.9000000000000021,
-          "venue_temp_c": 27.7,
-          "apparent_temp_c": 32.6
-        },
-        {
-          "match_id": "QF-3",
-          "matchday": 3,
-          "stage": "QF",
-          "venue_id": "miami",
-          "local_kickoff_hour": 17.0,
-          "body_clock_hour": 17.0,
-          "circadian": 0.0,
-          "travel_km": 2251.0217819651916,
-          "altitude_climb_m": 0.0,
-          "heat_excess_c": 0.0,
-          "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 23.3,
-          "apparent_temp_c": 26.1
         }
       ]
     },
@@ -3860,8 +3860,8 @@
           "altitude_climb_m": 30.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 25.6,
-          "apparent_temp_c": 28.8
+          "venue_temp_c": 24.9,
+          "apparent_temp_c": 27.4
         }
       ]
     },
@@ -9105,8 +9105,8 @@
         "altitude_climb_m": 0.0,
         "heat_excess_c": 0.0,
         "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 25.6,
-        "apparent_temp_c": 28.8
+        "venue_temp_c": 24.9,
+        "apparent_temp_c": 27.4
       },
       "b": {
         "team_id": "bel",
@@ -9121,8 +9121,8 @@
         "altitude_climb_m": 30.0,
         "heat_excess_c": 0.0,
         "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 25.6,
-        "apparent_temp_c": 28.8
+        "venue_temp_c": 24.9,
+        "apparent_temp_c": 27.4
       },
       "edge_team": "bel",
       "edge_margin": 0.2954,
@@ -9149,10 +9149,10 @@
         "circadian": 0.0,
         "travel_km": 2251.0217819651916,
         "altitude_climb_m": 0.0,
-        "heat_excess_c": 0.0,
-        "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 23.3,
-        "apparent_temp_c": 26.1
+        "heat_excess_c": 2.099999999999998,
+        "heat_apparent_excess_c": 5.699999999999999,
+        "venue_temp_c": 32.8,
+        "apparent_temp_c": 36.4
       },
       "b": {
         "team_id": "eng",
@@ -9165,10 +9165,10 @@
         "circadian": 0.05,
         "travel_km": 3960.977782778665,
         "altitude_climb_m": 0.0,
-        "heat_excess_c": 0.0,
-        "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 23.3,
-        "apparent_temp_c": 26.1
+        "heat_excess_c": 2.1999999999999957,
+        "heat_apparent_excess_c": 5.799999999999997,
+        "venue_temp_c": 32.8,
+        "apparent_temp_c": 36.4
       },
       "edge_team": "nor",
       "edge_margin": 0.221,
@@ -9196,9 +9196,9 @@
         "travel_km": 28.47874654282891,
         "altitude_climb_m": 0.0,
         "heat_excess_c": 0.0,
-        "heat_apparent_excess_c": 1.6999999999999957,
-        "venue_temp_c": 27.7,
-        "apparent_temp_c": 32.3
+        "heat_apparent_excess_c": 0.0,
+        "venue_temp_c": 29.1,
+        "apparent_temp_c": 30.5
       },
       "b": {
         "team_id": "sui",
@@ -9211,10 +9211,10 @@
         "circadian": 0.0,
         "travel_km": 4308.310734864664,
         "altitude_climb_m": 230.0,
-        "heat_excess_c": 4.699999999999999,
-        "heat_apparent_excess_c": 9.299999999999997,
-        "venue_temp_c": 27.7,
-        "apparent_temp_c": 32.3
+        "heat_excess_c": 6.100000000000001,
+        "heat_apparent_excess_c": 7.5,
+        "venue_temp_c": 29.1,
+        "apparent_temp_c": 30.5
       },
       "edge_team": "arg",
       "edge_margin": 0.428,
