@@ -88,8 +88,8 @@
     "apparent_c": 21.9
   },
   "QF-2": {
-    "temp_c": 24.3,
-    "apparent_c": 27.4
+    "temp_c": 24.6,
+    "apparent_c": 27.6
   },
   "B-2": {
     "temp_c": 21.6,
@@ -169,7 +169,7 @@
   },
   "QF-1": {
     "temp_c": 30.7,
-    "apparent_c": 32.9
+    "apparent_c": 33.9
   },
   "D-2": {
     "temp_c": 21.8,
@@ -372,8 +372,8 @@
     "apparent_c": 31.4
   },
   "QF-3": {
-    "temp_c": 34.3,
-    "apparent_c": 36.4
+    "temp_c": 34.0,
+    "apparent_c": 36.3
   },
   "J-1": {
     "temp_c": 26.5,
@@ -396,7 +396,7 @@
     "apparent_c": 33.9
   },
   "QF-4": {
-    "temp_c": 25.9,
-    "apparent_c": 29.7
+    "temp_c": 26.3,
+    "apparent_c": 30.1
   }
 }

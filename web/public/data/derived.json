@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-07-09T18:41:49.423598+00:00",
+    "built_at": "2026-07-10T00:42:41.449613+00:00",
     "counts": {
       "venues": 16,
       "teams": 48,
@@ -26,11 +26,11 @@
     ],
     "accuracy": {
       "n_matches": 100,
-      "n_played": 96,
-      "n_decided": 76,
-      "edge_correct": 43,
-      "hit_rate": 0.566,
-      "corr_edge_goaldiff": 0.142,
+      "n_played": 97,
+      "n_decided": 77,
+      "edge_correct": 44,
+      "hit_rate": 0.571,
+      "corr_edge_goaldiff": 0.134,
       "note": "descriptive only; ignores squad strength; small, uncontrolled sample"
     }
   },
@@ -251,7 +251,7 @@
         "travel": 0.9355,
         "altitude": 0.0085,
         "heat": 0.597,
-        "heat_apparent": 0.4183
+        "heat_apparent": 0.4041
       },
       "index": 0.7657,
       "rank": 1,
@@ -355,7 +355,7 @@
         "travel": 1.0,
         "altitude": 0.0098,
         "heat": 0.5202,
-        "heat_apparent": 0.6
+        "heat_apparent": 0.5796
       },
       "index": 0.7084,
       "rank": 2,
@@ -533,7 +533,7 @@
         "travel": 0.7468,
         "altitude": 0.0,
         "heat": 0.0828,
-        "heat_apparent": 0.1775
+        "heat_apparent": 0.1714
       },
       "index": 0.6365,
       "rank": 4,
@@ -629,17 +629,17 @@
         "circadian": 0.36,
         "travel": 19594.06,
         "altitude": 1999.0,
-        "heat": 3.7,
-        "heat_apparent": 5.8
+        "heat": 3.4,
+        "heat_apparent": 5.7
       },
       "norm": {
         "circadian": 0.4884,
         "travel": 0.9195,
         "altitude": 0.2722,
-        "heat": 0.1823,
-        "heat_apparent": 0.2042
+        "heat": 0.1675,
+        "heat_apparent": 0.1939
       },
-      "index": 0.5394,
+      "index": 0.5371,
       "rank": 5,
       "loads": [
         {
@@ -727,10 +727,10 @@
           "circadian": 0.05,
           "travel_km": 3960.977782778665,
           "altitude_climb_m": 0.0,
-          "heat_excess_c": 3.6999999999999957,
-          "heat_apparent_excess_c": 5.799999999999997,
-          "venue_temp_c": 34.3,
-          "apparent_temp_c": 36.4
+          "heat_excess_c": 3.3999999999999986,
+          "heat_apparent_excess_c": 5.699999999999996,
+          "venue_temp_c": 34.0,
+          "apparent_temp_c": 36.3
         }
       ]
     },
@@ -756,7 +756,7 @@
         "travel": 0.7311,
         "altitude": 0.0,
         "heat": 0.6946,
-        "heat_apparent": 0.6761
+        "heat_apparent": 0.6531
       },
       "index": 0.5276,
       "rank": 6,
@@ -934,7 +934,7 @@
         "travel": 0.7182,
         "altitude": 0.4171,
         "heat": 0.0739,
-        "heat_apparent": 0.0528
+        "heat_apparent": 0.051
       },
       "index": 0.4793,
       "rank": 8,
@@ -1097,7 +1097,7 @@
         "travel": 0.6785,
         "altitude": 0.0842,
         "heat": 0.0074,
-        "heat_apparent": 0.1901
+        "heat_apparent": 0.1837
       },
       "index": 0.4214,
       "rank": 10,
@@ -1364,7 +1364,7 @@
         "travel": 0.647,
         "altitude": 0.454,
         "heat": 0.5517,
-        "heat_apparent": 0.7535
+        "heat_apparent": 0.7279
       },
       "index": 0.4005,
       "rank": 13,
@@ -1527,7 +1527,7 @@
         "travel": 0.9532,
         "altitude": 0.0692,
         "heat": 0.0197,
-        "heat_apparent": 0.1056
+        "heat_apparent": 0.102
       },
       "index": 0.3537,
       "rank": 15,
@@ -1601,7 +1601,7 @@
         "travel": 0.9886,
         "altitude": 0.1252,
         "heat": 0.2483,
-        "heat_apparent": 0.4859
+        "heat_apparent": 0.4694
       },
       "index": 0.3526,
       "rank": 16,
@@ -1797,8 +1797,8 @@
           "altitude_climb_m": 0.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 24.3,
-          "apparent_temp_c": 27.4
+          "venue_temp_c": 24.6,
+          "apparent_temp_c": 27.6
         }
       ]
     },
@@ -1891,14 +1891,14 @@
         "travel": 13964.5,
         "altitude": 589.0,
         "heat": 7.8,
-        "heat_apparent": 8.2
+        "heat_apparent": 9.2
       },
       "norm": {
         "circadian": 0.1761,
         "travel": 0.6387,
         "altitude": 0.0802,
         "heat": 0.3842,
-        "heat_apparent": 0.2887
+        "heat_apparent": 0.3129
       },
       "index": 0.3317,
       "rank": 19,
@@ -1989,9 +1989,9 @@
           "travel_km": 628.5249909051076,
           "altitude_climb_m": 0.0,
           "heat_excess_c": 2.0,
-          "heat_apparent_excess_c": 4.199999999999999,
+          "heat_apparent_excess_c": 5.199999999999999,
           "venue_temp_c": 30.7,
-          "apparent_temp_c": 32.9
+          "apparent_temp_c": 33.9
         }
       ]
     },
@@ -2098,17 +2098,17 @@
         "circadian": 0.0,
         "travel": 17457.41,
         "altitude": 245.0,
-        "heat": 2.9,
-        "heat_apparent": 7.8
+        "heat": 3.3,
+        "heat_apparent": 8.2
       },
       "norm": {
         "circadian": 0.0,
         "travel": 0.8129,
         "altitude": 0.0334,
-        "heat": 0.1429,
-        "heat_apparent": 0.2746
+        "heat": 0.1626,
+        "heat_apparent": 0.2789
       },
-      "index": 0.2703,
+      "index": 0.2733,
       "rank": 21,
       "loads": [
         {
@@ -2196,10 +2196,10 @@
           "circadian": 0.0,
           "travel_km": 4308.310734864664,
           "altitude_climb_m": 230.0,
-          "heat_excess_c": 2.8999999999999986,
-          "heat_apparent_excess_c": 6.699999999999999,
-          "venue_temp_c": 25.9,
-          "apparent_temp_c": 29.7
+          "heat_excess_c": 3.3000000000000007,
+          "heat_apparent_excess_c": 7.100000000000001,
+          "venue_temp_c": 26.3,
+          "apparent_temp_c": 30.1
         }
       ]
     },
@@ -2388,7 +2388,7 @@
         "travel": 0.3967,
         "altitude": 0.0384,
         "heat": 0.2956,
-        "heat_apparent": 0.3644
+        "heat_apparent": 0.352
       },
       "index": 0.2445,
       "rank": 24,
@@ -2477,7 +2477,7 @@
         "travel": 0.7543,
         "altitude": 0.0449,
         "heat": 0.0296,
-        "heat_apparent": 0.2493
+        "heat_apparent": 0.2408
       },
       "index": 0.2375,
       "rank": 25,
@@ -2655,7 +2655,7 @@
         "travel": 0.4534,
         "altitude": 0.0556,
         "heat": 0.1404,
-        "heat_apparent": 0.0898
+        "heat_apparent": 0.0867
       },
       "index": 0.2062,
       "rank": 27,
@@ -2744,7 +2744,7 @@
         "travel": 0.3998,
         "altitude": 0.006,
         "heat": 0.0,
-        "heat_apparent": 0.0282
+        "heat_apparent": 0.0272
       },
       "index": 0.2005,
       "rank": 28,
@@ -2836,8 +2836,8 @@
           "altitude_climb_m": 0.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 25.9,
-          "apparent_temp_c": 29.7
+          "venue_temp_c": 26.3,
+          "apparent_temp_c": 30.1
         }
       ]
     },
@@ -2937,7 +2937,7 @@
         "travel": 0.6496,
         "altitude": 0.0,
         "heat": 0.0,
-        "heat_apparent": 0.0634
+        "heat_apparent": 0.0612
       },
       "index": 0.1949,
       "rank": 30,
@@ -3003,17 +3003,17 @@
         "circadian": 0.0,
         "travel": 12380.18,
         "altitude": 0.0,
-        "heat": 3.6,
-        "heat_apparent": 7.6
+        "heat": 3.3,
+        "heat_apparent": 7.5
       },
       "norm": {
         "circadian": 0.0,
         "travel": 0.5597,
         "altitude": 0.0,
-        "heat": 0.1773,
-        "heat_apparent": 0.2676
+        "heat": 0.1626,
+        "heat_apparent": 0.2551
       },
-      "index": 0.1945,
+      "index": 0.1923,
       "rank": 31,
       "loads": [
         {
@@ -3101,10 +3101,10 @@
           "circadian": 0.0,
           "travel_km": 2251.0217819651916,
           "altitude_climb_m": 0.0,
-          "heat_excess_c": 3.599999999999998,
-          "heat_apparent_excess_c": 5.699999999999999,
-          "venue_temp_c": 34.3,
-          "apparent_temp_c": 36.4
+          "heat_excess_c": 3.3000000000000007,
+          "heat_apparent_excess_c": 5.599999999999998,
+          "venue_temp_c": 34.0,
+          "apparent_temp_c": 36.3
         }
       ]
     },
@@ -3212,7 +3212,7 @@
         "travel": 3015.96,
         "altitude": 124.0,
         "heat": 20.3,
-        "heat_apparent": 28.4
+        "heat_apparent": 29.4
       },
       "norm": {
         "circadian": 0.0,
@@ -3310,9 +3310,9 @@
           "travel_km": 63.633650230907556,
           "altitude_climb_m": 62.0,
           "heat_excess_c": 3.1999999999999993,
-          "heat_apparent_excess_c": 5.399999999999999,
+          "heat_apparent_excess_c": 6.399999999999999,
           "venue_temp_c": 30.7,
-          "apparent_temp_c": 32.9
+          "apparent_temp_c": 33.9
         }
       ]
     },
@@ -3338,7 +3338,7 @@
         "travel": 0.598,
         "altitude": 0.0,
         "heat": 0.0,
-        "heat_apparent": 0.1127
+        "heat_apparent": 0.1088
       },
       "index": 0.1794,
       "rank": 34,
@@ -3412,7 +3412,7 @@
         "travel": 0.5698,
         "altitude": 0.0,
         "heat": 0.0,
-        "heat_apparent": 0.0211
+        "heat_apparent": 0.0204
       },
       "index": 0.171,
       "rank": 35,
@@ -3501,7 +3501,7 @@
         "travel": 0.442,
         "altitude": 0.0,
         "heat": 0.2542,
-        "heat_apparent": 0.4141
+        "heat_apparent": 0.4
       },
       "index": 0.1707,
       "rank": 36,
@@ -3605,7 +3605,7 @@
         "travel": 0.327,
         "altitude": 0.0684,
         "heat": 0.133,
-        "heat_apparent": 0.3011
+        "heat_apparent": 0.2908
       },
       "index": 0.1691,
       "rank": 37,
@@ -3694,7 +3694,7 @@
         "travel": 0.2772,
         "altitude": 0.0,
         "heat": 0.3842,
-        "heat_apparent": 0.7254
+        "heat_apparent": 0.7007
       },
       "index": 0.1593,
       "rank": 38,
@@ -3768,7 +3768,7 @@
         "travel": 0.2749,
         "altitude": 0.0087,
         "heat": 0.4877,
-        "heat_apparent": 0.4542
+        "heat_apparent": 0.4388
       },
       "index": 0.1569,
       "rank": 39,
@@ -3860,8 +3860,8 @@
           "altitude_climb_m": 30.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 24.3,
-          "apparent_temp_c": 27.4
+          "venue_temp_c": 24.6,
+          "apparent_temp_c": 27.6
         }
       ]
     },
@@ -3887,7 +3887,7 @@
         "travel": 0.4317,
         "altitude": 0.0643,
         "heat": 0.0,
-        "heat_apparent": 0.0475
+        "heat_apparent": 0.0459
       },
       "index": 0.1392,
       "rank": 40,
@@ -3976,7 +3976,7 @@
         "travel": 0.3533,
         "altitude": 0.0,
         "heat": 0.1872,
-        "heat_apparent": 0.331
+        "heat_apparent": 0.3197
       },
       "index": 0.1341,
       "rank": 41,
@@ -4050,7 +4050,7 @@
         "travel": 0.4035,
         "altitude": 0.0092,
         "heat": 0.065,
-        "heat_apparent": 0.0549
+        "heat_apparent": 0.0531
       },
       "index": 0.1322,
       "rank": 42,
@@ -4154,7 +4154,7 @@
         "travel": 0.3425,
         "altitude": 0.0057,
         "heat": 0.133,
-        "heat_apparent": 0.1637
+        "heat_apparent": 0.1582
       },
       "index": 0.1236,
       "rank": 43,
@@ -4391,7 +4391,7 @@
         "travel": 0.0727,
         "altitude": 0.0534,
         "heat": 0.2562,
-        "heat_apparent": 0.2465
+        "heat_apparent": 0.2381
       },
       "index": 0.0683,
       "rank": 46,
@@ -4539,7 +4539,7 @@
         "travel": 0.0,
         "altitude": 0.0,
         "heat": 0.0,
-        "heat_apparent": 0.0592
+        "heat_apparent": 0.0571
       },
       "index": 0.0,
       "rank": 48,
@@ -9058,9 +9058,9 @@
         "travel_km": 63.633650230907556,
         "altitude_climb_m": 62.0,
         "heat_excess_c": 3.1999999999999993,
-        "heat_apparent_excess_c": 5.399999999999999,
+        "heat_apparent_excess_c": 6.399999999999999,
         "venue_temp_c": 30.7,
-        "apparent_temp_c": 32.9
+        "apparent_temp_c": 33.9
       },
       "b": {
         "team_id": "mar",
@@ -9074,16 +9074,16 @@
         "travel_km": 628.5249909051076,
         "altitude_climb_m": 0.0,
         "heat_excess_c": 2.0,
-        "heat_apparent_excess_c": 4.199999999999999,
+        "heat_apparent_excess_c": 5.199999999999999,
         "venue_temp_c": 30.7,
-        "apparent_temp_c": 32.9
+        "apparent_temp_c": 33.9
       },
       "edge_team": "fra",
       "edge_margin": 0.0565,
-      "score_a": null,
-      "score_b": null,
-      "winner": null,
-      "edge_correct": null
+      "score_a": 2,
+      "score_b": 0,
+      "winner": "fra",
+      "edge_correct": true
     },
     {
       "match_id": "QF-2",
@@ -9105,8 +9105,8 @@
         "altitude_climb_m": 0.0,
         "heat_excess_c": 0.0,
         "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 24.3,
-        "apparent_temp_c": 27.4
+        "venue_temp_c": 24.6,
+        "apparent_temp_c": 27.6
       },
       "b": {
         "team_id": "bel",
@@ -9121,8 +9121,8 @@
         "altitude_climb_m": 30.0,
         "heat_excess_c": 0.0,
         "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 24.3,
-        "apparent_temp_c": 27.4
+        "venue_temp_c": 24.6,
+        "apparent_temp_c": 27.6
       },
       "edge_team": "bel",
       "edge_margin": 0.2954,
@@ -9149,10 +9149,10 @@
         "circadian": 0.0,
         "travel_km": 2251.0217819651916,
         "altitude_climb_m": 0.0,
-        "heat_excess_c": 3.599999999999998,
-        "heat_apparent_excess_c": 5.699999999999999,
-        "venue_temp_c": 34.3,
-        "apparent_temp_c": 36.4
+        "heat_excess_c": 3.3000000000000007,
+        "heat_apparent_excess_c": 5.599999999999998,
+        "venue_temp_c": 34.0,
+        "apparent_temp_c": 36.3
       },
       "b": {
         "team_id": "eng",
@@ -9165,10 +9165,10 @@
         "circadian": 0.05,
         "travel_km": 3960.977782778665,
         "altitude_climb_m": 0.0,
-        "heat_excess_c": 3.6999999999999957,
-        "heat_apparent_excess_c": 5.799999999999997,
-        "venue_temp_c": 34.3,
-        "apparent_temp_c": 36.4
+        "heat_excess_c": 3.3999999999999986,
+        "heat_apparent_excess_c": 5.699999999999996,
+        "venue_temp_c": 34.0,
+        "apparent_temp_c": 36.3
       },
       "edge_team": "nor",
       "edge_margin": 0.221,
@@ -9197,8 +9197,8 @@
         "altitude_climb_m": 0.0,
         "heat_excess_c": 0.0,
         "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 25.9,
-        "apparent_temp_c": 29.7
+        "venue_temp_c": 26.3,
+        "apparent_temp_c": 30.1
       },
       "b": {
         "team_id": "sui",
@@ -9211,10 +9211,10 @@
         "circadian": 0.0,
         "travel_km": 4308.310734864664,
         "altitude_climb_m": 230.0,
-        "heat_excess_c": 2.8999999999999986,
-        "heat_apparent_excess_c": 6.699999999999999,
-        "venue_temp_c": 25.9,
-        "apparent_temp_c": 29.7
+        "heat_excess_c": 3.3000000000000007,
+        "heat_apparent_excess_c": 7.100000000000001,
+        "venue_temp_c": 26.3,
+        "apparent_temp_c": 30.1
       },
       "edge_team": "arg",
       "edge_margin": 0.428,

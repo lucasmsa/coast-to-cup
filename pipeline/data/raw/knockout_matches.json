@@ -344,8 +344,8 @@
     "team_b": "mar",
     "venue_id": "boston",
     "kickoff_utc": "2026-07-09T20:00:00+00:00",
-    "score_a": null,
-    "score_b": null,
+    "score_a": 2,
+    "score_b": 0,
     "pen_a": null,
     "pen_b": null
   },
