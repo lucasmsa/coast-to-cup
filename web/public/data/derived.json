@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-07-11T06:51:42.661832+00:00",
+    "built_at": "2026-07-11T12:23:31.995283+00:00",
     "counts": {
       "venues": 16,
       "teams": 48,
@@ -719,14 +719,14 @@
         "travel": 19594.06,
         "altitude": 1999.0,
         "heat": 0.0,
-        "heat_apparent": 5.5
+        "heat_apparent": 3.6
       },
       "norm": {
         "circadian": 0.4884,
         "travel": 0.9195,
         "altitude": 0.2722,
         "heat": 0.0,
-        "heat_apparent": 0.2183
+        "heat_apparent": 0.1429
       },
       "index": 0.512,
       "rank": 6,
@@ -817,9 +817,9 @@
           "travel_km": 3960.977782778665,
           "altitude_climb_m": 0.0,
           "heat_excess_c": 0.0,
-          "heat_apparent_excess_c": 5.5,
-          "venue_temp_c": 30.6,
-          "apparent_temp_c": 36.1
+          "heat_apparent_excess_c": 3.6000000000000014,
+          "venue_temp_c": 30.0,
+          "apparent_temp_c": 34.2
         }
       ]
     },
@@ -2005,8 +2005,8 @@
           "altitude_climb_m": 0.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 32.8,
-          "apparent_temp_c": 36.6
+          "venue_temp_c": 33.2,
+          "apparent_temp_c": 36.8
         }
       ]
     },
@@ -2113,17 +2113,17 @@
         "circadian": 0.0,
         "travel": 17457.41,
         "altitude": 245.0,
-        "heat": 7.0,
-        "heat_apparent": 8.4
+        "heat": 7.4,
+        "heat_apparent": 9.7
       },
       "norm": {
         "circadian": 0.0,
         "travel": 0.8129,
         "altitude": 0.0334,
-        "heat": 0.4023,
-        "heat_apparent": 0.3333
+        "heat": 0.4253,
+        "heat_apparent": 0.3849
       },
-      "index": 0.3092,
+      "index": 0.3127,
       "rank": 21,
       "loads": [
         {
@@ -2211,10 +2211,10 @@
           "circadian": 0.0,
           "travel_km": 4308.310734864664,
           "altitude_climb_m": 230.0,
-          "heat_excess_c": 7.0,
-          "heat_apparent_excess_c": 7.300000000000001,
-          "venue_temp_c": 30.0,
-          "apparent_temp_c": 30.3
+          "heat_excess_c": 7.399999999999999,
+          "heat_apparent_excess_c": 8.600000000000001,
+          "venue_temp_c": 30.4,
+          "apparent_temp_c": 31.6
         }
       ]
     },
@@ -2599,8 +2599,8 @@
           "altitude_climb_m": 171.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 32.8,
-          "apparent_temp_c": 36.6
+          "venue_temp_c": 33.2,
+          "apparent_temp_c": 36.8
         }
       ]
     },
@@ -2886,14 +2886,14 @@
         "travel": 9174.26,
         "altitude": 44.0,
         "heat": 0.0,
-        "heat_apparent": 0.8
+        "heat_apparent": 1.8
       },
       "norm": {
         "circadian": 0.1992,
         "travel": 0.3998,
         "altitude": 0.006,
         "heat": 0.0,
-        "heat_apparent": 0.0317
+        "heat_apparent": 0.0714
       },
       "index": 0.2005,
       "rank": 29,
@@ -2984,9 +2984,9 @@
           "travel_km": 28.47874654282891,
           "altitude_climb_m": 0.0,
           "heat_excess_c": 0.0,
-          "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 30.0,
-          "apparent_temp_c": 30.3
+          "heat_apparent_excess_c": 1.0,
+          "venue_temp_c": 30.4,
+          "apparent_temp_c": 31.6
         }
       ]
     },
@@ -3791,14 +3791,14 @@
         "travel": 12380.18,
         "altitude": 0.0,
         "heat": 0.0,
-        "heat_apparent": 7.3
+        "heat_apparent": 5.4
       },
       "norm": {
         "circadian": 0.0,
         "travel": 0.5597,
         "altitude": 0.0,
         "heat": 0.0,
-        "heat_apparent": 0.2897
+        "heat_apparent": 0.2143
       },
       "index": 0.1679,
       "rank": 39,
@@ -3889,9 +3889,9 @@
           "travel_km": 2251.0217819651916,
           "altitude_climb_m": 0.0,
           "heat_excess_c": 0.0,
-          "heat_apparent_excess_c": 5.400000000000002,
-          "venue_temp_c": 30.6,
-          "apparent_temp_c": 36.1
+          "heat_apparent_excess_c": 3.5000000000000036,
+          "venue_temp_c": 30.0,
+          "apparent_temp_c": 34.2
         }
       ]
     },
@@ -9180,9 +9180,9 @@
         "travel_km": 2251.0217819651916,
         "altitude_climb_m": 0.0,
         "heat_excess_c": 0.0,
-        "heat_apparent_excess_c": 5.400000000000002,
-        "venue_temp_c": 30.6,
-        "apparent_temp_c": 36.1
+        "heat_apparent_excess_c": 3.5000000000000036,
+        "venue_temp_c": 30.0,
+        "apparent_temp_c": 34.2
       },
       "b": {
         "team_id": "eng",
@@ -9196,9 +9196,9 @@
         "travel_km": 3960.977782778665,
         "altitude_climb_m": 0.0,
         "heat_excess_c": 0.0,
-        "heat_apparent_excess_c": 5.5,
-        "venue_temp_c": 30.6,
-        "apparent_temp_c": 36.1
+        "heat_apparent_excess_c": 3.6000000000000014,
+        "venue_temp_c": 30.0,
+        "apparent_temp_c": 34.2
       },
       "edge_team": "nor",
       "edge_margin": 0.221,
@@ -9226,9 +9226,9 @@
         "travel_km": 28.47874654282891,
         "altitude_climb_m": 0.0,
         "heat_excess_c": 0.0,
-        "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 30.0,
-        "apparent_temp_c": 30.3
+        "heat_apparent_excess_c": 1.0,
+        "venue_temp_c": 30.4,
+        "apparent_temp_c": 31.6
       },
       "b": {
         "team_id": "sui",
@@ -9241,10 +9241,10 @@
         "circadian": 0.0,
         "travel_km": 4308.310734864664,
         "altitude_climb_m": 230.0,
-        "heat_excess_c": 7.0,
-        "heat_apparent_excess_c": 7.300000000000001,
-        "venue_temp_c": 30.0,
-        "apparent_temp_c": 30.3
+        "heat_excess_c": 7.399999999999999,
+        "heat_apparent_excess_c": 8.600000000000001,
+        "venue_temp_c": 30.4,
+        "apparent_temp_c": 31.6
       },
       "edge_team": "arg",
       "edge_margin": 0.428,
@@ -9261,22 +9261,6 @@
       "venue_id": "dallas",
       "kickoff_utc": "2026-07-14T19:00:00+00:00",
       "a": {
-        "team_id": "fra",
-        "match_id": "SF-1",
-        "matchday": 1,
-        "stage": "SF",
-        "venue_id": "dallas",
-        "local_kickoff_hour": 14.0,
-        "body_clock_hour": 15.0,
-        "circadian": 0.0,
-        "travel_km": 5009.461050845479,
-        "altitude_climb_m": 171.0,
-        "heat_excess_c": 0.0,
-        "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 32.8,
-        "apparent_temp_c": 36.6
-      },
-      "b": {
         "team_id": "esp",
         "match_id": "SF-1",
         "matchday": 1,
@@ -9289,8 +9273,24 @@
         "altitude_climb_m": 0.0,
         "heat_excess_c": 0.0,
         "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 32.8,
-        "apparent_temp_c": 36.6
+        "venue_temp_c": 33.2,
+        "apparent_temp_c": 36.8
+      },
+      "b": {
+        "team_id": "fra",
+        "match_id": "SF-1",
+        "matchday": 1,
+        "stage": "SF",
+        "venue_id": "dallas",
+        "local_kickoff_hour": 14.0,
+        "body_clock_hour": 15.0,
+        "circadian": 0.0,
+        "travel_km": 5009.461050845479,
+        "altitude_climb_m": 171.0,
+        "heat_excess_c": 0.0,
+        "heat_apparent_excess_c": 0.0,
+        "venue_temp_c": 33.2,
+        "apparent_temp_c": 36.8
       },
       "edge_team": "esp",
       "edge_margin": 0.2777,
