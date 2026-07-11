@@ -260,8 +260,8 @@
     "apparent_c": 41.7
   },
   "SF-1": {
-    "temp_c": 33.2,
-    "apparent_c": 36.8
+    "temp_c": 35.2,
+    "apparent_c": 38.9
   },
   "E-2": {
     "temp_c": 29.4,
@@ -376,8 +376,8 @@
     "apparent_c": 31.4
   },
   "QF-3": {
-    "temp_c": 30.0,
-    "apparent_c": 34.2
+    "temp_c": 30.9,
+    "apparent_c": 36.2
   },
   "J-1": {
     "temp_c": 26.5,
@@ -400,7 +400,7 @@
     "apparent_c": 33.9
   },
   "QF-4": {
-    "temp_c": 30.4,
-    "apparent_c": 31.6
+    "temp_c": 30.0,
+    "apparent_c": 30.6
   }
 }
