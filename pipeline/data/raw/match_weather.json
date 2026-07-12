@@ -260,8 +260,8 @@
     "apparent_c": 41.7
   },
   "SF-1": {
-    "temp_c": 34.3,
-    "apparent_c": 37.3
+    "temp_c": 32.2,
+    "apparent_c": 35.9
   },
   "E-2": {
     "temp_c": 29.4,
@@ -330,6 +330,10 @@
   "R16-7": {
     "temp_c": 29.5,
     "apparent_c": 33.5
+  },
+  "SF-2": {
+    "temp_c": 29.8,
+    "apparent_c": 31.5
   },
   "G-1": {
     "temp_c": 28.9,
