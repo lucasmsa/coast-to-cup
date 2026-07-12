@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-07-12T06:58:41.103896+00:00",
+    "built_at": "2026-07-12T12:23:36.964262+00:00",
     "counts": {
       "venues": 16,
       "teams": 48,
@@ -833,8 +833,8 @@
           "altitude_climb_m": 35.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 29.8,
-          "apparent_temp_c": 31.5
+          "venue_temp_c": 29.7,
+          "apparent_temp_c": 32.6
         }
       ]
     },
@@ -2020,8 +2020,8 @@
           "altitude_climb_m": 0.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 32.2,
-          "apparent_temp_c": 35.9
+          "venue_temp_c": 34.9,
+          "apparent_temp_c": 37.6
         }
       ]
     },
@@ -2614,8 +2614,8 @@
           "altitude_climb_m": 44.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 29.8,
-          "apparent_temp_c": 31.5
+          "venue_temp_c": 29.7,
+          "apparent_temp_c": 32.6
         }
       ]
     },
@@ -2748,8 +2748,8 @@
           "altitude_climb_m": 171.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 32.2,
-          "apparent_temp_c": 35.9
+          "venue_temp_c": 34.9,
+          "apparent_temp_c": 37.6
         }
       ]
     },
@@ -9303,8 +9303,8 @@
         "altitude_climb_m": 171.0,
         "heat_excess_c": 0.0,
         "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 32.2,
-        "apparent_temp_c": 35.9
+        "venue_temp_c": 34.9,
+        "apparent_temp_c": 37.6
       },
       "b": {
         "team_id": "esp",
@@ -9319,8 +9319,8 @@
         "altitude_climb_m": 0.0,
         "heat_excess_c": 0.0,
         "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 32.2,
-        "apparent_temp_c": 35.9
+        "venue_temp_c": 34.9,
+        "apparent_temp_c": 37.6
       },
       "edge_team": "esp",
       "edge_margin": 0.2777,
@@ -9349,8 +9349,8 @@
         "altitude_climb_m": 35.0,
         "heat_excess_c": 0.0,
         "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 29.8,
-        "apparent_temp_c": 31.5
+        "venue_temp_c": 29.7,
+        "apparent_temp_c": 32.6
       },
       "b": {
         "team_id": "arg",
@@ -9365,8 +9365,8 @@
         "altitude_climb_m": 44.0,
         "heat_excess_c": 0.0,
         "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 29.8,
-        "apparent_temp_c": 31.5
+        "venue_temp_c": 29.7,
+        "apparent_temp_c": 32.6
       },
       "edge_team": "eng",
       "edge_margin": 0.0009,
