@@ -73,10 +73,7 @@ export function Leaderboard() {
     )
 
   return (
-    <div className="md:h-full md:overflow-y-auto scroll-thin pb-2">
-      <div className="mx-5 pt-1 pb-2 mb-1 font-stat text-base font-semibold text-mut border-b border-line/60">
-        {t('bracket')}
-      </div>
+    <div className="md:h-full md:overflow-y-auto scroll-thin pb-2 pt-1">
       {section(
         t('leftHalf'),
         ranked.filter((tm) => half[tm.id] === 'left'),
