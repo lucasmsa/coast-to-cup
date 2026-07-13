@@ -1,6 +1,5 @@
 import { motion } from 'motion/react'
 import { teamName } from '../config/teamNames'
-import { displayNorm } from '../lib/burden'
 import { useTeam } from '../hooks/useRanked'
 import { useT } from '../hooks/useT'
 import { flagEmoji } from '../lib/flags'
@@ -58,7 +57,7 @@ export function TeamCard() {
 
       <div className="flex justify-center py-1">
         <HexRadar
-          values={displayNorm(team.norm, heatMode)}
+          values={team.scopedNorm}
           labels={{
             circadian: t('circadian'),
             travel: t('travel'),
@@ -82,7 +81,7 @@ export function TeamCard() {
         </span>
       </div>
       <div className="space-y-1.5">
-        {team.loads.map((l) => {
+        {team.scopedLoads.map((l) => {
           const outside = heatMode === 'feels' ? l.apparent_temp_c : l.venue_temp_c
           const venue = data.venues.find((v) => v.id === l.venue_id)
           const climatized = venue?.roof === 'fixed' || venue?.roof === 'retractable'

@@ -1,6 +1,7 @@
 import { create } from 'zustand'
 import type { HeatMode } from './lib/burden'
 import type { Locale } from './config/i18n'
+import type { Phase } from './config/phases'
 import type { ComponentKey, Derived, Weights } from './types'
 
 const FALLBACK_WEIGHTS: Weights = { circadian: 0.4, travel: 0.3, altitude: 0.15, heat: 0.15 }
@@ -54,6 +55,7 @@ interface Store {
   data: Derived | null
   weights: Weights
   defaults: Weights
+  phase: Phase
   group: string | null
   search: string
   selected: string | null
@@ -68,6 +70,7 @@ interface Store {
   setOverlay: (o: 'about' | 'results' | null) => void
   setWeight: (k: ComponentKey, v: number) => void
   resetWeights: () => void
+  setPhase: (p: Phase) => void
   setGroup: (g: string | null) => void
   setSearch: (q: string) => void
   select: (id: string | null) => void
@@ -79,6 +82,7 @@ export const useStore = create<Store>((set) => ({
   data: null,
   weights: FALLBACK_WEIGHTS,
   defaults: FALLBACK_WEIGHTS,
+  phase: 'all',
   group: null,
   search: '',
   selected: null,
@@ -106,6 +110,8 @@ export const useStore = create<Store>((set) => ({
   },
   setWeight: (k, v) => set((s) => ({ weights: { ...s.weights, [k]: v } })),
   resetWeights: () => set((s) => ({ weights: s.defaults })),
+  // Group letters only apply to All / Group stage, so clear the group filter otherwise.
+  setPhase: (p) => set((s) => ({ phase: p, group: p === 'all' || p === 'group' ? s.group : null })),
   setGroup: (g) => set({ group: g }),
   setSearch: (q) => set({ search: q }),
   select: (id) => set({ selected: id }),

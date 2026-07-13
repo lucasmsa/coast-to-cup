@@ -35,10 +35,10 @@ export function Map3D() {
   const data = useStore((s) => s.data)
   const team = useActiveTeam()
 
-  const venueIds = team ? team.loads.map((l) => l.venue_id) : []
+  const venueIds = team ? team.scopedLoads.map((l) => l.venue_id) : []
   const targets: [number, number][] =
     team && data
-      ? team.loads.map((l) => {
+      ? team.scopedLoads.map((l) => {
           const v = data.venues.find((x) => x.id === l.venue_id)
           return v ? [v.lon, v.lat] : [0, 0]
         })
@@ -58,7 +58,7 @@ export function Map3D() {
       <VenueMarkers activeIds={venueIds} color={team?.color ?? '#c6f432'} />
       {hasBase && (
         <Arcs
-          key={`arcs-${team!.id}`}
+          key={`arcs-${team!.id}-${targets.length}`}
           base={[team!.base_lon!, team!.base_lat!]}
           targets={targets}
           color={team!.color}

@@ -1,9 +1,11 @@
+import { useEffect } from 'react'
 import { AboutPage } from './components/AboutPage'
 import { ResultsPage } from './components/ResultsPage'
 import { CountUp } from './components/CountUp'
 import { GroupFilter } from './components/GroupFilter'
 import { LanguageSelector } from './components/LanguageSelector'
 import { Leaderboard } from './components/Leaderboard'
+import { PhaseTabs } from './components/PhaseTabs'
 import { SearchBox } from './components/SearchBox'
 import { TeamCard } from './components/TeamCard'
 import { WeightSliders } from './components/WeightSliders'
@@ -69,7 +71,7 @@ function HeroOverlay() {
     <div className="absolute left-4 top-4 md:left-6 md:top-6 max-w-md pointer-events-none">
       <p className="font-stat text-sm font-semibold text-mut flex items-center gap-2">
         <span className="text-base">{flagEmoji(active.id)}</span>
-        {active.liveRank === 1 ? t('toughest') : `#${active.liveRank} / 48`}
+        {active.liveRank === 1 ? t('toughest') : `#${active.liveRank} / ${ranked.length}`}
       </p>
       <h2 className="font-display text-3xl md:text-5xl leading-[0.95] uppercase mt-2">
         {teamName(active.id, active.name, locale)}
@@ -104,6 +106,14 @@ export default function App() {
   const t = useT()
   const { status } = useDerived()
   const selected = useStore((s) => s.selected)
+  const select = useStore((s) => s.select)
+  const phase = useStore((s) => s.phase)
+  const ranked = useRanked()
+
+  // Drop the selection if the phase change removed that team from the pool.
+  useEffect(() => {
+    if (selected && ranked.length && !ranked.some((r) => r.id === selected)) select(null)
+  }, [ranked, selected, select])
 
   return (
     <div className="h-full bg-atmosphere flex flex-col text-fg">
@@ -117,9 +127,12 @@ export default function App() {
             <HeroOverlay />
           </section>
           <aside className="bg-surface flex flex-col flex-1 min-h-0 overflow-y-auto md:overflow-visible scroll-thin">
-            <div className="px-5 py-3.5 border-b border-line/60">
-              <GroupFilter />
-            </div>
+            <PhaseTabs />
+            {(phase === 'all' || phase === 'group') && (
+              <div className="px-5 py-3.5 border-b border-line/60">
+                <GroupFilter />
+              </div>
+            )}
             <WeightSliders />
             {selected ? (
               <div className="relative md:flex-1 md:min-h-0">

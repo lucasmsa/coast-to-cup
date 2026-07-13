@@ -1,14 +1,11 @@
-import { useMemo } from 'react'
+import type { RankedTeam } from '../lib/burden'
 import { useStore } from '../store'
-import type { Team } from '../types'
 import { useRanked } from './useRanked'
 
-/** The team the map should feature: hovered, else selected, else the hardest. */
-export function useActiveTeam(): Team | null {
-  const data = useStore((s) => s.data)
+/** The team the map should feature: the selection, else the hardest in the current phase. */
+export function useActiveTeam(): RankedTeam | null {
   const selected = useStore((s) => s.selected)
   const ranked = useRanked()
   // Click-to-select only: the map follows the selection, never the hover.
-  const id = selected ?? ranked[0]?.id ?? null
-  return useMemo(() => (id && data ? (data.teams.find((t) => t.id === id) ?? null) : null), [id, data])
+  return ranked.find((t) => t.id === selected) ?? ranked[0] ?? null
 }

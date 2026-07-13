@@ -47,6 +47,12 @@ export type StringKey =
   | 'stageSF'
   | 'stage3rd'
   | 'stageF'
+  | 'phase'
+  | 'groupStage'
+  | 'allScopeHint'
+  | 'teamsWord'
+  | 'gamesWord'
+  | 'everyGame'
   | 'calledRight'
   | 'circadian'
   | 'travel'
@@ -97,6 +103,12 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     stageSF: 'SF',
     stage3rd: '3rd place',
     stageF: 'Final',
+    phase: 'Phase',
+    groupStage: 'Group stage',
+    allScopeHint: 'All 48 teams, scored across every game they played in the tournament.',
+    teamsWord: 'teams',
+    gamesWord: 'games',
+    everyGame: 'every game',
     circadian: 'Body clock',
     travel: 'Travel',
     altitude: 'Altitude',
@@ -145,6 +157,12 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     stageSF: 'Semi',
     stage3rd: '3º lugar',
     stageF: 'Final',
+    phase: 'Fase',
+    groupStage: 'Fase de grupos',
+    allScopeHint: 'As 48 seleções, avaliadas em todos os jogos que fizeram no torneio.',
+    teamsWord: 'seleções',
+    gamesWord: 'jogos',
+    everyGame: 'todos os jogos',
     circadian: 'Relógio biológico',
     travel: 'Viagem',
     altitude: 'Altitude',
@@ -193,6 +211,12 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     stageSF: 'Semi',
     stage3rd: '3er lugar',
     stageF: 'Final',
+    phase: 'Fase',
+    groupStage: 'Fase de grupos',
+    allScopeHint: 'Las 48 selecciones, evaluadas en todos los partidos que jugaron en el torneo.',
+    teamsWord: 'selecciones',
+    gamesWord: 'partidos',
+    everyGame: 'todos los partidos',
     circadian: 'Reloj biológico',
     travel: 'Viaje',
     altitude: 'Altitud',
