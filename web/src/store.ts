@@ -8,6 +8,47 @@ const FALLBACK_WEIGHTS: Weights = { circadian: 0.4, travel: 0.3, altitude: 0.15,
 
 const LOCALE_KEY = 'coast-to-cup:locale'
 const HEAT_KEY = 'coast-to-cup:heat-mode'
+const PHASE_KEY = 'coast-to-cup:phase'
+const GROUP_KEY = 'coast-to-cup:group'
+const WEIGHTS_KEY = 'coast-to-cup:weights'
+
+const PHASES: Phase[] = ['all', 'group', 'R32', 'R16', 'QF', 'SF', 'F']
+
+function readItem(key: string): string | null {
+  try {
+    return localStorage.getItem(key)
+  } catch {
+    return null
+  }
+}
+
+function writeItem(key: string, value: string | null): void {
+  try {
+    if (value === null) localStorage.removeItem(key)
+    else localStorage.setItem(key, value)
+  } catch {
+    // storage unavailable
+  }
+}
+
+function loadPhase(): Phase {
+  const saved = readItem(PHASE_KEY)
+  return PHASES.includes(saved as Phase) ? (saved as Phase) : 'all'
+}
+
+function loadGroup(): string | null {
+  const saved = readItem(GROUP_KEY)
+  return saved && 'ABCDEFGHIJKL'.includes(saved) ? saved : null
+}
+
+function loadWeights(): Partial<Weights> | null {
+  try {
+    const raw = readItem(WEIGHTS_KEY)
+    return raw ? (JSON.parse(raw) as Partial<Weights>) : null
+  } catch {
+    return null
+  }
+}
 
 function detectLocale(): Locale {
   try {
@@ -82,8 +123,8 @@ export const useStore = create<Store>((set) => ({
   data: null,
   weights: FALLBACK_WEIGHTS,
   defaults: FALLBACK_WEIGHTS,
-  phase: 'all',
-  group: null,
+  phase: loadPhase(),
+  group: loadPhase() === 'group' ? loadGroup() : null,
   search: '',
   selected: null,
   hovered: null,
@@ -104,15 +145,44 @@ export const useStore = create<Store>((set) => ({
     set({ heatMode: m })
   },
   setOverlay: (o) => set({ overlay: o }),
-  setData: (d) => {
-    const w = { ...FALLBACK_WEIGHTS, ...(d.meta.weights as Weights) }
-    set({ data: d, weights: w, defaults: w })
+  setData: (d) =>
+    set((s) => {
+      const base = { ...FALLBACK_WEIGHTS, ...(d.meta.weights as Weights) }
+      const saved = loadWeights()
+      const stages = new Set(d.matches.map((m) => m.stage))
+      // A stored knockout phase is only valid once that round exists in the data.
+      const phase = s.phase === 'all' || s.phase === 'group' || stages.has(s.phase) ? s.phase : 'all'
+      return {
+        data: d,
+        weights: saved ? { ...base, ...saved } : base,
+        defaults: base,
+        phase,
+        group: phase === 'group' ? s.group : null,
+      }
+    }),
+  setWeight: (k, v) =>
+    set((s) => {
+      const weights = { ...s.weights, [k]: v }
+      writeItem(WEIGHTS_KEY, JSON.stringify(weights))
+      return { weights }
+    }),
+  resetWeights: () =>
+    set((s) => {
+      writeItem(WEIGHTS_KEY, null)
+      return { weights: s.defaults }
+    }),
+  // Group letters only make sense in the group stage (everyone played the same 3 games).
+  setPhase: (p) =>
+    set((s) => {
+      const group = p === 'group' ? s.group : null
+      writeItem(PHASE_KEY, p)
+      writeItem(GROUP_KEY, group)
+      return { phase: p, group }
+    }),
+  setGroup: (g) => {
+    writeItem(GROUP_KEY, g)
+    set({ group: g })
   },
-  setWeight: (k, v) => set((s) => ({ weights: { ...s.weights, [k]: v } })),
-  resetWeights: () => set((s) => ({ weights: s.defaults })),
-  // Group letters only apply to All / Group stage, so clear the group filter otherwise.
-  setPhase: (p) => set((s) => ({ phase: p, group: p === 'all' || p === 'group' ? s.group : null })),
-  setGroup: (g) => set({ group: g }),
   setSearch: (q) => set({ search: q }),
   select: (id) => set({ selected: id }),
   hover: (id) => set({ hovered: id }),

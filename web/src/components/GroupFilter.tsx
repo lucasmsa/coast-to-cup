@@ -14,7 +14,7 @@ export function GroupFilter() {
       <button
         type="button"
         onClick={() => setGroup(value)}
-        className={`min-w-8 px-2.5 py-1 rounded-md font-stat text-base font-semibold transition-colors ${
+        className={`min-w-8 px-2.5 py-1 rounded-md font-stat text-base font-semibold transition-colors outline-none focus-visible:ring-2 focus-visible:ring-lime/70 ${
           active ? 'bg-lime text-ink' : 'text-mut hover:text-fg hover:bg-surface-2'
         }`}
       >

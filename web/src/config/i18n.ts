@@ -48,6 +48,7 @@ export type StringKey =
   | 'stage3rd'
   | 'stageF'
   | 'phase'
+  | 'phaseAll'
   | 'groupStage'
   | 'allScopeHint'
   | 'teamsWord'
@@ -104,6 +105,7 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     stage3rd: '3rd place',
     stageF: 'Final',
     phase: 'Phase',
+    phaseAll: 'All',
     groupStage: 'Group stage',
     allScopeHint: 'All 48 teams, scored across every game they played in the tournament.',
     teamsWord: 'teams',
@@ -158,6 +160,7 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     stage3rd: '3º lugar',
     stageF: 'Final',
     phase: 'Fase',
+    phaseAll: 'Todas',
     groupStage: 'Fase de grupos',
     allScopeHint: 'As 48 seleções, avaliadas em todos os jogos que fizeram no torneio.',
     teamsWord: 'seleções',
@@ -212,6 +215,7 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     stage3rd: '3er lugar',
     stageF: 'Final',
     phase: 'Fase',
+    phaseAll: 'Todas',
     groupStage: 'Fase de grupos',
     allScopeHint: 'Las 48 selecciones, evaluadas en todos los partidos que jugaron en el torneo.',
     teamsWord: 'selecciones',

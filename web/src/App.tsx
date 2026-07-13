@@ -128,7 +128,7 @@ export default function App() {
           </section>
           <aside className="bg-surface flex flex-col flex-1 min-h-0 overflow-y-auto md:overflow-visible scroll-thin">
             <PhaseTabs />
-            {(phase === 'all' || phase === 'group') && (
+            {phase === 'group' && (
               <div className="px-5 py-3.5 border-b border-line/60">
                 <GroupFilter />
               </div>

@@ -49,9 +49,10 @@ export function rankTeams(
   heatMode: HeatMode,
   phase: Phase,
 ): RankedTeam[] {
+  // Normalize across the whole phase pool; the group letter only filters the view.
   const stages = stagesFor(phase)
-  const pool = teams.filter((t) => reachedPhase(t.loads, phase) && (!group || t.group === group))
-  const entries = pool.map((t) => {
+  const phasePool = teams.filter((t) => reachedPhase(t.loads, phase))
+  const entries = phasePool.map((t) => {
     const scopedLoads = stages ? t.loads.filter((l) => stages.has(l.stage)) : t.loads
     return { team: t, scopedLoads, means: scopedMeans(scopedLoads, heatMode) }
   })
@@ -79,6 +80,7 @@ export function rankTeams(
   })
 
   ranked.sort((a, b) => b.liveIndex - a.liveIndex)
-  ranked.forEach((t, i) => (t.liveRank = i + 1))
-  return ranked
+  const shown = group ? ranked.filter((t) => t.group === group) : ranked
+  shown.forEach((t, i) => (t.liveRank = i + 1))
+  return shown
 }

@@ -25,7 +25,7 @@ export function gamesAtPhase(phase: Phase): number | null {
 }
 
 export const PHASE_LABEL: Record<Phase, StringKey> = {
-  all: 'all',
+  all: 'phaseAll',
   group: 'groupStage',
   R32: 'stageR32',
   R16: 'stageR16',

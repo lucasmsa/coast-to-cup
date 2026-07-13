@@ -1,6 +1,6 @@
-import { gamesAtPhase, PHASE_LABEL } from '../config/phases'
+import { useMemo } from 'react'
+import { gamesAtPhase, PHASE_LABEL, reachedPhase } from '../config/phases'
 import { usePhases } from '../hooks/usePhases'
-import { useRanked } from '../hooks/useRanked'
 import { useT } from '../hooks/useT'
 import { useStore } from '../store'
 
@@ -10,7 +10,12 @@ export function PhaseTabs() {
   const phases = usePhases()
   const phase = useStore((s) => s.phase)
   const setPhase = useStore((s) => s.setPhase)
-  const poolSize = useRanked().length
+  const data = useStore((s) => s.data)
+  // The comparison basis (whole phase pool), independent of the group view filter.
+  const poolSize = useMemo(
+    () => (data?.teams ?? []).filter((tm) => reachedPhase(tm.loads, phase)).length,
+    [data, phase],
+  )
 
   const games = gamesAtPhase(phase)
   const gamesText = games === null ? t('everyGame') : `${games} ${t('gamesWord')}`
@@ -27,8 +32,8 @@ export function PhaseTabs() {
               type="button"
               onClick={() => setPhase(p)}
               title={p === 'all' ? t('allScopeHint') : undefined}
-              className={`font-stat text-sm font-semibold px-2.5 py-1 rounded-full transition-colors ${
-                active ? 'bg-lime text-ink' : 'text-mut hover:text-fg'
+              className={`min-w-8 px-2.5 py-1 rounded-md font-stat text-base font-semibold transition-colors outline-none focus-visible:ring-2 focus-visible:ring-lime/70 ${
+                active ? 'bg-lime text-ink' : 'text-mut hover:text-fg hover:bg-surface-2'
               }`}
             >
               {t(PHASE_LABEL[p])}
@@ -36,8 +41,8 @@ export function PhaseTabs() {
           )
         })}
       </div>
-      <p className="font-stat text-xs text-mut/60 mt-2">
-        {poolSize} {t('teamsWord')} · {gamesText}
+      <p className="font-stat text-sm text-mut mt-2.5">
+        {poolSize} {t('teamsWord')}: {gamesText}
       </p>
     </div>
   )
