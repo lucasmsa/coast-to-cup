@@ -67,9 +67,7 @@ export function Leaderboard() {
   const section = (title: string, rows: RankedTeam[]): ReactNode =>
     rows.length > 0 && (
       <div key={title}>
-        <div className="mx-5 pt-3 pb-1 font-stat text-sm font-semibold text-mut border-b border-line/40">
-          {title}
-        </div>
+        <div className="px-5 pt-3 pb-1 font-stat text-sm font-semibold text-mut">{title}</div>
         {rows.map((tm, i) => row(tm, i + 1))}
       </div>
     )
