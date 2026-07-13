@@ -1,7 +1,6 @@
 import { useEffect } from 'react'
 import { AboutPage } from './components/AboutPage'
 import { ResultsPage } from './components/ResultsPage'
-import { BracketBox } from './components/BracketBox'
 import { CountUp } from './components/CountUp'
 import { GroupFilter } from './components/GroupFilter'
 import { LanguageSelector } from './components/LanguageSelector'
@@ -129,7 +128,6 @@ export default function App() {
           </section>
           <aside className="bg-surface flex flex-col flex-1 min-h-0 overflow-y-auto md:overflow-visible scroll-thin">
             <PhaseTabs />
-            <BracketBox />
             {phase === 'group' && (
               <div className="px-5 py-3.5 border-b border-line/60">
                 <GroupFilter />
