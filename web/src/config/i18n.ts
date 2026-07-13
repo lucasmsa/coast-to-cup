@@ -54,6 +54,7 @@ export type StringKey =
   | 'teamsWord'
   | 'gamesWord'
   | 'everyGame'
+  | 'bracket'
   | 'leftHalf'
   | 'rightHalf'
   | 'calledRight'
@@ -113,6 +114,7 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     teamsWord: 'teams',
     gamesWord: 'games',
     everyGame: 'every game',
+    bracket: 'Bracket',
     leftHalf: 'Left half',
     rightHalf: 'Right half',
     circadian: 'Body clock',
@@ -170,6 +172,7 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     teamsWord: 'seleções',
     gamesWord: 'jogos',
     everyGame: 'todos os jogos',
+    bracket: 'Chaveamento',
     leftHalf: 'Lado esquerdo',
     rightHalf: 'Lado direito',
     circadian: 'Relógio biológico',
@@ -227,6 +230,7 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     teamsWord: 'selecciones',
     gamesWord: 'partidos',
     everyGame: 'todos los partidos',
+    bracket: 'Cuadro',
     leftHalf: 'Lado izquierdo',
     rightHalf: 'Lado derecho',
     circadian: 'Reloj biológico',

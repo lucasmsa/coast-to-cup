@@ -9,6 +9,7 @@ import { PhaseTabs } from './components/PhaseTabs'
 import { SearchBox } from './components/SearchBox'
 import { TeamCard } from './components/TeamCard'
 import { WeightSliders } from './components/WeightSliders'
+import { useBracketHalves } from './hooks/useBracketHalves'
 import { useDerived } from './hooks/useDerived'
 import { useRanked } from './hooks/useRanked'
 import { useT } from './hooks/useT'
@@ -109,6 +110,9 @@ export default function App() {
   const select = useStore((s) => s.select)
   const phase = useStore((s) => s.phase)
   const ranked = useRanked()
+  const { resolved: bracketResolved } = useBracketHalves()
+  // Knockout phases show the two bracket halves, so the list is titled "Bracket".
+  const sectioned = phase !== 'all' && phase !== 'group' && bracketResolved
 
   // Drop the selection if the phase change removed that team from the pool.
   useEffect(() => {
@@ -143,7 +147,9 @@ export default function App() {
             ) : (
               <>
                 <div className="px-5 pt-3 pb-2 shrink-0 flex items-baseline justify-between gap-3">
-                  <h2 className="font-stat text-base font-semibold text-mut truncate">{t('ranking')}</h2>
+                  <h2 className="font-stat text-base font-semibold text-mut truncate">
+                    {sectioned ? t('bracket') : t('ranking')}
+                  </h2>
                   <SearchBox />
                 </div>
                 <div className="relative md:flex-1 md:min-h-0">
