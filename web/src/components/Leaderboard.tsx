@@ -67,14 +67,18 @@ export function Leaderboard() {
   const section = (title: string, rows: RankedTeam[]): ReactNode =>
     rows.length > 0 && (
       <div key={title}>
-        <div className="px-5 pt-3 pb-1 font-stat text-sm font-semibold text-mut">{title}</div>
+        <div className="mx-5 pt-3 pb-1 font-stat text-sm font-semibold text-mut border-b border-line/40">
+          {title}
+        </div>
         {rows.map((tm, i) => row(tm, i + 1))}
       </div>
     )
 
   return (
     <div className="md:h-full md:overflow-y-auto scroll-thin pb-2">
-      <div className="px-5 pt-1 pb-1 font-stat text-base font-semibold text-mut">{t('bracket')}</div>
+      <div className="mx-5 pt-1 pb-2 mb-1 font-stat text-base font-semibold text-mut border-b border-line/60">
+        {t('bracket')}
+      </div>
       {section(
         t('leftHalf'),
         ranked.filter((tm) => half[tm.id] === 'left'),

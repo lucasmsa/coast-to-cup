@@ -148,7 +148,6 @@ export default function App() {
                 </div>
                 <div className="relative md:flex-1 md:min-h-0">
                   <Leaderboard />
-                  <div className="pointer-events-none absolute inset-x-0 top-0 h-6 bg-gradient-to-b from-surface to-transparent hidden md:block" />
                   <div className="pointer-events-none absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-surface to-transparent hidden md:block" />
                 </div>
               </>
