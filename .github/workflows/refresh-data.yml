@@ -17,7 +17,7 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Stop after the tournament
         id: guard
@@ -62,7 +62,7 @@ jobs:
 
       # Bot pushes do not trigger other workflows, so the site deploy happens
       # here when the data changed. Requires the CLOUDFLARE_API_TOKEN secret.
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v6
         with:
           package_json_file: web/package.json
         if: steps.commit.outputs.changed == 'true' && env.CF_TOKEN != ''
