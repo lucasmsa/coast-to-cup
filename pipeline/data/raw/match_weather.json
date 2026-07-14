@@ -261,7 +261,7 @@
   },
   "SF-1": {
     "temp_c": 31.2,
-    "apparent_c": 34.3
+    "apparent_c": 34.6
   },
   "E-2": {
     "temp_c": 29.4,
@@ -332,8 +332,8 @@
     "apparent_c": 33.5
   },
   "SF-2": {
-    "temp_c": 28.3,
-    "apparent_c": 34.6
+    "temp_c": 28.9,
+    "apparent_c": 32.5
   },
   "G-1": {
     "temp_c": 28.9,
