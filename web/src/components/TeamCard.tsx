@@ -32,7 +32,7 @@ export function TeamCard() {
       initial={{ opacity: 0, x: 24 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
-      className="md:h-full md:overflow-y-auto scroll-thin px-5 pb-5"
+      className="px-5 pb-5"
     >
       <button
         type="button"

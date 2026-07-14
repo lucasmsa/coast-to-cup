@@ -58,28 +58,29 @@ export function Leaderboard() {
 
   const sectioned = phase !== 'all' && phase !== 'group' && resolved
   if (!sectioned) {
-    return (
-      <div className="md:h-full md:overflow-y-auto scroll-thin">{ranked.map((tm) => row(tm, tm.liveRank))}</div>
-    )
+    return <div>{ranked.map((tm) => row(tm, tm.liveRank))}</div>
   }
 
   // Knockout phases: split the one list into the two bracket halves, each ranked.
+  // Each half carries its own "Chaveamento do lado X" heading with a rule under it.
   const section = (title: string, rows: RankedTeam[]): ReactNode =>
     rows.length > 0 && (
       <div key={title}>
-        <div className="px-5 pt-3 pb-1 font-stat text-sm font-semibold text-mut">{title}</div>
-        {rows.map((tm, i) => row(tm, i + 1))}
+        <div className="mx-5 pt-4 pb-2 font-stat text-sm font-semibold text-mut border-b border-line/60">
+          {title}
+        </div>
+        <div className="pt-1">{rows.map((tm, i) => row(tm, i + 1))}</div>
       </div>
     )
 
   return (
-    <div className="md:h-full md:overflow-y-auto scroll-thin pb-2 pt-1">
+    <div className="pb-2">
       {section(
-        t('leftHalf'),
+        t('bracketLeft'),
         ranked.filter((tm) => half[tm.id] === 'left'),
       )}
       {section(
-        t('rightHalf'),
+        t('bracketRight'),
         ranked.filter((tm) => half[tm.id] === 'right'),
       )}
     </div>

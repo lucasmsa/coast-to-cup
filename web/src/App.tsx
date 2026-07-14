@@ -9,8 +9,8 @@ import { PhaseTabs } from './components/PhaseTabs'
 import { SearchBox } from './components/SearchBox'
 import { TeamCard } from './components/TeamCard'
 import { WeightSliders } from './components/WeightSliders'
-import { useBracketHalves } from './hooks/useBracketHalves'
 import { useDerived } from './hooks/useDerived'
+import { useEdgeFades } from './hooks/useEdgeFades'
 import { useRanked } from './hooks/useRanked'
 import { useT } from './hooks/useT'
 import { teamName } from './config/teamNames'
@@ -110,8 +110,7 @@ export default function App() {
   const select = useStore((s) => s.select)
   const phase = useStore((s) => s.phase)
   const ranked = useRanked()
-  const { resolved: bracketResolved } = useBracketHalves()
-  const sectioned = phase !== 'all' && phase !== 'group' && bracketResolved
+  const fades = useEdgeFades<HTMLElement>()
 
   // Drop the selection if the phase change removed that team from the pool.
   useEffect(() => {
@@ -129,7 +128,12 @@ export default function App() {
             <Map3D />
             <HeroOverlay />
           </section>
-          <aside className="bg-surface flex flex-col flex-1 min-h-0 overflow-y-auto md:overflow-visible scroll-thin">
+          <div className="relative flex flex-col flex-1 min-h-0 bg-surface">
+            <aside
+              ref={fades.rootRef}
+              className="flex flex-col flex-1 min-h-0 overflow-y-auto scroll-thin"
+            >
+            <div ref={fades.topRef} className="h-px shrink-0" aria-hidden />
             <PhaseTabs />
             {phase === 'group' && (
               <div className="px-5 py-3.5 border-b border-line/60">
@@ -138,32 +142,29 @@ export default function App() {
             )}
             <WeightSliders />
             {selected ? (
-              <div className="relative md:flex-1 md:min-h-0">
-                <TeamCard />
-                <div className="pointer-events-none absolute inset-x-0 top-0 h-6 bg-gradient-to-b from-surface to-transparent hidden md:block" />
-                <div className="pointer-events-none absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-surface to-transparent hidden md:block" />
-              </div>
+              <TeamCard />
             ) : (
               <>
-                <div className="shrink-0">
-                  <div className="px-5 pt-3 pb-2 flex items-baseline justify-between gap-3">
-                    <h2 className="font-stat text-base font-semibold text-mut truncate">{t('ranking')}</h2>
-                    <SearchBox />
-                  </div>
-                  {sectioned && (
-                    <div className="mx-5 pb-2 font-stat text-base font-semibold text-mut border-b border-line/60">
-                      {t('bracket')}
-                    </div>
-                  )}
+                <div className="px-5 pt-3 pb-2 flex items-baseline justify-between gap-3">
+                  <h2 className="font-stat text-base font-semibold text-mut truncate">{t('ranking')}</h2>
+                  <SearchBox />
                 </div>
-                <div className="relative md:flex-1 md:min-h-0">
-                  <Leaderboard />
-                  <div className="pointer-events-none absolute inset-x-0 top-0 h-4 bg-gradient-to-b from-surface to-transparent hidden md:block" />
-                  <div className="pointer-events-none absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-surface to-transparent hidden md:block" />
-                </div>
+                <Leaderboard />
               </>
             )}
-          </aside>
+            <div ref={fades.bottomRef} className="h-px shrink-0" aria-hidden />
+            </aside>
+            <div
+              className={`pointer-events-none absolute inset-x-0 top-0 h-6 bg-gradient-to-b from-surface to-transparent transition-opacity duration-200 ${
+                fades.top ? 'opacity-100' : 'opacity-0'
+              }`}
+            />
+            <div
+              className={`pointer-events-none absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-surface to-transparent transition-opacity duration-200 ${
+                fades.bottom ? 'opacity-100' : 'opacity-0'
+              }`}
+            />
+          </div>
         </main>
       )}
       <AboutPage />

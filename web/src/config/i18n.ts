@@ -54,9 +54,8 @@ export type StringKey =
   | 'teamsWord'
   | 'gamesWord'
   | 'everyGame'
-  | 'bracket'
-  | 'leftHalf'
-  | 'rightHalf'
+  | 'bracketLeft'
+  | 'bracketRight'
   | 'calledRight'
   | 'circadian'
   | 'travel'
@@ -114,9 +113,8 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     teamsWord: 'teams',
     gamesWord: 'games',
     everyGame: 'every game',
-    bracket: 'Bracket',
-    leftHalf: 'Left half',
-    rightHalf: 'Right half',
+    bracketLeft: 'Left side of the bracket',
+    bracketRight: 'Right side of the bracket',
     circadian: 'Body clock',
     travel: 'Travel',
     altitude: 'Altitude',
@@ -172,9 +170,8 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     teamsWord: 'seleções',
     gamesWord: 'jogos',
     everyGame: 'todos os jogos',
-    bracket: 'Chaveamento',
-    leftHalf: 'Lado esquerdo',
-    rightHalf: 'Lado direito',
+    bracketLeft: 'Chaveamento do lado esquerdo',
+    bracketRight: 'Chaveamento do lado direito',
     circadian: 'Relógio biológico',
     travel: 'Viagem',
     altitude: 'Altitude',
@@ -230,9 +227,8 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     teamsWord: 'selecciones',
     gamesWord: 'partidos',
     everyGame: 'todos los partidos',
-    bracket: 'Cuadro',
-    leftHalf: 'Lado izquierdo',
-    rightHalf: 'Lado derecho',
+    bracketLeft: 'Lado izquierdo del cuadro',
+    bracketRight: 'Lado derecho del cuadro',
     circadian: 'Reloj biológico',
     travel: 'Viaje',
     altitude: 'Altitud',
