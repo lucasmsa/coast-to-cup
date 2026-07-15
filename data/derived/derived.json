@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-07-14T18:28:37.124814+00:00",
+    "built_at": "2026-07-15T00:30:35.101711+00:00",
     "counts": {
       "venues": 16,
       "teams": 48,
@@ -26,11 +26,11 @@
     ],
     "accuracy": {
       "n_matches": 102,
-      "n_played": 100,
-      "n_decided": 80,
-      "edge_correct": 45,
-      "hit_rate": 0.562,
-      "corr_edge_goaldiff": 0.138,
+      "n_played": 101,
+      "n_decided": 81,
+      "edge_correct": 46,
+      "hit_rate": 0.568,
+      "corr_edge_goaldiff": 0.14,
       "note": "descriptive only; ignores squad strength; small, uncontrolled sample"
     }
   },
@@ -833,8 +833,8 @@
           "altitude_climb_m": 35.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 30.3,
-          "apparent_temp_c": 36.1
+          "venue_temp_c": 29.8,
+          "apparent_temp_c": 34.6
         }
       ]
     },
@@ -2020,8 +2020,8 @@
           "altitude_climb_m": 0.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 28.7,
-          "apparent_temp_c": 35.3
+          "venue_temp_c": 29.8,
+          "apparent_temp_c": 32.7
         }
       ]
     },
@@ -2614,8 +2614,8 @@
           "altitude_climb_m": 44.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 30.3,
-          "apparent_temp_c": 36.1
+          "venue_temp_c": 29.8,
+          "apparent_temp_c": 34.6
         }
       ]
     },
@@ -2748,8 +2748,8 @@
           "altitude_climb_m": 171.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 28.7,
-          "apparent_temp_c": 35.3
+          "venue_temp_c": 29.8,
+          "apparent_temp_c": 32.7
         }
       ]
     },
@@ -9303,8 +9303,8 @@
         "altitude_climb_m": 171.0,
         "heat_excess_c": 0.0,
         "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 28.7,
-        "apparent_temp_c": 35.3
+        "venue_temp_c": 29.8,
+        "apparent_temp_c": 32.7
       },
       "b": {
         "team_id": "esp",
@@ -9319,15 +9319,15 @@
         "altitude_climb_m": 0.0,
         "heat_excess_c": 0.0,
         "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 28.7,
-        "apparent_temp_c": 35.3
+        "venue_temp_c": 29.8,
+        "apparent_temp_c": 32.7
       },
       "edge_team": "esp",
       "edge_margin": 0.2777,
-      "score_a": null,
-      "score_b": null,
-      "winner": null,
-      "edge_correct": null
+      "score_a": 0,
+      "score_b": 2,
+      "winner": "esp",
+      "edge_correct": true
     },
     {
       "match_id": "SF-2",
@@ -9349,8 +9349,8 @@
         "altitude_climb_m": 35.0,
         "heat_excess_c": 0.0,
         "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 30.3,
-        "apparent_temp_c": 36.1
+        "venue_temp_c": 29.8,
+        "apparent_temp_c": 34.6
       },
       "b": {
         "team_id": "arg",
@@ -9365,8 +9365,8 @@
         "altitude_climb_m": 44.0,
         "heat_excess_c": 0.0,
         "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 30.3,
-        "apparent_temp_c": 36.1
+        "venue_temp_c": 29.8,
+        "apparent_temp_c": 34.6
       },
       "edge_team": "eng",
       "edge_margin": 0.0009,
