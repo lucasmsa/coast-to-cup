@@ -82,6 +82,19 @@ export function meridianX(lon: number): number {
   return projectPoint(lon, 0)[0]
 }
 
+// Altitude stems mark the climb a team actually makes from its base camp to a
+// venue (venue altitude minus base altitude, exactly as the model scores it), so
+// only the selected team's venues get one, scaled by that climb. Small climbs
+// read as ground level (no stem).
+export const ALTITUDE_STEM_FLOOR_M = 300
+export const ALTITUDE_STEM_REF_M = 2100 // ~the largest base-to-venue climb -> full length
+export const ALTITUDE_STEM_MAX_LEN = 0.8
+
+export function altitudeStemLength(climb_m: number): number {
+  if (climb_m < ALTITUDE_STEM_FLOOR_M) return 0
+  return Math.min(climb_m / ALTITUDE_STEM_REF_M, 1) * ALTITUDE_STEM_MAX_LEN
+}
+
 export const MAP_BOUNDS = (() => {
   let minX = Infinity
   let maxX = -Infinity

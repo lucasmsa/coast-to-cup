@@ -36,6 +36,9 @@ export function Map3D() {
   const team = useActiveTeam()
 
   const venueIds = team ? team.scopedLoads.map((l) => l.venue_id) : []
+  // Base-relative climb per venue the team plays, so stems live only on their route.
+  const climbByVenue: Record<string, number> = {}
+  if (team) for (const l of team.scopedLoads) climbByVenue[l.venue_id] = l.altitude_climb_m
   const targets: [number, number][] =
     team && data
       ? team.scopedLoads.map((l) => {
@@ -55,7 +58,7 @@ export function Map3D() {
       <color attach="background" args={['#14161d']} />
       <Landmass />
       <TimezoneBands />
-      <VenueMarkers activeIds={venueIds} color={team?.color ?? '#c6f432'} />
+      <VenueMarkers activeIds={venueIds} color={team?.color ?? '#c6f432'} climbs={climbByVenue} />
       {hasBase && (
         <Arcs
           key={`arcs-${team!.id}-${targets.length}`}
