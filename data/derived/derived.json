@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-07-15T06:50:38.338261+00:00",
+    "built_at": "2026-07-15T12:33:34.641984+00:00",
     "counts": {
       "venues": 16,
       "teams": 48,
@@ -833,8 +833,8 @@
           "altitude_climb_m": 35.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 28.2,
-          "apparent_temp_c": 31.8
+          "venue_temp_c": 27.8,
+          "apparent_temp_c": 34.0
         }
       ]
     },
@@ -2614,8 +2614,8 @@
           "altitude_climb_m": 44.0,
           "heat_excess_c": 0.0,
           "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 28.2,
-          "apparent_temp_c": 31.8
+          "venue_temp_c": 27.8,
+          "apparent_temp_c": 34.0
         }
       ]
     },
@@ -9349,8 +9349,8 @@
         "altitude_climb_m": 35.0,
         "heat_excess_c": 0.0,
         "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 28.2,
-        "apparent_temp_c": 31.8
+        "venue_temp_c": 27.8,
+        "apparent_temp_c": 34.0
       },
       "b": {
         "team_id": "arg",
@@ -9365,8 +9365,8 @@
         "altitude_climb_m": 44.0,
         "heat_excess_c": 0.0,
         "heat_apparent_excess_c": 0.0,
-        "venue_temp_c": 28.2,
-        "apparent_temp_c": 31.8
+        "venue_temp_c": 27.8,
+        "apparent_temp_c": 34.0
       },
       "edge_team": "eng",
       "edge_margin": 0.0009,
