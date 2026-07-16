@@ -31,7 +31,9 @@ SECTION_STAGES = [
     (r"==\s*Round of 16\s*==", "R16"),
     (r"==\s*Quarter-?finals?\s*==", "QF"),
     (r"==\s*Semi-?finals?\s*==", "SF"),
-    (r"==\s*(Third[ -]place[^=]*|Bronze[^=]*)==", "3RD"),
+    # Wikipedia titles it "Match for third place", so match the phrase anywhere in
+    # the heading, not just at the start. Single line only (no = or newline inside).
+    (r"==[^=\n]*(?:[Tt]hird[ -]place|[Bb]ronze)[^=\n]*==", "3RD"),
     (r"==\s*Final\s*==", "F"),
 ]
 
@@ -80,15 +82,22 @@ def parse_stage(stage: str, section: str) -> list[dict]:
     ]
 
 
+def split_ko_sections(ko: str) -> list[tuple[str, str]]:
+    """(stage, wikitext) for each knockout heading, each section running to the
+    next detected heading. Pure text, so it is unit-testable without the network."""
+    headings = [(m.start(), stage) for pat, stage in SECTION_STAGES for m in re.finditer(pat, ko)]
+    headings.sort()
+    out = []
+    for i, (start, stage) in enumerate(headings):
+        end = headings[i + 1][0] if i + 1 < len(headings) else len(ko)
+        out.append((stage, ko[start:end]))
+    return out
+
+
 def knockout_sections() -> list[tuple[str, str]]:
     """(stage, wikitext section) pairs across the two knockout pages."""
     sections = [("R32", wikitext(R32_PAGE, fresh=True))]
-    ko = wikitext(KO_PAGE, fresh=True)
-    headings = [(m.start(), stage) for pat, stage in SECTION_STAGES for m in re.finditer(pat, ko)]
-    headings.sort()
-    for i, (start, stage) in enumerate(headings):
-        end = headings[i + 1][0] if i + 1 < len(headings) else len(ko)
-        sections.append((stage, ko[start:end]))
+    sections.extend(split_ko_sections(wikitext(KO_PAGE, fresh=True)))
     return sections
 
 
