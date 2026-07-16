@@ -59,7 +59,11 @@ export function VenueMarkers({
                   <circleGeometry args={[0.035, 24]} />
                   <meshBasicMaterial color={STEM_COLOR} toneMapped={false} />
                 </mesh>
-                <Html position={[labelLeft ? -0.06 : 0.06, stem, 0]} style={{ pointerEvents: 'none' }}>
+                <Html
+                  position={[labelLeft ? -0.06 : 0.06, stem, 0]}
+                  style={{ pointerEvents: 'none' }}
+                  zIndexRange={[40, 0]}
+                >
                   <div
                     className="font-stat font-semibold whitespace-nowrap tabular"
                     style={{
