@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-07-16T00:35:32.789960+00:00",
+    "built_at": "2026-07-16T02:00:38.094322+00:00",
     "counts": {
       "venues": 16,
       "teams": 48,
@@ -748,9 +748,9 @@
           "apparent_temp_c": 33.4
         },
         {
-          "match_id": "SF-3",
-          "matchday": 3,
-          "stage": "SF",
+          "match_id": "3RD-1",
+          "matchday": 1,
+          "stage": "3RD",
           "venue_id": "miami",
           "local_kickoff_hour": 17.0,
           "body_clock_hour": 16.0,
@@ -2381,9 +2381,9 @@
           "apparent_temp_c": 32.7
         },
         {
-          "match_id": "SF-3",
-          "matchday": 3,
-          "stage": "SF",
+          "match_id": "3RD-1",
+          "matchday": 1,
+          "stage": "3RD",
           "venue_id": "miami",
           "local_kickoff_hour": 17.0,
           "body_clock_hour": 17.0,
@@ -9406,17 +9406,17 @@
       "edge_correct": false
     },
     {
-      "match_id": "SF-3",
-      "group": "SF",
-      "matchday": 3,
-      "stage": "SF",
+      "match_id": "3RD-1",
+      "group": "3RD",
+      "matchday": 1,
+      "stage": "3RD",
       "venue_id": "miami",
       "kickoff_utc": "2026-07-18T21:00:00+00:00",
       "a": {
         "team_id": "fra",
-        "match_id": "SF-3",
-        "matchday": 3,
-        "stage": "SF",
+        "match_id": "3RD-1",
+        "matchday": 1,
+        "stage": "3RD",
         "venue_id": "miami",
         "local_kickoff_hour": 17.0,
         "body_clock_hour": 17.0,
@@ -9430,9 +9430,9 @@
       },
       "b": {
         "team_id": "eng",
-        "match_id": "SF-3",
-        "matchday": 3,
-        "stage": "SF",
+        "match_id": "3RD-1",
+        "matchday": 1,
+        "stage": "3RD",
         "venue_id": "miami",
         "local_kickoff_hour": 17.0,
         "body_clock_hour": 16.0,

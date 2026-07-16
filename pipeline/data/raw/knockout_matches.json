@@ -420,10 +420,10 @@
     "pen_b": null
   },
   {
-    "id": "SF-3",
-    "group": "SF",
-    "matchday": 3,
-    "stage": "SF",
+    "id": "3RD-1",
+    "group": "3RD",
+    "matchday": 1,
+    "stage": "3RD",
     "team_a": "fra",
     "team_b": "eng",
     "venue_id": "miami",
