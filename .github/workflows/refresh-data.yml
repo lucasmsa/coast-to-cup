@@ -29,7 +29,7 @@ jobs:
             echo "active=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         if: steps.guard.outputs.active == 'true'
         with:
           python-version: '3.12'
