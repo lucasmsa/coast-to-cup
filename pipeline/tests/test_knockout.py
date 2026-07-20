@@ -31,6 +31,14 @@ def test_final_page_match_parses():
     assert m["stage"] == "F"
     assert (m["score_a"], m["score_b"]) == (1, 0)
 
+
+def test_knockout_ids_do_not_collide_with_group_ids():
+    # Group F matches are "F-1".."F-6"; the Final must not also key to "F-1", or the
+    # dataset (keyed by match id) drops one of them.
+    final = parse_stage("F", FINAL_PAGE_WT)[0]
+    assert final["id"] != "F-1"
+    assert final["id"] == "KO-F-1"
+
 SAMPLE = """
 ==Semifinals==
 ===France vs Spain===

@@ -79,8 +79,11 @@ def parse_stage(stage: str, section: str) -> list[dict]:
         })
 
     parsed.sort(key=lambda p: p["kickoff_utc"])
+    # Namespace knockout ids ("KO-F-1") so they never collide with a group match
+    # id: group F is "F-1".."F-6", which would otherwise clash with the Final ("F-1")
+    # and silently drop one when the dataset keys matches by id.
     return [
-        {"id": f"{stage}-{i + 1}", "group": stage, "matchday": i + 1, **p}
+        {"id": f"KO-{stage}-{i + 1}", "group": stage, "matchday": i + 1, **p}
         for i, p in enumerate(parsed)
     ]
 
