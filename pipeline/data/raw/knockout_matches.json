@@ -428,8 +428,8 @@
     "team_b": "eng",
     "venue_id": "miami",
     "kickoff_utc": "2026-07-18T21:00:00+00:00",
-    "score_a": null,
-    "score_b": null,
+    "score_a": 4,
+    "score_b": 6,
     "pen_a": null,
     "pen_b": null
   }
