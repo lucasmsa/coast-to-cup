@@ -53,7 +53,7 @@ export type StringKey =
   | 'allScopeHint'
   | 'teamsWord'
   | 'gamesWord'
-  | 'gamesEach'
+  | 'gamesPlayed'
   | 'everyGame'
   | 'bracketLeft'
   | 'bracketRight'
@@ -113,7 +113,7 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     allScopeHint: 'All 48 teams, scored across every game they played in the tournament.',
     teamsWord: 'teams',
     gamesWord: 'games',
-    gamesEach: 'each',
+    gamesPlayed: 'played',
     everyGame: 'every game',
     bracketLeft: 'Left side of the bracket',
     bracketRight: 'Right side of the bracket',
@@ -171,7 +171,7 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     allScopeHint: 'As 48 seleções, avaliadas em todos os jogos que fizeram no torneio.',
     teamsWord: 'seleções',
     gamesWord: 'jogos',
-    gamesEach: 'cada',
+    gamesPlayed: 'disputados',
     everyGame: 'todos os jogos',
     bracketLeft: 'Chaveamento do lado esquerdo',
     bracketRight: 'Chaveamento do lado direito',
@@ -229,7 +229,7 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     allScopeHint: 'Las 48 selecciones, evaluadas en todos los partidos que jugaron en el torneo.',
     teamsWord: 'selecciones',
     gamesWord: 'partidos',
-    gamesEach: 'cada una',
+    gamesPlayed: 'disputados',
     everyGame: 'todos los partidos',
     bracketLeft: 'Lado izquierdo del cuadro',
     bracketRight: 'Lado derecho del cuadro',
