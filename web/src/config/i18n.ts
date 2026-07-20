@@ -54,6 +54,7 @@ export type StringKey =
   | 'teamsWord'
   | 'gamesWord'
   | 'gamesPlayed'
+  | 'gamesEach'
   | 'everyGame'
   | 'bracketLeft'
   | 'bracketRight'
@@ -114,6 +115,7 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     teamsWord: 'teams',
     gamesWord: 'games',
     gamesPlayed: 'played',
+    gamesEach: 'each',
     everyGame: 'every game',
     bracketLeft: 'Left side of the bracket',
     bracketRight: 'Right side of the bracket',
@@ -172,6 +174,7 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     teamsWord: 'seleções',
     gamesWord: 'jogos',
     gamesPlayed: 'disputados',
+    gamesEach: 'cada',
     everyGame: 'todos os jogos',
     bracketLeft: 'Chaveamento do lado esquerdo',
     bracketRight: 'Chaveamento do lado direito',
@@ -230,6 +233,7 @@ export const STRINGS: Record<Locale, Record<StringKey, string>> = {
     teamsWord: 'selecciones',
     gamesWord: 'partidos',
     gamesPlayed: 'disputados',
+    gamesEach: 'cada una',
     everyGame: 'todos los partidos',
     bracketLeft: 'Lado izquierdo del cuadro',
     bracketRight: 'Lado derecho del cuadro',
