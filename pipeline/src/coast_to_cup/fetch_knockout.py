@@ -24,7 +24,10 @@ RAW = Path(__file__).resolve().parents[2] / "data" / "raw"
 
 R32_PAGE = "2026 FIFA World Cup round of 32"
 KO_PAGE = "2026 FIFA World Cup knockout stage"
-SOURCE = f"Wikipedia, {R32_PAGE} and {KO_PAGE} (match templates), https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage"
+# The Final has its own article, only transcluded into the knockout page, so its
+# match template is not on KO_PAGE; fetch it directly like the round of 32.
+FINAL_PAGE = "2026 FIFA World Cup final"
+SOURCE = f"Wikipedia, {R32_PAGE}, {KO_PAGE} and {FINAL_PAGE} (match templates), https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage"
 
 # Knockout-stage page section heading -> stage code.
 SECTION_STAGES = [
@@ -95,9 +98,15 @@ def split_ko_sections(ko: str) -> list[tuple[str, str]]:
 
 
 def knockout_sections() -> list[tuple[str, str]]:
-    """(stage, wikitext section) pairs across the two knockout pages."""
+    """(stage, wikitext section) pairs across the knockout pages. The Final match
+    lives on its own article (only transcluded into KO_PAGE), so fetch it directly.
+    That article may not exist until late in the tournament, so tolerate absence."""
     sections = [("R32", wikitext(R32_PAGE, fresh=True))]
     sections.extend(split_ko_sections(wikitext(KO_PAGE, fresh=True)))
+    try:
+        sections.append(("F", wikitext(FINAL_PAGE, fresh=True)))
+    except Exception:
+        pass  # final article not created yet; picked up on a later run
     return sections
 
 

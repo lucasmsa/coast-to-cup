@@ -39,7 +39,7 @@ RE_MATCH = re.compile(
     re.DOTALL,
 )
 RE_SCORE = re.compile(r"\s*(\d+)\s*[–—-]\s*(\d+)")
-RE_TIME = re.compile(r"(\d{1,2}):(\d{2})\s*(a\.m\.|p\.m\.)?.*?UTC[−–—-](\d{2}):?(\d{2})?")
+RE_TIME = re.compile(r"(\d{1,2}):(\d{2})\s*(a\.m\.|p\.m\.)?.*?UTC[−–—-](\d{1,2}):?(\d{2})?")
 
 STADIUM_KEYWORDS = [
     ("Azteca", "mexico_city"), ("Akron", "guadalajara"), ("BBVA", "monterrey"),

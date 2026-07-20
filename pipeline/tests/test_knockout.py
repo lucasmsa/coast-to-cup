@@ -7,7 +7,29 @@ game is between the two semifinal losers (opposite bracket halves), which then
 merges the two halves in the web's bracket split.
 """
 
-from coast_to_cup.fetch_knockout import split_ko_sections
+from coast_to_cup.fetch_knockout import parse_stage, split_ko_sections
+
+# The Final article renders teams via {{#invoke:flag|...|CODE}} and a 3-argument
+# score link, unlike the {{fb|CODE}} blocks elsewhere. Parsing must still resolve it.
+FINAL_PAGE_WT = """
+{{Football box
+|date={{Start date|2026|7|19}}
+|time=3:00&nbsp;p.m. [[UTC−4]]
+|team1={{#invoke:flag|fb-rt|ESP}}
+|score={{score link|2026 FIFA World Cup knockout stage#Final|1–0|2026 FIFA World Cup final}}
+|team2={{#invoke:flag|fb|ARG}}
+|stadium=[[MetLife Stadium]]
+}}
+"""
+
+
+def test_final_page_match_parses():
+    matches = parse_stage("F", FINAL_PAGE_WT)
+    assert len(matches) == 1
+    m = matches[0]
+    assert (m["team_a"], m["team_b"]) == ("esp", "arg")
+    assert m["stage"] == "F"
+    assert (m["score_a"], m["score_b"]) == (1, 0)
 
 SAMPLE = """
 ==Semifinals==
