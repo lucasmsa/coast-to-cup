@@ -1,11 +1,11 @@
 {
   "meta": {
-    "built_at": "2026-07-20T21:45:46.046642+00:00",
+    "built_at": "2026-07-20T22:02:55.520735+00:00",
     "counts": {
       "venues": 16,
       "teams": 48,
       "base_camps": 48,
-      "matches": 103,
+      "matches": 104,
       "ranked_teams": 48
     },
     "weights": {
@@ -25,8 +25,8 @@
       "heat"
     ],
     "accuracy": {
-      "n_matches": 103,
-      "n_played": 103,
+      "n_matches": 104,
+      "n_played": 104,
       "n_decided": 84,
       "edge_correct": 47,
       "hit_rate": 0.56,
@@ -302,7 +302,7 @@
           "apparent_temp_c": 28.4
         },
         {
-          "match_id": "R32-1",
+          "match_id": "KO-R32-1",
           "matchday": 1,
           "stage": "R32",
           "venue_id": "los_angeles",
@@ -317,7 +317,7 @@
           "apparent_temp_c": 21.1
         },
         {
-          "match_id": "R16-1",
+          "match_id": "KO-R16-1",
           "matchday": 1,
           "stage": "R16",
           "venue_id": "houston",
@@ -406,7 +406,7 @@
           "apparent_temp_c": 13.9
         },
         {
-          "match_id": "R32-3",
+          "match_id": "KO-R32-3",
           "matchday": 3,
           "stage": "R32",
           "venue_id": "boston",
@@ -421,7 +421,7 @@
           "apparent_temp_c": 31.1
         },
         {
-          "match_id": "R16-2",
+          "match_id": "KO-R16-2",
           "matchday": 2,
           "stage": "R16",
           "venue_id": "philadelphia",
@@ -584,7 +584,7 @@
           "apparent_temp_c": 14.8
         },
         {
-          "match_id": "R32-14",
+          "match_id": "KO-R32-14",
           "matchday": 14,
           "stage": "R32",
           "venue_id": "dallas",
@@ -599,7 +599,7 @@
           "apparent_temp_c": 39.5
         },
         {
-          "match_id": "R16-7",
+          "match_id": "KO-R16-7",
           "matchday": 7,
           "stage": "R16",
           "venue_id": "atlanta",
@@ -688,7 +688,7 @@
           "apparent_temp_c": 32.3
         },
         {
-          "match_id": "R32-1",
+          "match_id": "KO-R32-1",
           "matchday": 1,
           "stage": "R32",
           "venue_id": "los_angeles",
@@ -777,7 +777,7 @@
           "apparent_temp_c": 24.2
         },
         {
-          "match_id": "R32-8",
+          "match_id": "KO-R32-8",
           "matchday": 8,
           "stage": "R32",
           "venue_id": "atlanta",
@@ -792,7 +792,7 @@
           "apparent_temp_c": 38.3
         },
         {
-          "match_id": "R16-4",
+          "match_id": "KO-R16-4",
           "matchday": 4,
           "stage": "R16",
           "venue_id": "mexico_city",
@@ -807,7 +807,7 @@
           "apparent_temp_c": 18.5
         },
         {
-          "match_id": "QF-3",
+          "match_id": "KO-QF-3",
           "matchday": 3,
           "stage": "QF",
           "venue_id": "miami",
@@ -822,7 +822,7 @@
           "apparent_temp_c": 38.3
         },
         {
-          "match_id": "SF-2",
+          "match_id": "KO-SF-2",
           "matchday": 2,
           "stage": "SF",
           "venue_id": "atlanta",
@@ -837,7 +837,7 @@
           "apparent_temp_c": 33.4
         },
         {
-          "match_id": "3RD-1",
+          "match_id": "KO-3RD-1",
           "matchday": 1,
           "stage": "3RD",
           "venue_id": "miami",
@@ -926,7 +926,7 @@
           "apparent_temp_c": 30.5
         },
         {
-          "match_id": "R32-13",
+          "match_id": "KO-R32-13",
           "matchday": 13,
           "stage": "R32",
           "venue_id": "vancouver",
@@ -1015,7 +1015,7 @@
           "apparent_temp_c": 27.7
         },
         {
-          "match_id": "R32-7",
+          "match_id": "KO-R32-7",
           "matchday": 7,
           "stage": "R32",
           "venue_id": "mexico_city",
@@ -1178,7 +1178,7 @@
           "apparent_temp_c": 30.5
         },
         {
-          "match_id": "R32-11",
+          "match_id": "KO-R32-11",
           "matchday": 11,
           "stage": "R32",
           "venue_id": "los_angeles",
@@ -1267,7 +1267,7 @@
           "apparent_temp_c": 27.8
         },
         {
-          "match_id": "R32-10",
+          "match_id": "KO-R32-10",
           "matchday": 10,
           "stage": "R32",
           "venue_id": "san_francisco_bay_area",
@@ -1430,7 +1430,7 @@
           "apparent_temp_c": 13.9
         },
         {
-          "match_id": "R32-14",
+          "match_id": "KO-R32-14",
           "matchday": 14,
           "stage": "R32",
           "venue_id": "dallas",
@@ -1519,7 +1519,7 @@
           "apparent_temp_c": 34.0
         },
         {
-          "match_id": "R32-8",
+          "match_id": "KO-R32-8",
           "matchday": 8,
           "stage": "R32",
           "venue_id": "atlanta",
@@ -1532,80 +1532,6 @@
           "heat_apparent_excess_c": 0.0,
           "venue_temp_c": 32.4,
           "apparent_temp_c": 38.3
-        }
-      ]
-    },
-    {
-      "id": "jpn",
-      "name": "Japan",
-      "code": "JPN",
-      "group": "F",
-      "confederation": "AFC",
-      "color": "#503eda",
-      "base_camp": "Nashville",
-      "base_lat": 36.16228,
-      "base_lon": -86.7743,
-      "raw": {
-        "circadian": 0.12,
-        "travel": 7662.38,
-        "altitude": 408.0,
-        "heat": 0.0,
-        "heat_apparent": 0.0
-      },
-      "norm": {
-        "circadian": 0.3282,
-        "travel": 0.7065,
-        "altitude": 0.1111,
-        "heat": 0.0,
-        "heat_apparent": 0.0
-      },
-      "index": 0.3599,
-      "rank": 15,
-      "loads": [
-        {
-          "match_id": "F-4",
-          "matchday": 2,
-          "stage": "group",
-          "venue_id": "monterrey",
-          "local_kickoff_hour": 22.0,
-          "body_clock_hour": 23.0,
-          "circadian": 0.1206,
-          "travel_km": 3464.696033828489,
-          "altitude_climb_m": 352.0,
-          "heat_excess_c": 0.0,
-          "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 24.8,
-          "apparent_temp_c": 27.5
-        },
-        {
-          "match_id": "F-5",
-          "matchday": 3,
-          "stage": "group",
-          "venue_id": "dallas",
-          "local_kickoff_hour": 18.0,
-          "body_clock_hour": 18.0,
-          "circadian": 0.0,
-          "travel_km": 2037.461998443965,
-          "altitude_climb_m": 56.0,
-          "heat_excess_c": 0.0,
-          "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 32.9,
-          "apparent_temp_c": 34.0
-        },
-        {
-          "match_id": "R32-2",
-          "matchday": 2,
-          "stage": "R32",
-          "venue_id": "houston",
-          "local_kickoff_hour": 12.0,
-          "body_clock_hour": 12.0,
-          "circadian": 0.0,
-          "travel_km": 2160.225993490693,
-          "altitude_climb_m": 0.0,
-          "heat_excess_c": 0.0,
-          "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 34.3,
-          "apparent_temp_c": 41.9
         }
       ]
     },
@@ -1634,7 +1560,7 @@
         "heat_apparent": 0.4755
       },
       "index": 0.357,
-      "rank": 16,
+      "rank": 15,
       "loads": [
         {
           "match_id": "K-2",
@@ -1682,7 +1608,7 @@
           "apparent_temp_c": 35.2
         },
         {
-          "match_id": "R32-16",
+          "match_id": "KO-R32-16",
           "matchday": 16,
           "stage": "R32",
           "venue_id": "kansas_city",
@@ -1697,7 +1623,7 @@
           "apparent_temp_c": 33.9
         },
         {
-          "match_id": "R16-8",
+          "match_id": "KO-R16-8",
           "matchday": 8,
           "stage": "R16",
           "venue_id": "vancouver",
@@ -1738,7 +1664,7 @@
         "heat_apparent": 0.1034
       },
       "index": 0.3541,
-      "rank": 17,
+      "rank": 16,
       "loads": [
         {
           "match_id": "E-1",
@@ -1812,7 +1738,7 @@
         "heat_apparent": 0.0
       },
       "index": 0.3474,
-      "rank": 18,
+      "rank": 17,
       "loads": [
         {
           "match_id": "H-2",
@@ -1886,7 +1812,7 @@
         "heat_apparent": 0.317
       },
       "index": 0.3385,
-      "rank": 19,
+      "rank": 18,
       "loads": [
         {
           "match_id": "C-1",
@@ -1934,7 +1860,7 @@
           "apparent_temp_c": 30.0
         },
         {
-          "match_id": "R32-4",
+          "match_id": "KO-R32-4",
           "matchday": 4,
           "stage": "R32",
           "venue_id": "monterrey",
@@ -1949,7 +1875,7 @@
           "apparent_temp_c": 32.1
         },
         {
-          "match_id": "R16-1",
+          "match_id": "KO-R16-1",
           "matchday": 1,
           "stage": "R16",
           "venue_id": "houston",
@@ -1964,7 +1890,7 @@
           "apparent_temp_c": 40.2
         },
         {
-          "match_id": "QF-1",
+          "match_id": "KO-QF-1",
           "matchday": 1,
           "stage": "QF",
           "venue_id": "boston",
@@ -1977,6 +1903,95 @@
           "heat_apparent_excess_c": 5.199999999999999,
           "venue_temp_c": 30.7,
           "apparent_temp_c": 33.9
+        }
+      ]
+    },
+    {
+      "id": "jpn",
+      "name": "Japan",
+      "code": "JPN",
+      "group": "F",
+      "confederation": "AFC",
+      "color": "#503eda",
+      "base_camp": "Nashville",
+      "base_lat": 36.16228,
+      "base_lon": -86.7743,
+      "raw": {
+        "circadian": 0.12,
+        "travel": 9699.85,
+        "altitude": 464.0,
+        "heat": 0.0,
+        "heat_apparent": 0.0
+      },
+      "norm": {
+        "circadian": 0.2462,
+        "travel": 0.6679,
+        "altitude": 0.0948,
+        "heat": 0.0,
+        "heat_apparent": 0.0
+      },
+      "index": 0.313,
+      "rank": 19,
+      "loads": [
+        {
+          "match_id": "F-1",
+          "matchday": 1,
+          "stage": "group",
+          "venue_id": "dallas",
+          "local_kickoff_hour": 15.0,
+          "body_clock_hour": 15.0,
+          "circadian": 0.0,
+          "travel_km": 2037.461998443965,
+          "altitude_climb_m": 56.0,
+          "heat_excess_c": 0.0,
+          "heat_apparent_excess_c": 0.0,
+          "venue_temp_c": 29.1,
+          "apparent_temp_c": 34.1
+        },
+        {
+          "match_id": "F-4",
+          "matchday": 2,
+          "stage": "group",
+          "venue_id": "monterrey",
+          "local_kickoff_hour": 22.0,
+          "body_clock_hour": 23.0,
+          "circadian": 0.1206,
+          "travel_km": 3464.696033828489,
+          "altitude_climb_m": 352.0,
+          "heat_excess_c": 0.0,
+          "heat_apparent_excess_c": 0.0,
+          "venue_temp_c": 24.8,
+          "apparent_temp_c": 27.5
+        },
+        {
+          "match_id": "F-5",
+          "matchday": 3,
+          "stage": "group",
+          "venue_id": "dallas",
+          "local_kickoff_hour": 18.0,
+          "body_clock_hour": 18.0,
+          "circadian": 0.0,
+          "travel_km": 2037.461998443965,
+          "altitude_climb_m": 56.0,
+          "heat_excess_c": 0.0,
+          "heat_apparent_excess_c": 0.0,
+          "venue_temp_c": 32.9,
+          "apparent_temp_c": 34.0
+        },
+        {
+          "match_id": "KO-R32-2",
+          "matchday": 2,
+          "stage": "R32",
+          "venue_id": "houston",
+          "local_kickoff_hour": 12.0,
+          "body_clock_hour": 12.0,
+          "circadian": 0.0,
+          "travel_km": 2160.225993490693,
+          "altitude_climb_m": 0.0,
+          "heat_excess_c": 0.0,
+          "heat_apparent_excess_c": 0.0,
+          "venue_temp_c": 34.3,
+          "apparent_temp_c": 41.9
         }
       ]
     },
@@ -2053,7 +2068,7 @@
           "apparent_temp_c": 24.4
         },
         {
-          "match_id": "R32-11",
+          "match_id": "KO-R32-11",
           "matchday": 11,
           "stage": "R32",
           "venue_id": "los_angeles",
@@ -2068,7 +2083,7 @@
           "apparent_temp_c": 21.9
         },
         {
-          "match_id": "R16-5",
+          "match_id": "KO-R16-5",
           "matchday": 5,
           "stage": "R16",
           "venue_id": "dallas",
@@ -2083,7 +2098,7 @@
           "apparent_temp_c": 41.7
         },
         {
-          "match_id": "QF-2",
+          "match_id": "KO-QF-2",
           "matchday": 2,
           "stage": "QF",
           "venue_id": "los_angeles",
@@ -2098,7 +2113,7 @@
           "apparent_temp_c": 28.5
         },
         {
-          "match_id": "SF-1",
+          "match_id": "KO-SF-1",
           "matchday": 1,
           "stage": "SF",
           "venue_id": "dallas",
@@ -2113,7 +2128,7 @@
           "apparent_temp_c": 32.7
         },
         {
-          "match_id": "F-1",
+          "match_id": "KO-F-1",
           "matchday": 1,
           "stage": "F",
           "venue_id": "new_york_new_jersey",
@@ -2202,7 +2217,7 @@
           "apparent_temp_c": 33.7
         },
         {
-          "match_id": "R32-15",
+          "match_id": "KO-R32-15",
           "matchday": 15,
           "stage": "R32",
           "venue_id": "miami",
@@ -2217,7 +2232,7 @@
           "apparent_temp_c": 31.4
         },
         {
-          "match_id": "R16-7",
+          "match_id": "KO-R16-7",
           "matchday": 7,
           "stage": "R16",
           "venue_id": "atlanta",
@@ -2232,7 +2247,7 @@
           "apparent_temp_c": 33.5
         },
         {
-          "match_id": "QF-4",
+          "match_id": "KO-QF-4",
           "matchday": 4,
           "stage": "QF",
           "venue_id": "kansas_city",
@@ -2247,7 +2262,7 @@
           "apparent_temp_c": 31.4
         },
         {
-          "match_id": "SF-2",
+          "match_id": "KO-SF-2",
           "matchday": 2,
           "stage": "SF",
           "venue_id": "atlanta",
@@ -2262,7 +2277,7 @@
           "apparent_temp_c": 33.4
         },
         {
-          "match_id": "F-1",
+          "match_id": "KO-F-1",
           "matchday": 1,
           "stage": "F",
           "venue_id": "new_york_new_jersey",
@@ -2351,7 +2366,7 @@
           "apparent_temp_c": 28.4
         },
         {
-          "match_id": "R32-13",
+          "match_id": "KO-R32-13",
           "matchday": 13,
           "stage": "R32",
           "venue_id": "vancouver",
@@ -2366,7 +2381,7 @@
           "apparent_temp_c": 13.6
         },
         {
-          "match_id": "R16-8",
+          "match_id": "KO-R16-8",
           "matchday": 8,
           "stage": "R16",
           "venue_id": "vancouver",
@@ -2381,7 +2396,7 @@
           "apparent_temp_c": 25.6
         },
         {
-          "match_id": "QF-4",
+          "match_id": "KO-QF-4",
           "matchday": 4,
           "stage": "QF",
           "venue_id": "kansas_city",
@@ -2470,7 +2485,7 @@
           "apparent_temp_c": 25.0
         },
         {
-          "match_id": "R32-6",
+          "match_id": "KO-R32-6",
           "matchday": 6,
           "stage": "R32",
           "venue_id": "new_york_new_jersey",
@@ -2485,7 +2500,7 @@
           "apparent_temp_c": 32.7
         },
         {
-          "match_id": "R16-2",
+          "match_id": "KO-R16-2",
           "matchday": 2,
           "stage": "R16",
           "venue_id": "philadelphia",
@@ -2500,7 +2515,7 @@
           "apparent_temp_c": 40.3
         },
         {
-          "match_id": "QF-1",
+          "match_id": "KO-QF-1",
           "matchday": 1,
           "stage": "QF",
           "venue_id": "boston",
@@ -2515,7 +2530,7 @@
           "apparent_temp_c": 33.9
         },
         {
-          "match_id": "SF-1",
+          "match_id": "KO-SF-1",
           "matchday": 1,
           "stage": "SF",
           "venue_id": "dallas",
@@ -2530,7 +2545,7 @@
           "apparent_temp_c": 32.7
         },
         {
-          "match_id": "3RD-1",
+          "match_id": "KO-3RD-1",
           "matchday": 1,
           "stage": "3RD",
           "venue_id": "miami",
@@ -2619,7 +2634,7 @@
           "apparent_temp_c": 34.0
         },
         {
-          "match_id": "R32-6",
+          "match_id": "KO-R32-6",
           "matchday": 6,
           "stage": "R32",
           "venue_id": "new_york_new_jersey",
@@ -2782,7 +2797,7 @@
           "apparent_temp_c": 23.7
         },
         {
-          "match_id": "R32-16",
+          "match_id": "KO-R32-16",
           "matchday": 16,
           "stage": "R32",
           "venue_id": "kansas_city",
@@ -2795,80 +2810,6 @@
           "heat_apparent_excess_c": 6.899999999999999,
           "venue_temp_c": 31.0,
           "apparent_temp_c": 33.9
-        }
-      ]
-    },
-    {
-      "id": "ned",
-      "name": "Netherlands",
-      "code": "NED",
-      "group": "F",
-      "confederation": "UEFA",
-      "color": "#FF6A13",
-      "base_camp": "Riverside",
-      "base_lat": 39.1775,
-      "base_lon": -94.61301,
-      "raw": {
-        "circadian": 0.05,
-        "travel": 5335.21,
-        "altitude": 272.0,
-        "heat": 1.9,
-        "heat_apparent": 1.7
-      },
-      "norm": {
-        "circadian": 0.1361,
-        "travel": 0.4744,
-        "altitude": 0.0741,
-        "heat": 0.2094,
-        "heat_apparent": 0.1171
-      },
-      "index": 0.2393,
-      "rank": 27,
-      "loads": [
-        {
-          "match_id": "F-3",
-          "matchday": 2,
-          "stage": "group",
-          "venue_id": "houston",
-          "local_kickoff_hour": 12.0,
-          "body_clock_hour": 12.0,
-          "circadian": 0.0,
-          "travel_km": 2116.107694811065,
-          "altitude_climb_m": 0.0,
-          "heat_excess_c": 0.0,
-          "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 29.6,
-          "apparent_temp_c": 35.7
-        },
-        {
-          "match_id": "F-6",
-          "matchday": 3,
-          "stage": "group",
-          "venue_id": "kansas_city",
-          "local_kickoff_hour": 18.0,
-          "body_clock_hour": 18.0,
-          "circadian": 0.0,
-          "travel_km": 36.23490136823636,
-          "altitude_climb_m": 21.0,
-          "heat_excess_c": 0.0,
-          "heat_apparent_excess_c": 0.0,
-          "venue_temp_c": 21.9,
-          "apparent_temp_c": 24.2
-        },
-        {
-          "match_id": "R32-4",
-          "matchday": 4,
-          "stage": "R32",
-          "venue_id": "monterrey",
-          "local_kickoff_hour": 19.0,
-          "body_clock_hour": 20.0,
-          "circadian": 0.05,
-          "travel_km": 3182.865258906282,
-          "altitude_climb_m": 251.0,
-          "heat_excess_c": 1.8999999999999986,
-          "heat_apparent_excess_c": 1.7000000000000028,
-          "venue_temp_c": 32.3,
-          "apparent_temp_c": 32.1
         }
       ]
     },
@@ -2897,7 +2838,7 @@
         "heat_apparent": 0.2439
       },
       "index": 0.238,
-      "rank": 28,
+      "rank": 27,
       "loads": [
         {
           "match_id": "K-1",
@@ -2945,7 +2886,7 @@
           "apparent_temp_c": 35.2
         },
         {
-          "match_id": "R32-12",
+          "match_id": "KO-R32-12",
           "matchday": 12,
           "stage": "R32",
           "venue_id": "toronto",
@@ -2960,7 +2901,7 @@
           "apparent_temp_c": 31.3
         },
         {
-          "match_id": "R16-5",
+          "match_id": "KO-R16-5",
           "matchday": 5,
           "stage": "R16",
           "venue_id": "dallas",
@@ -3001,7 +2942,7 @@
         "heat_apparent": 0.0
       },
       "index": 0.222,
-      "rank": 29,
+      "rank": 28,
       "loads": [
         {
           "match_id": "G-2",
@@ -3047,6 +2988,95 @@
           "heat_apparent_excess_c": 0.0,
           "venue_temp_c": 15.4,
           "apparent_temp_c": 14.8
+        }
+      ]
+    },
+    {
+      "id": "ned",
+      "name": "Netherlands",
+      "code": "NED",
+      "group": "F",
+      "confederation": "UEFA",
+      "color": "#FF6A13",
+      "base_camp": "Riverside",
+      "base_lat": 39.1775,
+      "base_lon": -94.61301,
+      "raw": {
+        "circadian": 0.05,
+        "travel": 6832.97,
+        "altitude": 272.0,
+        "heat": 1.9,
+        "heat_apparent": 1.7
+      },
+      "norm": {
+        "circadian": 0.1021,
+        "travel": 0.4534,
+        "altitude": 0.0556,
+        "heat": 0.157,
+        "heat_apparent": 0.0879
+      },
+      "index": 0.2087,
+      "rank": 29,
+      "loads": [
+        {
+          "match_id": "F-1",
+          "matchday": 1,
+          "stage": "group",
+          "venue_id": "dallas",
+          "local_kickoff_hour": 15.0,
+          "body_clock_hour": 15.0,
+          "circadian": 0.0,
+          "travel_km": 1497.7607222953477,
+          "altitude_climb_m": 0.0,
+          "heat_excess_c": 0.0,
+          "heat_apparent_excess_c": 0.0,
+          "venue_temp_c": 29.1,
+          "apparent_temp_c": 34.1
+        },
+        {
+          "match_id": "F-3",
+          "matchday": 2,
+          "stage": "group",
+          "venue_id": "houston",
+          "local_kickoff_hour": 12.0,
+          "body_clock_hour": 12.0,
+          "circadian": 0.0,
+          "travel_km": 2116.107694811065,
+          "altitude_climb_m": 0.0,
+          "heat_excess_c": 0.0,
+          "heat_apparent_excess_c": 0.0,
+          "venue_temp_c": 29.6,
+          "apparent_temp_c": 35.7
+        },
+        {
+          "match_id": "F-6",
+          "matchday": 3,
+          "stage": "group",
+          "venue_id": "kansas_city",
+          "local_kickoff_hour": 18.0,
+          "body_clock_hour": 18.0,
+          "circadian": 0.0,
+          "travel_km": 36.23490136823636,
+          "altitude_climb_m": 21.0,
+          "heat_excess_c": 0.0,
+          "heat_apparent_excess_c": 0.0,
+          "venue_temp_c": 21.9,
+          "apparent_temp_c": 24.2
+        },
+        {
+          "match_id": "KO-R32-4",
+          "matchday": 4,
+          "stage": "R32",
+          "venue_id": "monterrey",
+          "local_kickoff_hour": 19.0,
+          "body_clock_hour": 20.0,
+          "circadian": 0.05,
+          "travel_km": 3182.865258906282,
+          "altitude_climb_m": 251.0,
+          "heat_excess_c": 1.8999999999999986,
+          "heat_apparent_excess_c": 1.7000000000000028,
+          "venue_temp_c": 32.3,
+          "apparent_temp_c": 32.1
         }
       ]
     },
@@ -3271,7 +3301,7 @@
           "apparent_temp_c": 23.4
         },
         {
-          "match_id": "R32-9",
+          "match_id": "KO-R32-9",
           "matchday": 9,
           "stage": "R32",
           "venue_id": "seattle",
@@ -3434,7 +3464,7 @@
           "apparent_temp_c": 25.0
         },
         {
-          "match_id": "R32-5",
+          "match_id": "KO-R32-5",
           "matchday": 5,
           "stage": "R32",
           "venue_id": "dallas",
@@ -3449,7 +3479,7 @@
           "apparent_temp_c": 36.8
         },
         {
-          "match_id": "R16-3",
+          "match_id": "KO-R16-3",
           "matchday": 3,
           "stage": "R16",
           "venue_id": "new_york_new_jersey",
@@ -3464,7 +3494,7 @@
           "apparent_temp_c": 32.6
         },
         {
-          "match_id": "QF-3",
+          "match_id": "KO-QF-3",
           "matchday": 3,
           "stage": "QF",
           "venue_id": "miami",
@@ -3553,7 +3583,7 @@
           "apparent_temp_c": 32.8
         },
         {
-          "match_id": "R32-2",
+          "match_id": "KO-R32-2",
           "matchday": 2,
           "stage": "R32",
           "venue_id": "houston",
@@ -3568,7 +3598,7 @@
           "apparent_temp_c": 41.9
         },
         {
-          "match_id": "R16-3",
+          "match_id": "KO-R16-3",
           "matchday": 3,
           "stage": "R16",
           "venue_id": "new_york_new_jersey",
@@ -3657,7 +3687,7 @@
           "apparent_temp_c": 33.8
         },
         {
-          "match_id": "R32-15",
+          "match_id": "KO-R32-15",
           "matchday": 15,
           "stage": "R32",
           "venue_id": "miami",
@@ -3746,7 +3776,7 @@
           "apparent_temp_c": 27.7
         },
         {
-          "match_id": "R32-3",
+          "match_id": "KO-R32-3",
           "matchday": 3,
           "stage": "R32",
           "venue_id": "boston",
@@ -3909,7 +3939,7 @@
           "apparent_temp_c": 14.8
         },
         {
-          "match_id": "R32-9",
+          "match_id": "KO-R32-9",
           "matchday": 9,
           "stage": "R32",
           "venue_id": "seattle",
@@ -3924,7 +3954,7 @@
           "apparent_temp_c": 15.4
         },
         {
-          "match_id": "R16-6",
+          "match_id": "KO-R16-6",
           "matchday": 6,
           "stage": "R16",
           "venue_id": "seattle",
@@ -3939,7 +3969,7 @@
           "apparent_temp_c": 28.2
         },
         {
-          "match_id": "QF-2",
+          "match_id": "KO-QF-2",
           "matchday": 2,
           "stage": "QF",
           "venue_id": "los_angeles",
@@ -4028,7 +4058,7 @@
           "apparent_temp_c": 23.7
         },
         {
-          "match_id": "R32-12",
+          "match_id": "KO-R32-12",
           "matchday": 12,
           "stage": "R32",
           "venue_id": "toronto",
@@ -4191,7 +4221,7 @@
           "apparent_temp_c": 18.6
         },
         {
-          "match_id": "R32-10",
+          "match_id": "KO-R32-10",
           "matchday": 10,
           "stage": "R32",
           "venue_id": "san_francisco_bay_area",
@@ -4206,7 +4236,7 @@
           "apparent_temp_c": 20.4
         },
         {
-          "match_id": "R16-6",
+          "match_id": "KO-R16-6",
           "matchday": 6,
           "stage": "R16",
           "venue_id": "seattle",
@@ -4295,7 +4325,7 @@
           "apparent_temp_c": 31.7
         },
         {
-          "match_id": "R32-5",
+          "match_id": "KO-R32-5",
           "matchday": 5,
           "stage": "R32",
           "venue_id": "dallas",
@@ -4680,7 +4710,7 @@
           "apparent_temp_c": 18.5
         },
         {
-          "match_id": "R32-7",
+          "match_id": "KO-R32-7",
           "matchday": 7,
           "stage": "R32",
           "venue_id": "mexico_city",
@@ -4695,7 +4725,7 @@
           "apparent_temp_c": 15.7
         },
         {
-          "match_id": "R16-4",
+          "match_id": "KO-R16-4",
           "matchday": 4,
           "stage": "R16",
           "venue_id": "mexico_city",
@@ -5126,6 +5156,52 @@
       "score_b": 1,
       "winner": "ger",
       "edge_correct": false
+    },
+    {
+      "match_id": "F-1",
+      "group": "F",
+      "matchday": 1,
+      "stage": "group",
+      "venue_id": "dallas",
+      "kickoff_utc": "2026-06-14T20:00:00+00:00",
+      "a": {
+        "team_id": "ned",
+        "match_id": "F-1",
+        "matchday": 1,
+        "stage": "group",
+        "venue_id": "dallas",
+        "local_kickoff_hour": 15.0,
+        "body_clock_hour": 15.0,
+        "circadian": 0.0,
+        "travel_km": 1497.7607222953477,
+        "altitude_climb_m": 0.0,
+        "heat_excess_c": 0.0,
+        "heat_apparent_excess_c": 0.0,
+        "venue_temp_c": 29.1,
+        "apparent_temp_c": 34.1
+      },
+      "b": {
+        "team_id": "jpn",
+        "match_id": "F-1",
+        "matchday": 1,
+        "stage": "group",
+        "venue_id": "dallas",
+        "local_kickoff_hour": 15.0,
+        "body_clock_hour": 15.0,
+        "circadian": 0.0,
+        "travel_km": 2037.461998443965,
+        "altitude_climb_m": 56.0,
+        "heat_excess_c": 0.0,
+        "heat_apparent_excess_c": 0.0,
+        "venue_temp_c": 29.1,
+        "apparent_temp_c": 34.1
+      },
+      "edge_team": "ned",
+      "edge_margin": 0.054,
+      "score_a": 2,
+      "score_b": 2,
+      "winner": null,
+      "edge_correct": null
     },
     {
       "match_id": "E-2",
@@ -7980,7 +8056,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "R32-1",
+      "match_id": "KO-R32-1",
       "group": "R32",
       "matchday": 1,
       "stage": "R32",
@@ -7988,7 +8064,7 @@
       "kickoff_utc": "2026-06-28T19:00:00+00:00",
       "a": {
         "team_id": "rsa",
-        "match_id": "R32-1",
+        "match_id": "KO-R32-1",
         "matchday": 1,
         "stage": "R32",
         "venue_id": "los_angeles",
@@ -8004,7 +8080,7 @@
       },
       "b": {
         "team_id": "can",
-        "match_id": "R32-1",
+        "match_id": "KO-R32-1",
         "matchday": 1,
         "stage": "R32",
         "venue_id": "los_angeles",
@@ -8026,7 +8102,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "R32-2",
+      "match_id": "KO-R32-2",
       "group": "R32",
       "matchday": 2,
       "stage": "R32",
@@ -8034,7 +8110,7 @@
       "kickoff_utc": "2026-06-29T17:00:00+00:00",
       "a": {
         "team_id": "bra",
-        "match_id": "R32-2",
+        "match_id": "KO-R32-2",
         "matchday": 2,
         "stage": "R32",
         "venue_id": "houston",
@@ -8050,7 +8126,7 @@
       },
       "b": {
         "team_id": "jpn",
-        "match_id": "R32-2",
+        "match_id": "KO-R32-2",
         "matchday": 2,
         "stage": "R32",
         "venue_id": "houston",
@@ -8072,7 +8148,7 @@
       "edge_correct": false
     },
     {
-      "match_id": "R32-3",
+      "match_id": "KO-R32-3",
       "group": "R32",
       "matchday": 3,
       "stage": "R32",
@@ -8080,7 +8156,7 @@
       "kickoff_utc": "2026-06-29T20:30:00+00:00",
       "a": {
         "team_id": "ger",
-        "match_id": "R32-3",
+        "match_id": "KO-R32-3",
         "matchday": 3,
         "stage": "R32",
         "venue_id": "boston",
@@ -8096,7 +8172,7 @@
       },
       "b": {
         "team_id": "par",
-        "match_id": "R32-3",
+        "match_id": "KO-R32-3",
         "matchday": 3,
         "stage": "R32",
         "venue_id": "boston",
@@ -8118,7 +8194,7 @@
       "edge_correct": false
     },
     {
-      "match_id": "R32-4",
+      "match_id": "KO-R32-4",
       "group": "R32",
       "matchday": 4,
       "stage": "R32",
@@ -8126,7 +8202,7 @@
       "kickoff_utc": "2026-06-30T01:00:00+00:00",
       "a": {
         "team_id": "ned",
-        "match_id": "R32-4",
+        "match_id": "KO-R32-4",
         "matchday": 4,
         "stage": "R32",
         "venue_id": "monterrey",
@@ -8142,7 +8218,7 @@
       },
       "b": {
         "team_id": "mar",
-        "match_id": "R32-4",
+        "match_id": "KO-R32-4",
         "matchday": 4,
         "stage": "R32",
         "venue_id": "monterrey",
@@ -8164,7 +8240,7 @@
       "edge_correct": false
     },
     {
-      "match_id": "R32-5",
+      "match_id": "KO-R32-5",
       "group": "R32",
       "matchday": 5,
       "stage": "R32",
@@ -8172,7 +8248,7 @@
       "kickoff_utc": "2026-06-30T17:00:00+00:00",
       "a": {
         "team_id": "civ",
-        "match_id": "R32-5",
+        "match_id": "KO-R32-5",
         "matchday": 5,
         "stage": "R32",
         "venue_id": "dallas",
@@ -8188,7 +8264,7 @@
       },
       "b": {
         "team_id": "nor",
-        "match_id": "R32-5",
+        "match_id": "KO-R32-5",
         "matchday": 5,
         "stage": "R32",
         "venue_id": "dallas",
@@ -8210,7 +8286,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "R32-6",
+      "match_id": "KO-R32-6",
       "group": "R32",
       "matchday": 6,
       "stage": "R32",
@@ -8218,7 +8294,7 @@
       "kickoff_utc": "2026-06-30T21:00:00+00:00",
       "a": {
         "team_id": "fra",
-        "match_id": "R32-6",
+        "match_id": "KO-R32-6",
         "matchday": 6,
         "stage": "R32",
         "venue_id": "new_york_new_jersey",
@@ -8234,7 +8310,7 @@
       },
       "b": {
         "team_id": "swe",
-        "match_id": "R32-6",
+        "match_id": "KO-R32-6",
         "matchday": 6,
         "stage": "R32",
         "venue_id": "new_york_new_jersey",
@@ -8256,7 +8332,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "R32-7",
+      "match_id": "KO-R32-7",
       "group": "R32",
       "matchday": 7,
       "stage": "R32",
@@ -8264,7 +8340,7 @@
       "kickoff_utc": "2026-07-01T02:00:00+00:00",
       "a": {
         "team_id": "mex",
-        "match_id": "R32-7",
+        "match_id": "KO-R32-7",
         "matchday": 7,
         "stage": "R32",
         "venue_id": "mexico_city",
@@ -8280,7 +8356,7 @@
       },
       "b": {
         "team_id": "ecu",
-        "match_id": "R32-7",
+        "match_id": "KO-R32-7",
         "matchday": 7,
         "stage": "R32",
         "venue_id": "mexico_city",
@@ -8302,7 +8378,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "R32-8",
+      "match_id": "KO-R32-8",
       "group": "R32",
       "matchday": 8,
       "stage": "R32",
@@ -8310,7 +8386,7 @@
       "kickoff_utc": "2026-07-01T16:00:00+00:00",
       "a": {
         "team_id": "eng",
-        "match_id": "R32-8",
+        "match_id": "KO-R32-8",
         "matchday": 8,
         "stage": "R32",
         "venue_id": "atlanta",
@@ -8326,7 +8402,7 @@
       },
       "b": {
         "team_id": "cod",
-        "match_id": "R32-8",
+        "match_id": "KO-R32-8",
         "matchday": 8,
         "stage": "R32",
         "venue_id": "atlanta",
@@ -8348,7 +8424,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "R32-9",
+      "match_id": "KO-R32-9",
       "group": "R32",
       "matchday": 9,
       "stage": "R32",
@@ -8356,7 +8432,7 @@
       "kickoff_utc": "2026-07-01T20:00:00+00:00",
       "a": {
         "team_id": "bel",
-        "match_id": "R32-9",
+        "match_id": "KO-R32-9",
         "matchday": 9,
         "stage": "R32",
         "venue_id": "seattle",
@@ -8372,7 +8448,7 @@
       },
       "b": {
         "team_id": "sen",
-        "match_id": "R32-9",
+        "match_id": "KO-R32-9",
         "matchday": 9,
         "stage": "R32",
         "venue_id": "seattle",
@@ -8394,7 +8470,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "R32-10",
+      "match_id": "KO-R32-10",
       "group": "R32",
       "matchday": 10,
       "stage": "R32",
@@ -8402,7 +8478,7 @@
       "kickoff_utc": "2026-07-02T00:00:00+00:00",
       "a": {
         "team_id": "usa",
-        "match_id": "R32-10",
+        "match_id": "KO-R32-10",
         "matchday": 10,
         "stage": "R32",
         "venue_id": "san_francisco_bay_area",
@@ -8418,7 +8494,7 @@
       },
       "b": {
         "team_id": "bih",
-        "match_id": "R32-10",
+        "match_id": "KO-R32-10",
         "matchday": 10,
         "stage": "R32",
         "venue_id": "san_francisco_bay_area",
@@ -8440,7 +8516,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "R32-11",
+      "match_id": "KO-R32-11",
       "group": "R32",
       "matchday": 11,
       "stage": "R32",
@@ -8448,7 +8524,7 @@
       "kickoff_utc": "2026-07-02T19:00:00+00:00",
       "a": {
         "team_id": "esp",
-        "match_id": "R32-11",
+        "match_id": "KO-R32-11",
         "matchday": 11,
         "stage": "R32",
         "venue_id": "los_angeles",
@@ -8464,7 +8540,7 @@
       },
       "b": {
         "team_id": "aut",
-        "match_id": "R32-11",
+        "match_id": "KO-R32-11",
         "matchday": 11,
         "stage": "R32",
         "venue_id": "los_angeles",
@@ -8486,7 +8562,7 @@
       "edge_correct": false
     },
     {
-      "match_id": "R32-12",
+      "match_id": "KO-R32-12",
       "group": "R32",
       "matchday": 12,
       "stage": "R32",
@@ -8494,7 +8570,7 @@
       "kickoff_utc": "2026-07-02T23:00:00+00:00",
       "a": {
         "team_id": "por",
-        "match_id": "R32-12",
+        "match_id": "KO-R32-12",
         "matchday": 12,
         "stage": "R32",
         "venue_id": "toronto",
@@ -8510,7 +8586,7 @@
       },
       "b": {
         "team_id": "cro",
-        "match_id": "R32-12",
+        "match_id": "KO-R32-12",
         "matchday": 12,
         "stage": "R32",
         "venue_id": "toronto",
@@ -8532,7 +8608,7 @@
       "edge_correct": false
     },
     {
-      "match_id": "R32-13",
+      "match_id": "KO-R32-13",
       "group": "R32",
       "matchday": 13,
       "stage": "R32",
@@ -8540,7 +8616,7 @@
       "kickoff_utc": "2026-07-03T03:00:00+00:00",
       "a": {
         "team_id": "sui",
-        "match_id": "R32-13",
+        "match_id": "KO-R32-13",
         "matchday": 13,
         "stage": "R32",
         "venue_id": "vancouver",
@@ -8556,7 +8632,7 @@
       },
       "b": {
         "team_id": "alg",
-        "match_id": "R32-13",
+        "match_id": "KO-R32-13",
         "matchday": 13,
         "stage": "R32",
         "venue_id": "vancouver",
@@ -8578,7 +8654,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "R32-14",
+      "match_id": "KO-R32-14",
       "group": "R32",
       "matchday": 14,
       "stage": "R32",
@@ -8586,7 +8662,7 @@
       "kickoff_utc": "2026-07-03T18:00:00+00:00",
       "a": {
         "team_id": "aus",
-        "match_id": "R32-14",
+        "match_id": "KO-R32-14",
         "matchday": 14,
         "stage": "R32",
         "venue_id": "dallas",
@@ -8602,7 +8678,7 @@
       },
       "b": {
         "team_id": "egy",
-        "match_id": "R32-14",
+        "match_id": "KO-R32-14",
         "matchday": 14,
         "stage": "R32",
         "venue_id": "dallas",
@@ -8624,7 +8700,7 @@
       "edge_correct": false
     },
     {
-      "match_id": "R32-15",
+      "match_id": "KO-R32-15",
       "group": "R32",
       "matchday": 15,
       "stage": "R32",
@@ -8632,7 +8708,7 @@
       "kickoff_utc": "2026-07-03T22:00:00+00:00",
       "a": {
         "team_id": "arg",
-        "match_id": "R32-15",
+        "match_id": "KO-R32-15",
         "matchday": 15,
         "stage": "R32",
         "venue_id": "miami",
@@ -8648,7 +8724,7 @@
       },
       "b": {
         "team_id": "cpv",
-        "match_id": "R32-15",
+        "match_id": "KO-R32-15",
         "matchday": 15,
         "stage": "R32",
         "venue_id": "miami",
@@ -8670,7 +8746,7 @@
       "edge_correct": false
     },
     {
-      "match_id": "R32-16",
+      "match_id": "KO-R32-16",
       "group": "R32",
       "matchday": 16,
       "stage": "R32",
@@ -8678,7 +8754,7 @@
       "kickoff_utc": "2026-07-04T01:30:00+00:00",
       "a": {
         "team_id": "col",
-        "match_id": "R32-16",
+        "match_id": "KO-R32-16",
         "matchday": 16,
         "stage": "R32",
         "venue_id": "kansas_city",
@@ -8694,7 +8770,7 @@
       },
       "b": {
         "team_id": "gha",
-        "match_id": "R32-16",
+        "match_id": "KO-R32-16",
         "matchday": 16,
         "stage": "R32",
         "venue_id": "kansas_city",
@@ -8716,7 +8792,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "R16-1",
+      "match_id": "KO-R16-1",
       "group": "R16",
       "matchday": 1,
       "stage": "R16",
@@ -8724,7 +8800,7 @@
       "kickoff_utc": "2026-07-04T17:00:00+00:00",
       "a": {
         "team_id": "can",
-        "match_id": "R16-1",
+        "match_id": "KO-R16-1",
         "matchday": 1,
         "stage": "R16",
         "venue_id": "houston",
@@ -8740,7 +8816,7 @@
       },
       "b": {
         "team_id": "mar",
-        "match_id": "R16-1",
+        "match_id": "KO-R16-1",
         "matchday": 1,
         "stage": "R16",
         "venue_id": "houston",
@@ -8762,7 +8838,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "R16-2",
+      "match_id": "KO-R16-2",
       "group": "R16",
       "matchday": 2,
       "stage": "R16",
@@ -8770,7 +8846,7 @@
       "kickoff_utc": "2026-07-04T21:00:00+00:00",
       "a": {
         "team_id": "par",
-        "match_id": "R16-2",
+        "match_id": "KO-R16-2",
         "matchday": 2,
         "stage": "R16",
         "venue_id": "philadelphia",
@@ -8786,7 +8862,7 @@
       },
       "b": {
         "team_id": "fra",
-        "match_id": "R16-2",
+        "match_id": "KO-R16-2",
         "matchday": 2,
         "stage": "R16",
         "venue_id": "philadelphia",
@@ -8808,7 +8884,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "R16-3",
+      "match_id": "KO-R16-3",
       "group": "R16",
       "matchday": 3,
       "stage": "R16",
@@ -8816,7 +8892,7 @@
       "kickoff_utc": "2026-07-05T20:00:00+00:00",
       "a": {
         "team_id": "bra",
-        "match_id": "R16-3",
+        "match_id": "KO-R16-3",
         "matchday": 3,
         "stage": "R16",
         "venue_id": "new_york_new_jersey",
@@ -8832,7 +8908,7 @@
       },
       "b": {
         "team_id": "nor",
-        "match_id": "R16-3",
+        "match_id": "KO-R16-3",
         "matchday": 3,
         "stage": "R16",
         "venue_id": "new_york_new_jersey",
@@ -8854,7 +8930,7 @@
       "edge_correct": false
     },
     {
-      "match_id": "R16-4",
+      "match_id": "KO-R16-4",
       "group": "R16",
       "matchday": 4,
       "stage": "R16",
@@ -8862,7 +8938,7 @@
       "kickoff_utc": "2026-07-06T01:00:00+00:00",
       "a": {
         "team_id": "mex",
-        "match_id": "R16-4",
+        "match_id": "KO-R16-4",
         "matchday": 4,
         "stage": "R16",
         "venue_id": "mexico_city",
@@ -8878,7 +8954,7 @@
       },
       "b": {
         "team_id": "eng",
-        "match_id": "R16-4",
+        "match_id": "KO-R16-4",
         "matchday": 4,
         "stage": "R16",
         "venue_id": "mexico_city",
@@ -8900,7 +8976,7 @@
       "edge_correct": false
     },
     {
-      "match_id": "R16-5",
+      "match_id": "KO-R16-5",
       "group": "R16",
       "matchday": 5,
       "stage": "R16",
@@ -8908,7 +8984,7 @@
       "kickoff_utc": "2026-07-06T19:00:00+00:00",
       "a": {
         "team_id": "por",
-        "match_id": "R16-5",
+        "match_id": "KO-R16-5",
         "matchday": 5,
         "stage": "R16",
         "venue_id": "dallas",
@@ -8924,7 +9000,7 @@
       },
       "b": {
         "team_id": "esp",
-        "match_id": "R16-5",
+        "match_id": "KO-R16-5",
         "matchday": 5,
         "stage": "R16",
         "venue_id": "dallas",
@@ -8946,7 +9022,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "R16-6",
+      "match_id": "KO-R16-6",
       "group": "R16",
       "matchday": 6,
       "stage": "R16",
@@ -8954,7 +9030,7 @@
       "kickoff_utc": "2026-07-07T00:00:00+00:00",
       "a": {
         "team_id": "usa",
-        "match_id": "R16-6",
+        "match_id": "KO-R16-6",
         "matchday": 6,
         "stage": "R16",
         "venue_id": "seattle",
@@ -8970,7 +9046,7 @@
       },
       "b": {
         "team_id": "bel",
-        "match_id": "R16-6",
+        "match_id": "KO-R16-6",
         "matchday": 6,
         "stage": "R16",
         "venue_id": "seattle",
@@ -8992,7 +9068,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "R16-7",
+      "match_id": "KO-R16-7",
       "group": "R16",
       "matchday": 7,
       "stage": "R16",
@@ -9000,7 +9076,7 @@
       "kickoff_utc": "2026-07-07T16:00:00+00:00",
       "a": {
         "team_id": "arg",
-        "match_id": "R16-7",
+        "match_id": "KO-R16-7",
         "matchday": 7,
         "stage": "R16",
         "venue_id": "atlanta",
@@ -9016,7 +9092,7 @@
       },
       "b": {
         "team_id": "egy",
-        "match_id": "R16-7",
+        "match_id": "KO-R16-7",
         "matchday": 7,
         "stage": "R16",
         "venue_id": "atlanta",
@@ -9038,7 +9114,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "R16-8",
+      "match_id": "KO-R16-8",
       "group": "R16",
       "matchday": 8,
       "stage": "R16",
@@ -9046,7 +9122,7 @@
       "kickoff_utc": "2026-07-07T20:00:00+00:00",
       "a": {
         "team_id": "sui",
-        "match_id": "R16-8",
+        "match_id": "KO-R16-8",
         "matchday": 8,
         "stage": "R16",
         "venue_id": "vancouver",
@@ -9062,7 +9138,7 @@
       },
       "b": {
         "team_id": "col",
-        "match_id": "R16-8",
+        "match_id": "KO-R16-8",
         "matchday": 8,
         "stage": "R16",
         "venue_id": "vancouver",
@@ -9084,7 +9160,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "QF-1",
+      "match_id": "KO-QF-1",
       "group": "QF",
       "matchday": 1,
       "stage": "QF",
@@ -9092,7 +9168,7 @@
       "kickoff_utc": "2026-07-09T20:00:00+00:00",
       "a": {
         "team_id": "fra",
-        "match_id": "QF-1",
+        "match_id": "KO-QF-1",
         "matchday": 1,
         "stage": "QF",
         "venue_id": "boston",
@@ -9108,7 +9184,7 @@
       },
       "b": {
         "team_id": "mar",
-        "match_id": "QF-1",
+        "match_id": "KO-QF-1",
         "matchday": 1,
         "stage": "QF",
         "venue_id": "boston",
@@ -9130,7 +9206,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "QF-2",
+      "match_id": "KO-QF-2",
       "group": "QF",
       "matchday": 2,
       "stage": "QF",
@@ -9138,7 +9214,7 @@
       "kickoff_utc": "2026-07-10T19:00:00+00:00",
       "a": {
         "team_id": "esp",
-        "match_id": "QF-2",
+        "match_id": "KO-QF-2",
         "matchday": 2,
         "stage": "QF",
         "venue_id": "los_angeles",
@@ -9154,7 +9230,7 @@
       },
       "b": {
         "team_id": "bel",
-        "match_id": "QF-2",
+        "match_id": "KO-QF-2",
         "matchday": 2,
         "stage": "QF",
         "venue_id": "los_angeles",
@@ -9176,7 +9252,7 @@
       "edge_correct": false
     },
     {
-      "match_id": "QF-3",
+      "match_id": "KO-QF-3",
       "group": "QF",
       "matchday": 3,
       "stage": "QF",
@@ -9184,7 +9260,7 @@
       "kickoff_utc": "2026-07-11T21:00:00+00:00",
       "a": {
         "team_id": "nor",
-        "match_id": "QF-3",
+        "match_id": "KO-QF-3",
         "matchday": 3,
         "stage": "QF",
         "venue_id": "miami",
@@ -9200,7 +9276,7 @@
       },
       "b": {
         "team_id": "eng",
-        "match_id": "QF-3",
+        "match_id": "KO-QF-3",
         "matchday": 3,
         "stage": "QF",
         "venue_id": "miami",
@@ -9222,7 +9298,7 @@
       "edge_correct": false
     },
     {
-      "match_id": "QF-4",
+      "match_id": "KO-QF-4",
       "group": "QF",
       "matchday": 4,
       "stage": "QF",
@@ -9230,7 +9306,7 @@
       "kickoff_utc": "2026-07-12T01:00:00+00:00",
       "a": {
         "team_id": "arg",
-        "match_id": "QF-4",
+        "match_id": "KO-QF-4",
         "matchday": 4,
         "stage": "QF",
         "venue_id": "kansas_city",
@@ -9246,7 +9322,7 @@
       },
       "b": {
         "team_id": "sui",
-        "match_id": "QF-4",
+        "match_id": "KO-QF-4",
         "matchday": 4,
         "stage": "QF",
         "venue_id": "kansas_city",
@@ -9268,7 +9344,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "SF-1",
+      "match_id": "KO-SF-1",
       "group": "SF",
       "matchday": 1,
       "stage": "SF",
@@ -9276,7 +9352,7 @@
       "kickoff_utc": "2026-07-14T19:00:00+00:00",
       "a": {
         "team_id": "fra",
-        "match_id": "SF-1",
+        "match_id": "KO-SF-1",
         "matchday": 1,
         "stage": "SF",
         "venue_id": "dallas",
@@ -9292,7 +9368,7 @@
       },
       "b": {
         "team_id": "esp",
-        "match_id": "SF-1",
+        "match_id": "KO-SF-1",
         "matchday": 1,
         "stage": "SF",
         "venue_id": "dallas",
@@ -9314,7 +9390,7 @@
       "edge_correct": true
     },
     {
-      "match_id": "SF-2",
+      "match_id": "KO-SF-2",
       "group": "SF",
       "matchday": 2,
       "stage": "SF",
@@ -9322,7 +9398,7 @@
       "kickoff_utc": "2026-07-15T19:00:00+00:00",
       "a": {
         "team_id": "eng",
-        "match_id": "SF-2",
+        "match_id": "KO-SF-2",
         "matchday": 2,
         "stage": "SF",
         "venue_id": "atlanta",
@@ -9338,7 +9414,7 @@
       },
       "b": {
         "team_id": "arg",
-        "match_id": "SF-2",
+        "match_id": "KO-SF-2",
         "matchday": 2,
         "stage": "SF",
         "venue_id": "atlanta",
@@ -9360,7 +9436,7 @@
       "edge_correct": false
     },
     {
-      "match_id": "3RD-1",
+      "match_id": "KO-3RD-1",
       "group": "3RD",
       "matchday": 1,
       "stage": "3RD",
@@ -9368,7 +9444,7 @@
       "kickoff_utc": "2026-07-18T21:00:00+00:00",
       "a": {
         "team_id": "fra",
-        "match_id": "3RD-1",
+        "match_id": "KO-3RD-1",
         "matchday": 1,
         "stage": "3RD",
         "venue_id": "miami",
@@ -9384,7 +9460,7 @@
       },
       "b": {
         "team_id": "eng",
-        "match_id": "3RD-1",
+        "match_id": "KO-3RD-1",
         "matchday": 1,
         "stage": "3RD",
         "venue_id": "miami",
@@ -9406,7 +9482,7 @@
       "edge_correct": false
     },
     {
-      "match_id": "F-1",
+      "match_id": "KO-F-1",
       "group": "F",
       "matchday": 1,
       "stage": "F",
@@ -9414,7 +9490,7 @@
       "kickoff_utc": "2026-07-19T19:00:00+00:00",
       "a": {
         "team_id": "esp",
-        "match_id": "F-1",
+        "match_id": "KO-F-1",
         "matchday": 1,
         "stage": "F",
         "venue_id": "new_york_new_jersey",
@@ -9430,7 +9506,7 @@
       },
       "b": {
         "team_id": "arg",
-        "match_id": "F-1",
+        "match_id": "KO-F-1",
         "matchday": 1,
         "stage": "F",
         "venue_id": "new_york_new_jersey",

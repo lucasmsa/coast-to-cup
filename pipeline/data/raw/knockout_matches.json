@@ -1,6 +1,6 @@
 [
   {
-    "id": "R32-1",
+    "id": "KO-R32-1",
     "group": "R32",
     "matchday": 1,
     "stage": "R32",
@@ -14,7 +14,7 @@
     "pen_b": null
   },
   {
-    "id": "R32-2",
+    "id": "KO-R32-2",
     "group": "R32",
     "matchday": 2,
     "stage": "R32",
@@ -28,7 +28,7 @@
     "pen_b": null
   },
   {
-    "id": "R32-3",
+    "id": "KO-R32-3",
     "group": "R32",
     "matchday": 3,
     "stage": "R32",
@@ -42,7 +42,7 @@
     "pen_b": 4
   },
   {
-    "id": "R32-4",
+    "id": "KO-R32-4",
     "group": "R32",
     "matchday": 4,
     "stage": "R32",
@@ -56,7 +56,7 @@
     "pen_b": 3
   },
   {
-    "id": "R32-5",
+    "id": "KO-R32-5",
     "group": "R32",
     "matchday": 5,
     "stage": "R32",
@@ -70,7 +70,7 @@
     "pen_b": null
   },
   {
-    "id": "R32-6",
+    "id": "KO-R32-6",
     "group": "R32",
     "matchday": 6,
     "stage": "R32",
@@ -84,7 +84,7 @@
     "pen_b": null
   },
   {
-    "id": "R32-7",
+    "id": "KO-R32-7",
     "group": "R32",
     "matchday": 7,
     "stage": "R32",
@@ -98,7 +98,7 @@
     "pen_b": null
   },
   {
-    "id": "R32-8",
+    "id": "KO-R32-8",
     "group": "R32",
     "matchday": 8,
     "stage": "R32",
@@ -112,7 +112,7 @@
     "pen_b": null
   },
   {
-    "id": "R32-9",
+    "id": "KO-R32-9",
     "group": "R32",
     "matchday": 9,
     "stage": "R32",
@@ -126,7 +126,7 @@
     "pen_b": null
   },
   {
-    "id": "R32-10",
+    "id": "KO-R32-10",
     "group": "R32",
     "matchday": 10,
     "stage": "R32",
@@ -140,7 +140,7 @@
     "pen_b": null
   },
   {
-    "id": "R32-11",
+    "id": "KO-R32-11",
     "group": "R32",
     "matchday": 11,
     "stage": "R32",
@@ -154,7 +154,7 @@
     "pen_b": null
   },
   {
-    "id": "R32-12",
+    "id": "KO-R32-12",
     "group": "R32",
     "matchday": 12,
     "stage": "R32",
@@ -168,7 +168,7 @@
     "pen_b": null
   },
   {
-    "id": "R32-13",
+    "id": "KO-R32-13",
     "group": "R32",
     "matchday": 13,
     "stage": "R32",
@@ -182,7 +182,7 @@
     "pen_b": null
   },
   {
-    "id": "R32-14",
+    "id": "KO-R32-14",
     "group": "R32",
     "matchday": 14,
     "stage": "R32",
@@ -196,7 +196,7 @@
     "pen_b": 4
   },
   {
-    "id": "R32-15",
+    "id": "KO-R32-15",
     "group": "R32",
     "matchday": 15,
     "stage": "R32",
@@ -210,7 +210,7 @@
     "pen_b": null
   },
   {
-    "id": "R32-16",
+    "id": "KO-R32-16",
     "group": "R32",
     "matchday": 16,
     "stage": "R32",
@@ -224,7 +224,7 @@
     "pen_b": null
   },
   {
-    "id": "R16-1",
+    "id": "KO-R16-1",
     "group": "R16",
     "matchday": 1,
     "stage": "R16",
@@ -238,7 +238,7 @@
     "pen_b": null
   },
   {
-    "id": "R16-2",
+    "id": "KO-R16-2",
     "group": "R16",
     "matchday": 2,
     "stage": "R16",
@@ -252,7 +252,7 @@
     "pen_b": null
   },
   {
-    "id": "R16-3",
+    "id": "KO-R16-3",
     "group": "R16",
     "matchday": 3,
     "stage": "R16",
@@ -266,7 +266,7 @@
     "pen_b": null
   },
   {
-    "id": "R16-4",
+    "id": "KO-R16-4",
     "group": "R16",
     "matchday": 4,
     "stage": "R16",
@@ -280,7 +280,7 @@
     "pen_b": null
   },
   {
-    "id": "R16-5",
+    "id": "KO-R16-5",
     "group": "R16",
     "matchday": 5,
     "stage": "R16",
@@ -294,7 +294,7 @@
     "pen_b": null
   },
   {
-    "id": "R16-6",
+    "id": "KO-R16-6",
     "group": "R16",
     "matchday": 6,
     "stage": "R16",
@@ -308,7 +308,7 @@
     "pen_b": null
   },
   {
-    "id": "R16-7",
+    "id": "KO-R16-7",
     "group": "R16",
     "matchday": 7,
     "stage": "R16",
@@ -322,7 +322,7 @@
     "pen_b": null
   },
   {
-    "id": "R16-8",
+    "id": "KO-R16-8",
     "group": "R16",
     "matchday": 8,
     "stage": "R16",
@@ -336,7 +336,7 @@
     "pen_b": 3
   },
   {
-    "id": "QF-1",
+    "id": "KO-QF-1",
     "group": "QF",
     "matchday": 1,
     "stage": "QF",
@@ -350,7 +350,7 @@
     "pen_b": null
   },
   {
-    "id": "QF-2",
+    "id": "KO-QF-2",
     "group": "QF",
     "matchday": 2,
     "stage": "QF",
@@ -364,7 +364,7 @@
     "pen_b": null
   },
   {
-    "id": "QF-3",
+    "id": "KO-QF-3",
     "group": "QF",
     "matchday": 3,
     "stage": "QF",
@@ -378,7 +378,7 @@
     "pen_b": null
   },
   {
-    "id": "QF-4",
+    "id": "KO-QF-4",
     "group": "QF",
     "matchday": 4,
     "stage": "QF",
@@ -392,7 +392,7 @@
     "pen_b": null
   },
   {
-    "id": "SF-1",
+    "id": "KO-SF-1",
     "group": "SF",
     "matchday": 1,
     "stage": "SF",
@@ -406,7 +406,7 @@
     "pen_b": null
   },
   {
-    "id": "SF-2",
+    "id": "KO-SF-2",
     "group": "SF",
     "matchday": 2,
     "stage": "SF",
@@ -420,7 +420,7 @@
     "pen_b": null
   },
   {
-    "id": "3RD-1",
+    "id": "KO-3RD-1",
     "group": "3RD",
     "matchday": 1,
     "stage": "3RD",
@@ -434,7 +434,7 @@
     "pen_b": null
   },
   {
-    "id": "F-1",
+    "id": "KO-F-1",
     "group": "F",
     "matchday": 1,
     "stage": "F",
