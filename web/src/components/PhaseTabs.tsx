@@ -17,8 +17,10 @@ export function PhaseTabs() {
     [data, phase],
   )
 
+  // "6 games each" reads as cumulative-per-team, so it isn't misread as
+  // "matches in this round" (a quarterfinal has 4 matches, but 6 games each).
   const games = gamesAtPhase(phase)
-  const gamesText = games === null ? t('everyGame') : `${games} ${t('gamesWord')}`
+  const gamesText = games === null ? t('everyGame') : `${games} ${t('gamesWord')} ${t('gamesEach')}`
 
   return (
     <div className="px-5 py-3.5 border-b border-line/60">

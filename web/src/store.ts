@@ -12,7 +12,7 @@ const PHASE_KEY = 'coast-to-cup:phase'
 const GROUP_KEY = 'coast-to-cup:group'
 const WEIGHTS_KEY = 'coast-to-cup:weights'
 
-const PHASES: Phase[] = ['all', 'group', 'R32', 'R16', 'QF', 'SF', 'F']
+const PHASES: Phase[] = ['all', 'group', 'R32', 'R16', 'QF', 'SF', '3RD', 'F']
 
 function readItem(key: string): string | null {
   try {

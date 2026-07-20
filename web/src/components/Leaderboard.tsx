@@ -56,7 +56,10 @@ export function Leaderboard() {
     )
   }
 
-  const sectioned = phase !== 'all' && phase !== 'group' && resolved
+  // Final and third-place are two-team pools from opposite halves, so a half split
+  // is meaningless; show them as a flat ranking like All/group.
+  const flatPhases = phase === 'all' || phase === 'group' || phase === 'F' || phase === '3RD'
+  const sectioned = !flatPhases && resolved
   if (!sectioned) {
     return <div>{ranked.map((tm) => row(tm, tm.liveRank))}</div>
   }
