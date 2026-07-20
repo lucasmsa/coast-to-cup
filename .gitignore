@@ -33,3 +33,6 @@ web/.impeccable/
 
 # Wrangler local state
 .wrangler/
+
+# Local checkpoint diagrams
+.claude/checkpoints/
