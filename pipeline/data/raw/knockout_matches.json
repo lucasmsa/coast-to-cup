@@ -432,5 +432,19 @@
     "score_b": 6,
     "pen_a": null,
     "pen_b": null
+  },
+  {
+    "id": "F-1",
+    "group": "F",
+    "matchday": 1,
+    "stage": "F",
+    "team_a": "esp",
+    "team_b": "arg",
+    "venue_id": "new_york_new_jersey",
+    "kickoff_utc": "2026-07-19T19:00:00+00:00",
+    "score_a": 1,
+    "score_b": 0,
+    "pen_a": null,
+    "pen_b": null
   }
 ]
