@@ -106,9 +106,9 @@ export function AboutPage() {
             </p>
             <p className="text-base mt-4 flex flex-col gap-2.5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-6 sm:gap-y-2">
               <a
-                href="https://github.com/lucasmsa"
+                href="https://lucasmsa.com"
                 target="_blank"
-                rel="noreferrer"
+                rel="author noreferrer"
                 className="whitespace-nowrap text-fg font-medium underline decoration-lime/50 decoration-2 underline-offset-4 hover:text-lime transition-colors"
               >
                 made by lucasmsa
